@@ -6,12 +6,12 @@ The project uses different types of data, including Nanopore long reads, Illumin
 Illumina Hi-C reads and RNA-seq reads. 
 
 The workflow of the project is divided into the following parts: 
--Preprocessing
--Genome assembly
--Assembly polishing
--Quality evaluation
--Annotation
--Expression analysis
+- Preprocessing
+- Genome assembly
+- Assembly polishing
+- Quality evaluation
+- Annotation
+- Expression analysis
 
 The softwares used in the project are the following: 
 - FastQC
