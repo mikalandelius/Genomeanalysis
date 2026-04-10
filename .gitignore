@@ -1,0 +1,10 @@
+# ignore all raw data
+data/
+
+# ignore large intermediate files
+*.bam
+*.sam
+
+#ignore temporary/log files
+*.log
+*.tmp
