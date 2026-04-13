@@ -1,5 +1,7 @@
 # ignore all raw data
 data/
+*.fastq.gz
+*.fastq
 
 # ignore large intermediate files
 *.bam

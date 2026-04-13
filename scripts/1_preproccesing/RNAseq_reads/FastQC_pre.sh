@@ -16,15 +16,15 @@ module load FastQC/0.12.1-Java-17
 fastqc \
 -o /home/mila6004/Genomeanalysis/results/1_preprocessing/RNAseq_reads/FastQC_pre \
 --threads 2 \
-/home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_1_f1.fq.gz \ 
-/home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_1_r2.fq.gz \ 
-/home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_2_f1.fq.gz \ 
-/home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_2_r2.fq.gz \ 
-/home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_3_f1.fq.gz \ 
-/home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_3_r2.fq.gz \ 
-/home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_f1.fq.gz \ 
-/home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_r2.fq.gz \ 
-/home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_2_f1.fq.gz \ 
-/home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_2_r2.fq.gz \ 
-/home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_3_f1.fq.gz \ 
+/home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_1_f1.fq.gz \
+/home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_1_r2.fq.gz \
+/home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_2_f1.fq.gz \
+/home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_2_r2.fq.gz \
+/home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_3_f1.fq.gz \
+/home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_3_r2.fq.gz \
+/home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_f1.fq.gz \
+/home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_r2.fq.gz \
+/home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_2_f1.fq.gz \
+/home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_2_r2.fq.gz \
+/home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_3_f1.fq.gz \
 /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_3_r2.fq.gz

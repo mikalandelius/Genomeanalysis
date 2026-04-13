@@ -17,4 +17,4 @@ fastqc \
 -o /home/mila6004/Genomeanalysis/results/1_preprocessing/Illumina_HiC_reads/FastQC_pre \
 --threads 2 \
 /home/mila6004/Genomeanalysis/data/Illumina_HiC_reads/chr3_hiC_R1.fastq.gz \ 
-/home/mila6004/Genomeanalysis/data/Illumina_HiC_reads/chr3_hiC_R1.fastq.gz
+/home/mila6004/Genomeanalysis/data/Illumina_HiC_reads/chr3_hiC_R2.fastq.gz
