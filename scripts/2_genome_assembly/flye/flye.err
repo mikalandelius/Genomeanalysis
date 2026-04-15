@@ -1,0 +1,21 @@
+[2026-04-15 13:26:56] INFO: Starting Flye 2.9.6-b1802
+[2026-04-15 13:26:56] INFO: >>>STAGE: configure
+[2026-04-15 13:26:56] INFO: Configuring run
+[2026-04-15 13:28:03] INFO: Total read length: 6047616726
+[2026-04-15 13:28:03] INFO: Input genome size: 40000000
+[2026-04-15 13:28:03] INFO: Estimated coverage: 151
+[2026-04-15 13:28:03] INFO: Reads N50/N90: 28931 / 10377
+[2026-04-15 13:28:03] INFO: Minimum overlap set to 10000
+[2026-04-15 13:28:03] INFO: >>>STAGE: assembly
+[2026-04-15 13:28:03] INFO: Assembling disjointigs
+[2026-04-15 13:28:03] INFO: Reading sequences
+[2026-04-15 13:29:00] INFO: Counting k-mers:
+0% 10% 20% 30% 40% 50% % % 60% 70% 80% 90% 100% 
+[2026-04-15 13:37:15] INFO: Filling index table (1/2)
+0% 10% 20% 30% 40% 50% % % 60% 70% 80% 90% 100% 
+[2026-04-15 13:54:37] INFO: Filling index table (2/2)
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2026-04-15 14:19:08] INFO: Extending reads
+[2026-04-15 14:27:12] INFO: Overlap-based coverage: 339
+[2026-04-15 14:27:12] INFO: Median overlap divergence: 0.081336
+0% 10% 40% 50% 60% 80% 90% 
