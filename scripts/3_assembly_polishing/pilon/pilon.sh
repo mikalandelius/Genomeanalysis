@@ -11,8 +11,8 @@
 module load Pilon/1.24-Java-17
 
 java -Xmx28G -jar $EBROOTPILON/pilon.jar \
---genome /home/mila6004/Genomeanalysis/results/2_genome_assembly/flye/genome.fasta \
---frags /home/mila6004/Genomeanalysis/results/2_genome_assembly/bwa/bwa.bam \
+--genome /home/mila6004/Genomeanalysis/results/2_genome_assembly/flye/assembly.fasta \
+--frags /home/mila6004/Genomeanalysis/results/3_assembly_polishing/bwa/bwa.sorted.bam \
 --output pilon \
 --outdir /home/mila6004/Genomeanalysis/results/3_assembly_polishing/pilon \
 --changes \

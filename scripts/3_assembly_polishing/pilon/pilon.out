@@ -1,0 +1,2463 @@
+Pilon version 1.24 Thu Jan 28 13:00:45 2021 -0500
+Genome: /home/mila6004/Genomeanalysis/results/2_genome_assembly/flye/assembly.fasta
+Fixing snps, indels, gaps, local
+Input genome size: 11225133
+Scanning BAMs
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/bwa/bwa.sorted.bam: 42072146 reads, 0 filtered, 31001999 mapped, 30191908 proper, 483556 stray, FR 100% 317+/-90, max 598
+Processing contig_1:1-2746011
+frags /home/mila6004/Genomeanalysis/results/3_assembly_polishing/bwa/bwa.sorted.bam: coverage 329
+Total Reads: 7474623, Coverage: 329, minDepth: 33
+Confirmed 2632600 of 2746011 bases (95.87%)
+Corrected 9812 snps; 84 ambiguous bases; corrected 6066 small insertions totaling 6646 bases, 2849 small deletions totaling 3604 bases
+Large collapsed region: contig_1:2439787-2450347 size 10561
+Large collapsed region: contig_1:2612894-2626575 size 13682
+# Attempting to fix local continuity breaks
+# fix break: contig_1:1245-3385 0 -0 +0 NoSolution
+# fix break: contig_1:3610-3622 0 -0 +0 NoSolution
+# fix break: contig_1:3970-4085 0 -0 +0 NoSolution
+# fix break: contig_1:4369-5261 0 -0 +0 NoSolution
+fix break: contig_1:5619-5642 5383 -359 +357 BreakFix
+fix break: contig_1:6007-6011 5741 -463 +465 BreakFix
+# fix break: contig_1:6401-6430 0 -0 +0 NoSolution
+fix break: contig_1:6835-6947 6612 -465 +467 BreakFix
+# fix break: contig_1:8817-8847 0 -0 +0 NoSolution
+# fix break: contig_1:11732-12606 0 -0 +0 NoSolution
+# fix break: contig_1:12932-13572 0 -0 +0 NoSolution
+# fix break: contig_1:14414-14610 0 -0 +0 NoSolution
+# fix break: contig_1:15482-15503 0 -0 +0 NoSolution
+fix break: contig_1:15831 15562 -270 +268 BreakFix
+fix break: contig_1:16789 16592 -307 +305 BreakFix
+fix break: contig_1:22734-22743 22734 -67 +69 BreakFix
+# fix break: contig_1:37931-38252 0 -0 +0 NoSolution
+# fix break: contig_1:38640-38655 0 -0 +0 NoSolution
+# fix break: contig_1:38920-38928 0 -0 +0 NoSolution
+fix break: contig_1:41081-41243 41086 -199 +195 BreakFix
+fix break: contig_1:42351-42546 42122 -537 +540 BreakFix
+fix break: contig_1:43048-43226 43010 -381 +382 BreakFix
+# fix break: contig_1:43935 0 -0 +0 NoSolution
+# fix break: contig_1:46736-46987 0 -0 +0 NoSolution
+fix break: contig_1:52861-53470 52597 -635 +638 BreakFix
+# fix break: contig_1:53846-54030 0 -0 +0 NoSolution
+# fix break: contig_1:76471-76481 0 -0 +0 NoSolution TandemRepeat 27
+fix break: contig_1:89330-89334 89127 -149 +147 BreakFix
+fix break: contig_1:90498-90535 90761 -32 +30 BreakFix
+fix break: contig_1:90905-91710 90761 -972 +967 BreakFix
+# fix break: contig_1:92793-93586 0 -0 +0 NoSolution
+# fix break: contig_1:94035-94148 0 -0 +0 NoSolution
+# fix break: contig_1:95028 0 -0 +0 NoSolution
+# fix break: contig_1:95253-95260 0 -0 +0 NoSolution
+fix break: contig_1:95866-96080 95613 -508 +508 BreakFix
+fix break: contig_1:96551-96560 96414 -347 +344 BreakFix
+# fix break: contig_1:97068-97092 0 -0 +0 NoSolution
+# fix break: contig_1:97803-97813 0 -0 +0 NoSolution
+# fix break: contig_1:99160-99445 0 -0 +0 NoSolution
+# fix break: contig_1:99740-99835 0 -0 +0 NoSolution
+# fix break: contig_1:129153-129162 0 -0 +0 NoSolution
+fix break: contig_1:129557-129559 129530 -220 +224 BreakFix
+fix break: contig_1:144469 144322 -255 +253 BreakFix
+# fix break: contig_1:150035-150040 0 -0 +0 NoSolution
+# fix break: contig_1:155707-162424 0 -0 +0 NoSolution
+# fix break: contig_1:162630-165966 0 -0 +0 NoSolution
+# fix break: contig_1:166188-171938 0 -0 +0 NoSolution
+# fix break: contig_1:172187-173864 0 -0 +0 NoSolution
+# fix break: contig_1:177706-178591 0 -0 +0 NoSolution
+# fix break: contig_1:189194-189232 0 -0 +0 NoSolution
+# fix break: contig_1:193630 0 -0 +0 NoSolution
+# fix break: contig_1:205659-205812 0 -0 +0 NoSolution
+# fix break: contig_1:206223-206242 0 -0 +0 NoSolution
+# fix break: contig_1:207391-207393 0 -0 +0 NoSolution
+# fix break: contig_1:207597 0 -0 +0 NoSolution
+# fix break: contig_1:208108 0 -0 +0 NoSolution
+# fix break: contig_1:208962 0 -0 +0 NoSolution
+fix break: contig_1:209876-210064 209677 -381 +382 BreakFix
+# fix break: contig_1:210311 0 -0 +0 NoSolution
+# fix break: contig_1:210804-210812 0 -0 +0 NoSolution
+# fix break: contig_1:211139-211240 0 -0 +0 NoSolution
+# fix break: contig_1:211662-212166 0 -0 +0 NoSolution
+# fix break: contig_1:212739-213101 0 -0 +0 NoSolution
+# fix break: contig_1:213539-213710 0 -0 +0 NoSolution
+# fix break: contig_1:213918-213995 0 -0 +0 NoSolution
+# fix break: contig_1:214286 0 -0 +0 NoSolution
+# fix break: contig_1:219827-219850 0 -0 +0 NoSolution
+# fix break: contig_1:220329-220334 0 -0 +0 NoSolution
+# fix break: contig_1:221059-221064 0 -0 +0 NoSolution
+# fix break: contig_1:222697-222714 0 -0 +0 NoSolution
+# fix break: contig_1:223765-223774 0 -0 +0 NoSolution
+# fix break: contig_1:224353-224367 0 -0 +0 NoSolution
+# fix break: contig_1:225219-225656 0 -0 +0 NoSolution TandemRepeat 134
+# fix break: contig_1:225869-226179 0 -0 +0 NoSolution TandemRepeat 134
+# fix break: contig_1:226529-227007 0 -0 +0 NoSolution
+fix break: contig_1:232036 231899 -153 +148 BreakFix
+# fix break: contig_1:235098-235103 0 -0 +0 NoSolution
+# fix break: contig_1:236384-236586 0 -0 +0 NoSolution TandemRepeat 70
+fix break: contig_1:237840-237842 237664 -284 +282 BreakFix
+fix break: contig_1:238090-238249 237840 -664 +664 BreakFix
+fix break: contig_1:238573-238577 238418 -385 +389 BreakFix
+fix break: contig_1:238922-239054 238807 -361 +363 BreakFix
+# fix break: contig_1:239282-239333 0 -0 +0 NoSolution
+fix break: contig_1:249754-250440 249616 -1074 +1071 BreakFix
+fix break: contig_1:252144-252156 251882 -452 +453 BreakFix
+# fix break: contig_1:256284-256437 0 -0 +0 NoSolution
+fix break: contig_1:257584-257625 257385 -498 +482 BreakFix
+# fix break: contig_1:278306-278424 0 -0 +0 NoSolution
+fix break: contig_1:278916-279048 278801 -413 +393 BreakFix
+# fix break: contig_1:280128-280350 0 -0 +0 NoSolution
+# fix break: contig_1:281586-281661 0 -0 +0 NoSolution
+# fix break: contig_1:281972-281992 0 -0 +0 NoSolution
+fix break: contig_1:282478-282479 282249 -329 +333 BreakFix
+# fix break: contig_1:283186-284042 0 -0 +0 NoSolution
+# fix break: contig_1:284686-285096 0 -0 +0 NoSolution TandemRepeat 99
+# fix break: contig_1:285933-285957 0 -0 +0 NoSolution
+fix break: contig_1:286432-286437 286162 -432 +429 BreakFix
+fix break: contig_1:286737-286976 286524 -669 +670 BreakFix
+# fix break: contig_1:287590-287829 0 -0 +0 NoSolution
+fix break: contig_1:288066-288073 287925 -162 +161 BreakFix
+fix break: contig_1:288283-288346 288072 -498 +495 BreakFix
+# fix break: contig_1:288565-288759 0 -0 +0 NoSolution
+fix break: contig_1:289540-289547 289517 -265 +264 BreakFix
+# fix break: contig_1:289775-290639 0 -0 +0 NoSolution
+fix break: contig_1:290876-290906 290711 -424 +424 BreakFix
+# fix break: contig_1:291307-291797 0 -0 +0 NoSolution
+# fix break: contig_1:292227-293873 0 -0 +0 NoSolution
+fix break: contig_1:294099-294169 293860 -346 +349 BreakFix
+# fix break: contig_1:294680-294983 0 -0 +0 NoSolution
+# fix break: contig_1:295470-295474 0 -0 +0 NoSolution
+# fix break: contig_1:295679-295701 0 -0 +0 NoSolution
+fix break: contig_1:296236-296556 296029 -656 +649 BreakFix
+fix break: contig_1:296852-297618 296792 -878 +881 BreakFix
+# fix break: contig_1:306609-306637 0 -0 +0 NoSolution
+fix break: contig_1:307002-307041 306813 -365 +370 BreakFix
+fix break: contig_1:307448-307463 307183 -271 +274 BreakFix
+# fix break: contig_1:308936-308957 0 -0 +0 NoSolution
+# fix break: contig_1:309249-309292 0 -0 +0 NoSolution TandemRepeat 6
+# fix break: contig_1:310301-310649 0 -0 +0 NoSolution TandemRepeat 47
+# fix break: contig_1:310991-311015 0 -0 +0 NoSolution
+# fix break: contig_1:313233-313257 0 -0 +0 NoSolution
+# fix break: contig_1:313590-313613 0 -0 +0 NoSolution
+# fix break: contig_1:316604-316715 0 -0 +0 NoSolution
+# fix break: contig_1:319260-319536 0 -0 +0 NoSolution
+fix break: contig_1:325788-325790 325588 -467 +464 BreakFix
+# fix break: contig_1:326007-326009 0 -0 +0 NoSolution TandemRepeat 61
+# fix break: contig_1:326373-326382 0 -0 +0 NoSolution TandemRepeat 61
+# fix break: contig_1:326645-326675 0 -0 +0 NoSolution TandemRepeat 61
+# fix break: contig_1:326912-327096 0 -0 +0 NoSolution TandemRepeat 61
+# fix break: contig_1:328194-328328 0 -0 +0 NoSolution
+fix break: contig_1:329088-329216 328957 -202 +201 BreakFix
+# fix break: contig_1:334089-334123 0 -0 +0 NoSolution
+# fix break: contig_1:336700-336751 0 -0 +0 NoSolution
+# fix break: contig_1:337016-337034 0 -0 +0 NoSolution
+# fix break: contig_1:338845-338925 0 -0 +0 NoSolution TandemRepeat 47
+fix break: contig_1:339830 339860 -224 +224 BreakFix
+fix break: contig_1:342067-342098 341872 -396 +400 BreakFix
+# fix break: contig_1:344002-344122 0 -0 +0 NoSolution
+fix break: contig_1:349562-349872 349866 -187 +187 BreakFix
+# fix break: contig_1:350592-350664 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_1:366778-368058 0 -0 +0 NoSolution TandemRepeat 10
+fix break: contig_1:368697-368843 368511 -449 +450 BreakFix
+fix break: contig_1:369429-369542 369231 -370 +376 BreakFix
+fix break: contig_1:374997-375005 374914 -58 +62 BreakFix
+fix break: contig_1:379285-379569 379438 -369 +369 BreakFix
+# fix break: contig_1:379812-379940 0 -0 +0 NoSolution
+fix break: contig_1:393755-393943 393591 -421 +426 BreakFix
+fix break: contig_1:405047 404857 -191 +190 BreakFix
+fix break: contig_1:406747-406760 406495 -477 +475 BreakFix
+# fix break: contig_1:410504-410524 0 -0 +0 NoSolution
+fix break: contig_1:415405-415661 415240 -675 +675 BreakFix
+# fix break: contig_1:415966 0 -0 +0 NoSolution TandemRepeat 27
+fix break: contig_1:416713-416715 416690 -79 +82 BreakFix
+fix break: contig_1:419152 418908 -364 +363 BreakFix
+fix break: contig_1:419970-419973 419807 -385 +382 BreakFix
+fix break: contig_1:420188-420190 419918 -438 +435 BreakFix
+# fix break: contig_1:430504-430578 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_1:430850-430931 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_1:431648-431670 0 -0 +0 NoSolution
+# fix break: contig_1:435764-436144 0 -0 +0 NoSolution
+fix break: contig_1:441653-441793 441629 -278 +277 BreakFix
+# fix break: contig_1:446238-446375 0 -0 +0 NoSolution
+# fix break: contig_1:447179 0 -0 +0 NoSolution TandemRepeat 66
+# fix break: contig_1:447498 0 -0 +0 NoSolution TandemRepeat 66
+fix break: contig_1:458600-458610 458463 -366 +365 BreakFix
+# fix break: contig_1:462022-462104 0 -0 +0 NoSolution TandemRepeat 2
+fix break: contig_1:463113-463495 463113 -484 +489 BreakFix
+# fix break: contig_1:476859-477189 0 -0 +0 NoSolution TandemRepeat 2
+fix break: contig_1:478918 478661 -375 +372 BreakFix
+fix break: contig_1:479533 479348 -186 +183 BreakFix
+fix break: contig_1:482535-482544 482316 -487 +490 BreakFix
+fix break: contig_1:490122-490127 489860 -536 +539 BreakFix
+fix break: contig_1:490649-490783 490399 -627 +627 BreakFix
+# fix break: contig_1:493210-493227 0 -0 +0 NoSolution
+# fix break: contig_1:493472-493483 0 -0 +0 NoSolution
+fix break: contig_1:494094 493924 -171 +170 BreakFix
+fix break: contig_1:494461-494598 494459 -298 +297 BreakFix
+# fix break: contig_1:495029-495033 0 -0 +0 NoSolution
+fix break: contig_1:495429 495176 -396 +391 BreakFix
+fix break: contig_1:496255 496054 -371 +369 BreakFix
+fix break: contig_1:511318-512000 511137 -1005 +1007 BreakFix
+# fix break: contig_1:512561-512767 0 -0 +0 NoSolution TandemRepeat 23
+# fix break: contig_1:543997-544001 0 -0 +0 NoSolution
+# fix break: contig_1:556651-556772 0 -0 +0 NoSolution TandemRepeat 48
+# fix break: contig_1:558843-558883 0 -0 +0 NoSolution
+# fix break: contig_1:563853-564069 0 -0 +0 NoSolution
+# fix break: contig_1:569527-569543 0 -0 +0 NoSolution
+# fix break: contig_1:569746-569858 0 -0 +0 NoSolution
+# fix break: contig_1:570484-570559 0 -0 +0 NoSolution
+# fix break: contig_1:571198-571230 0 -0 +0 NoSolution
+# fix break: contig_1:571516 0 -0 +0 NoSolution
+# fix break: contig_1:572089-572621 0 -0 +0 NoSolution
+# fix break: contig_1:620810-620842 0 -0 +0 NoSolution
+# fix break: contig_1:623055-623066 0 -0 +0 NoSolution
+# fix break: contig_1:623617-623912 0 -0 +0 NoSolution
+# fix break: contig_1:624515-624530 0 -0 +0 NoSolution
+fix break: contig_1:628872-629044 628651 -603 +606 BreakFix
+# fix break: contig_1:629855-629857 0 -0 +0 NoSolution
+# fix break: contig_1:633651-633690 0 -0 +0 NoSolution
+# fix break: contig_1:652584-652727 0 -0 +0 NoSolution
+# fix break: contig_1:657912-657929 0 -0 +0 NoSolution
+# fix break: contig_1:658755-658756 0 -0 +0 NoSolution
+# fix break: contig_1:659896 0 -0 +0 NoSolution
+# fix break: contig_1:660393-660504 0 -0 +0 NoSolution
+fix break: contig_1:662319-662447 662513 -49 +51 BreakFix
+# fix break: contig_1:663008-663058 0 -0 +0 NoSolution
+# fix break: contig_1:665132-665151 0 -0 +0 NoSolution TandemRepeat 25
+fix break: contig_1:666239-666441 666354 -123 +125 BreakFix
+# fix break: contig_1:684322-684501 0 -0 +0 NoSolution
+# fix break: contig_1:689392-689470 0 -0 +0 NoSolution
+# fix break: contig_1:693871-693872 0 -0 +0 NoSolution TandemRepeat 24
+# fix break: contig_1:722524-722548 0 -0 +0 NoSolution
+# fix break: contig_1:734835-734841 0 -0 +0 NoSolution
+# fix break: contig_1:744146-744705 0 -0 +0 NoSolution
+# fix break: contig_1:783939-783955 0 -0 +0 NoSolution
+fix break: contig_1:784433-784510 784246 -531 +532 BreakFix
+# fix break: contig_1:798524-798560 0 -0 +0 NoSolution
+fix break: contig_1:799044-799060 798801 -491 +490 BreakFix
+fix break: contig_1:799501-799702 799294 -679 +685 BreakFix
+# fix break: contig_1:800110-800574 0 -0 +0 NoSolution
+# fix break: contig_1:800832-800989 0 -0 +0 NoSolution
+fix break: contig_1:801735-801863 801489 -554 +551 BreakFix
+# fix break: contig_1:803324-803327 0 -0 +0 NoSolution
+# fix break: contig_1:803583 0 -0 +0 NoSolution
+# fix break: contig_1:805252 0 -0 +0 NoSolution
+# fix break: contig_1:818981-819395 0 -0 +0 NoSolution
+# fix break: contig_1:821864 0 -0 +0 NoSolution
+# fix break: contig_1:822307-822710 0 -0 +0 NoSolution
+# fix break: contig_1:827489-827837 0 -0 +0 NoSolution TandemRepeat 77
+# fix break: contig_1:831199-831216 0 -0 +0 NoSolution TandemRepeat 25
+fix break: contig_1:832023-832998 832001 -1266 +1381 BreakFix
+# fix break: contig_1:833600-833621 0 -0 +0 NoSolution
+fix break: contig_1:833880-833909 833636 -415 +414 BreakFix
+# fix break: contig_1:836912-837343 0 -0 +0 NoSolution
+# fix break: contig_1:837841 0 -0 +0 NoSolution
+# fix break: contig_1:838173-838401 0 -0 +0 NoSolution TandemRepeat 22
+# fix break: contig_1:848233 0 -0 +0 NoSolution
+# fix break: contig_1:849468-849769 0 -0 +0 NoSolution TandemRepeat 30
+fix break: contig_1:851533 851408 -171 +170 BreakFix
+# fix break: contig_1:860463-860503 0 -0 +0 NoSolution
+# fix break: contig_1:860753 0 -0 +0 NoSolution
+# fix break: contig_1:862022-862105 0 -0 +0 NoSolution
+# fix break: contig_1:863461-863556 0 -0 +0 NoSolution
+# fix break: contig_1:864578-865251 0 -0 +0 NoSolution
+# fix break: contig_1:865484-866000 0 -0 +0 NoSolution
+# fix break: contig_1:871991-872027 0 -0 +0 NoSolution
+# fix break: contig_1:872427-872716 0 -0 +0 NoSolution
+# fix break: contig_1:872991-873042 0 -0 +0 NoSolution
+# fix break: contig_1:875016-875052 0 -0 +0 NoSolution TandemRepeat 28
+fix break: contig_1:881631-881643 881412 -355 +356 BreakFix
+# fix break: contig_1:882371-882720 0 -0 +0 NoSolution
+# fix break: contig_1:883636-883664 0 -0 +0 NoSolution
+fix break: contig_1:883874-884702 884341 -456 +457 BreakFix
+# fix break: contig_1:890450-890480 0 -0 +0 NoSolution
+# fix break: contig_1:908513-908771 0 -0 +0 NoSolution TandemRepeat 41
+# fix break: contig_1:910905-911082 0 -0 +0 NoSolution
+# fix break: contig_1:923012-923249 0 -0 +0 NoSolution
+# fix break: contig_1:927406-927408 0 -0 +0 NoSolution
+# fix break: contig_1:937302-937475 0 -0 +0 NoSolution TandemRepeat 23
+fix break: contig_1:946223-946245 945968 -413 +410 BreakFix
+# fix break: contig_1:947600-947742 0 -0 +0 NoSolution
+# fix break: contig_1:948103-948180 0 -0 +0 NoSolution TandemRepeat 12
+# fix break: contig_1:948701-948734 0 -0 +0 NoSolution TandemRepeat 58
+# fix break: contig_1:949264-949465 0 -0 +0 NoSolution TandemRepeat 52
+# fix break: contig_1:952481-952666 0 -0 +0 NoSolution TandemRepeat 3
+# fix break: contig_1:962494-962521 0 -0 +0 NoSolution
+# fix break: contig_1:963163-963187 0 -0 +0 NoSolution
+fix break: contig_1:972775 972694 -162 +166 BreakFix
+# fix break: contig_1:981763-981806 0 -0 +0 NoSolution
+# fix break: contig_1:982712-982731 0 -0 +0 NoSolution
+fix break: contig_1:985111-985116 984895 -218 +220 BreakFix
+# fix break: contig_1:989184-989185 0 -0 +0 NoSolution TandemRepeat 222
+# fix break: contig_1:993503-993505 0 -0 +0 NoSolution
+fix break: contig_1:995045-995237 994799 -355 +357 BreakFix
+# fix break: contig_1:995443-995785 0 -0 +0 NoSolution
+fix break: contig_1:996108 996100 -176 +175 BreakFix
+# fix break: contig_1:996572-996582 0 -0 +0 NoSolution
+# fix break: contig_1:996967-997058 0 -0 +0 NoSolution
+# fix break: contig_1:997331-997635 0 -0 +0 NoSolution
+# fix break: contig_1:997963-997976 0 -0 +0 NoSolution
+# fix break: contig_1:998361-998634 0 -0 +0 NoSolution
+# fix break: contig_1:1000467-1000641 0 -0 +0 NoSolution
+fix break: contig_1:1006256-1006264 1006070 -185 +187 BreakFix
+# fix break: contig_1:1050881-1050908 0 -0 +0 NoSolution
+# fix break: contig_1:1055824-1055825 0 -0 +0 NoSolution TandemRepeat 31
+# fix break: contig_1:1056173-1056431 0 -0 +0 NoSolution TandemRepeat 31
+# fix break: contig_1:1057548-1057553 0 -0 +0 NoSolution
+fix break: contig_1:1057979-1057980 1057732 -489 +485 BreakFix
+# fix break: contig_1:1059653-1059659 0 -0 +0 NoSolution
+# fix break: contig_1:1067745-1067753 0 -0 +0 NoSolution
+fix break: contig_1:1082515-1082537 1082260 -277 +279 BreakFix
+fix break: contig_1:1083379-1083451 1083231 -439 +434 BreakFix
+# fix break: contig_1:1083773-1083792 0 -0 +0 NoSolution
+# fix break: contig_1:1086259-1086468 0 -0 +0 NoSolution
+# fix break: contig_1:1087767-1087836 0 -0 +0 NoSolution
+# fix break: contig_1:1088104 0 -0 +0 NoSolution
+fix break: contig_1:1088519-1088976 1088363 -721 +721 BreakFix
+# fix break: contig_1:1089227-1089297 0 -0 +0 NoSolution
+# fix break: contig_1:1089629-1089795 0 -0 +0 NoSolution
+fix break: contig_1:1092064 1092045 -290 +289 BreakFix
+fix break: contig_1:1092456-1092477 1092243 -454 +445 BreakFix
+fix break: contig_1:1093809-1093950 1093577 -616 +611 BreakFix
+# fix break: contig_1:1094905-1095080 0 -0 +0 NoSolution
+# fix break: contig_1:1110193-1110345 0 -0 +0 NoSolution
+# fix break: contig_1:1110694-1110869 0 -0 +0 NoSolution
+fix break: contig_1:1111115-1111256 1111098 -378 +379 BreakFix
+# fix break: contig_1:1113868 0 -0 +0 NoSolution
+# fix break: contig_1:1116167-1116394 0 -0 +0 NoSolution
+# fix break: contig_1:1117549-1117975 0 -0 +0 NoSolution
+# fix break: contig_1:1120128-1120213 0 -0 +0 NoSolution TandemRepeat 62
+# fix break: contig_1:1120704-1120833 0 -0 +0 NoSolution
+fix break: contig_1:1121631-1121668 1121523 -347 +344 BreakFix
+# fix break: contig_1:1122116-1122127 0 -0 +0 NoSolution
+# fix break: contig_1:1123305-1123607 0 -0 +0 NoSolution TandemRepeat 35
+# fix break: contig_1:1134184-1134189 0 -0 +0 NoSolution
+# fix break: contig_1:1147408-1147423 0 -0 +0 NoSolution
+# fix break: contig_1:1149385-1149814 0 -0 +0 NoSolution
+fix break: contig_1:1150082-1150165 1150042 -194 +196 BreakFix
+# fix break: contig_1:1150808-1150990 0 -0 +0 NoSolution
+# fix break: contig_1:1152768 0 -0 +0 NoSolution
+fix break: contig_1:1154048-1154111 1153828 -498 +499 BreakFix
+# fix break: contig_1:1154522-1154598 0 -0 +0 NoSolution
+# fix break: contig_1:1155398 0 -0 +0 NoSolution
+# fix break: contig_1:1157061-1157136 0 -0 +0 NoSolution TandemRepeat 20
+# fix break: contig_1:1159725 0 -0 +0 NoSolution
+# fix break: contig_1:1160233-1160403 0 -0 +0 NoSolution
+fix break: contig_1:1161474 1161301 -213 +214 BreakFix
+fix break: contig_1:1170786-1170792 1170619 -348 +352 BreakFix
+# fix break: contig_1:1171671 0 -0 +0 NoSolution
+# fix break: contig_1:1173170-1173221 0 -0 +0 NoSolution
+# fix break: contig_1:1176765-1176772 0 -0 +0 NoSolution
+# fix break: contig_1:1180602-1180803 0 -0 +0 NoSolution
+# fix break: contig_1:1199611-1199687 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_1:1220077-1220084 0 -0 +0 NoSolution
+fix break: contig_1:1220427-1220728 1220378 -588 +589 BreakFix
+# fix break: contig_1:1221462-1221704 0 -0 +0 NoSolution
+# fix break: contig_1:1222267-1222560 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_1:1224198-1224297 0 -0 +0 NoSolution
+fix break: contig_1:1229258-1229261 1229145 -115 +114 BreakFix
+# fix break: contig_1:1231409-1231415 0 -0 +0 NoSolution
+fix break: contig_1:1231749-1231759 1231688 -341 +337 BreakFix
+fix break: contig_1:1237801-1237849 1237547 -367 +372 BreakFix
+# fix break: contig_1:1261155 0 -0 +0 NoSolution
+fix break: contig_1:1261977 1261722 -471 +466 BreakFix
+# fix break: contig_1:1262466-1262470 0 -0 +0 NoSolution
+# fix break: contig_1:1263089-1263464 0 -0 +0 NoSolution
+fix break: contig_1:1263869-1263910 1263734 -158 +164 BreakFix
+fix break: contig_1:1264231-1264240 1264234 -275 +274 BreakFix
+# fix break: contig_1:1264544-1264812 0 -0 +0 NoSolution
+fix break: contig_1:1266142-1266169 1265993 -253 +252 BreakFix
+fix break: contig_1:1267535-1267538 1267330 -247 +248 BreakFix
+fix break: contig_1:1268101 1267987 -213 +212 BreakFix
+fix break: contig_1:1271954-1272273 1272196 -338 +335 BreakFix
+# fix break: contig_1:1274823-1275241 0 -0 +0 NoSolution
+# fix break: contig_1:1275671-1275844 0 -0 +0 NoSolution
+# fix break: contig_1:1276093-1276253 0 -0 +0 NoSolution
+# fix break: contig_1:1276876-1276898 0 -0 +0 NoSolution
+fix break: contig_1:1278062-1278448 1277843 -861 +860 BreakFix
+# fix break: contig_1:1278758-1278813 0 -0 +0 NoSolution
+# fix break: contig_1:1279334-1279367 0 -0 +0 NoSolution
+# fix break: contig_1:1279637 0 -0 +0 NoSolution
+# fix break: contig_1:1280175 0 -0 +0 NoSolution
+fix break: contig_1:1281204-1281401 1280987 -593 +595 BreakFix
+# fix break: contig_1:1281785-1282712 0 -0 +0 NoSolution
+fix break: contig_1:1283228-1283244 1283003 -279 +281 BreakFix
+# fix break: contig_1:1283489-1283640 0 -0 +0 NoSolution
+# fix break: contig_1:1283932-1284119 0 -0 +0 NoSolution
+# fix break: contig_1:1284655-1284801 0 -0 +0 NoSolution
+fix break: contig_1:1285350-1285992 1285091 -1020 +1035 BreakFix
+# fix break: contig_1:1287460-1287666 0 -0 +0 NoSolution
+# fix break: contig_1:1288696 0 -0 +0 NoSolution
+# fix break: contig_1:1308547-1308715 0 -0 +0 NoSolution TandemRepeat 9
+fix break: contig_1:1310870-1311010 1310635 -604 +599 BreakFix
+fix break: contig_1:1311677-1311699 1311681 -21 +19 BreakFix
+fix break: contig_1:1312672-1312881 1312513 -515 +522 BreakFix
+fix break: contig_1:1315120-1315466 1314971 -483 +483 BreakFix
+# fix break: contig_1:1315682-1315996 0 -0 +0 NoSolution TandemRepeat 60
+fix break: contig_1:1322773-1323261 1322927 -132 +135 BreakFix
+fix break: contig_1:1324935-1325376 1324879 -682 +686 BreakFix
+# fix break: contig_1:1328068-1328427 0 -0 +0 NoSolution TandemRepeat 14
+# fix break: contig_1:1329731-1329780 0 -0 +0 NoSolution
+# fix break: contig_1:1338736-1338846 0 -0 +0 NoSolution TandemRepeat 46
+# fix break: contig_1:1339228-1339942 0 -0 +0 NoSolution
+fix break: contig_1:1349616 1349618 -25 +23 BreakFix
+# fix break: contig_1:1365712-1365994 0 -0 +0 NoSolution
+# fix break: contig_1:1366336-1366521 0 -0 +0 NoSolution
+fix break: contig_1:1367992-1368231 1367737 -453 +466 BreakFix
+# fix break: contig_1:1371739-1371881 0 -0 +0 NoSolution
+# fix break: contig_1:1389412-1389628 0 -0 +0 NoSolution TandemRepeat 28
+fix break: contig_1:1390903-1391059 1390675 -522 +528 BreakFix
+# fix break: contig_1:1392274-1392378 0 -0 +0 NoSolution
+fix break: contig_1:1402109-1402217 1402179 -90 +90 BreakFix
+fix break: contig_1:1402533-1402903 1402394 -325 +326 BreakFix
+fix break: contig_1:1411919-1412103 1411899 -470 +474 BreakFix
+fix break: contig_1:1424685-1424890 1424522 -484 +481 BreakFix
+# fix break: contig_1:1430347-1430433 0 -0 +0 NoSolution TandemRepeat 2
+fix break: contig_1:1433958 1433730 -321 +316 BreakFix
+# fix break: contig_1:1437016-1437021 0 -0 +0 NoSolution
+fix break: contig_1:1462261-1462549 1462024 -725 +731 BreakFix
+# fix break: contig_1:1466046-1466387 0 -0 +0 NoSolution TandemRepeat 41
+# fix break: contig_1:1469326-1469327 0 -0 +0 NoSolution
+# fix break: contig_1:1469762-1469775 0 -0 +0 NoSolution
+# fix break: contig_1:1470050-1470092 0 -0 +0 NoSolution
+# fix break: contig_1:1479105-1479281 0 -0 +0 NoSolution TandemRepeat 24
+# fix break: contig_1:1485933-1486234 0 -0 +0 NoSolution
+# fix break: contig_1:1489873-1489948 0 -0 +0 NoSolution
+# fix break: contig_1:1490634-1490863 0 -0 +0 NoSolution
+# fix break: contig_1:1493634-1493638 0 -0 +0 NoSolution
+# fix break: contig_1:1493871-1493891 0 -0 +0 NoSolution
+# fix break: contig_1:1494800-1495033 0 -0 +0 NoSolution
+# fix break: contig_1:1498637-1499516 0 -0 +0 NoSolution
+# fix break: contig_1:1499939-1499953 0 -0 +0 NoSolution
+fix break: contig_1:1501164-1501168 1500921 -362 +364 BreakFix
+# fix break: contig_1:1503498-1503977 0 -0 +0 NoSolution
+fix break: contig_1:1504279-1504283 1504039 -440 +437 BreakFix
+# fix break: contig_1:1504653-1504733 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_1:1505023-1505070 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_1:1509232-1509271 0 -0 +0 NoSolution
+# fix break: contig_1:1510722-1510911 0 -0 +0 NoSolution
+fix break: contig_1:1524774-1524791 1524810 -246 +248 BreakFix
+fix break: contig_1:1525046-1525047 1524810 -318 +321 BreakFix
+fix break: contig_1:1525280-1525392 1525060 -68 +70 BreakFix
+# fix break: contig_1:1526662-1526803 0 -0 +0 NoSolution
+# fix break: contig_1:1544453-1544514 0 -0 +0 NoSolution
+# fix break: contig_1:1546785-1546860 0 -0 +0 NoSolution
+# fix break: contig_1:1552641-1552708 0 -0 +0 NoSolution
+# fix break: contig_1:1558772 0 -0 +0 NoSolution
+# fix break: contig_1:1568795-1568801 0 -0 +0 NoSolution
+fix break: contig_1:1569867 1569677 -429 +430 BreakFix
+# fix break: contig_1:1571390 0 -0 +0 NoSolution
+# fix break: contig_1:1573977-1573995 0 -0 +0 NoSolution
+# fix break: contig_1:1574234-1574370 0 -0 +0 NoSolution
+# fix break: contig_1:1575218-1576051 0 -0 +0 NoSolution
+# fix break: contig_1:1576297-1577252 0 -0 +0 NoSolution
+fix break: contig_1:1577832-1577881 1577642 -473 +476 BreakFix
+# fix break: contig_1:1579172-1579531 0 -0 +0 NoSolution
+# fix break: contig_1:1580146-1580159 0 -0 +0 NoSolution
+# fix break: contig_1:1580391-1580877 0 -0 +0 NoSolution
+fix break: contig_1:1581203-1581430 1580952 -648 +644 BreakFix
+# fix break: contig_1:1581672-1582151 0 -0 +0 NoSolution
+# fix break: contig_1:1582453-1582700 0 -0 +0 NoSolution
+# fix break: contig_1:1582952-1584731 0 -0 +0 NoSolution
+# fix break: contig_1:1584935-1585279 0 -0 +0 NoSolution
+# fix break: contig_1:1585517-1585610 0 -0 +0 NoSolution
+# fix break: contig_1:1586165-1586201 0 -0 +0 NoSolution
+# fix break: contig_1:1586501-1586511 0 -0 +0 NoSolution
+# fix break: contig_1:1586778-1590807 0 -0 +0 NoSolution
+# fix break: contig_1:1591535-1591587 0 -0 +0 NoSolution
+# fix break: contig_1:1592739-1592789 0 -0 +0 NoSolution
+# fix break: contig_1:1594725 0 -0 +0 NoSolution
+# fix break: contig_1:1595380-1595646 0 -0 +0 NoSolution
+# fix break: contig_1:1596206-1596438 0 -0 +0 NoSolution
+# fix break: contig_1:1596699-1596733 0 -0 +0 NoSolution
+# fix break: contig_1:1596940-1597099 0 -0 +0 NoSolution
+# fix break: contig_1:1597370 0 -0 +0 NoSolution
+fix break: contig_1:1597627-1597956 1597368 -828 +824 BreakFix
+fix break: contig_1:1598192-1598359 1597955 -479 +481 BreakFix
+# fix break: contig_1:1598621-1599629 0 -0 +0 NoSolution TandemRepeat 45
+# fix break: contig_1:1603807-1603813 0 -0 +0 NoSolution
+# fix break: contig_1:1614218-1614430 0 -0 +0 NoSolution TandemRepeat 14
+# fix break: contig_1:1622456-1622476 0 -0 +0 NoSolution
+# fix break: contig_1:1622701-1622885 0 -0 +0 NoSolution
+# fix break: contig_1:1623103-1623271 0 -0 +0 NoSolution
+# fix break: contig_1:1626319-1626525 0 -0 +0 NoSolution
+# fix break: contig_1:1633778-1634065 0 -0 +0 NoSolution
+fix break: contig_1:1634427-1634485 1634172 -423 +421 BreakFix
+# fix break: contig_1:1638037 0 -0 +0 NoSolution
+fix break: contig_1:1638527-1638836 1638357 -725 +720 BreakFix
+# fix break: contig_1:1639727-1640000 0 -0 +0 NoSolution
+# fix break: contig_1:1647130 0 -0 +0 NoSolution
+# fix break: contig_1:1649178-1649191 0 -0 +0 NoSolution
+# fix break: contig_1:1661126-1661132 0 -0 +0 NoSolution
+# fix break: contig_1:1663289-1663433 0 -0 +0 NoSolution TandemRepeat 228
+# fix break: contig_1:1669101 0 -0 +0 NoSolution
+# fix break: contig_1:1675172-1676101 0 -0 +0 NoSolution
+# fix break: contig_1:1678288-1678606 0 -0 +0 NoSolution TandemRepeat 41
+# fix break: contig_1:1678901-1678905 0 -0 +0 NoSolution
+# fix break: contig_1:1683064-1683299 0 -0 +0 NoSolution TandemRepeat 3
+# fix break: contig_1:1684511-1684572 0 -0 +0 NoSolution
+# fix break: contig_1:1685052-1685081 0 -0 +0 NoSolution
+# fix break: contig_1:1685787-1685834 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_1:1689690-1689959 0 -0 +0 NoSolution
+# fix break: contig_1:1691061-1691216 0 -0 +0 NoSolution
+# fix break: contig_1:1697561-1697608 0 -0 +0 NoSolution
+fix break: contig_1:1700301 1700132 -418 +416 BreakFix
+fix break: contig_1:1700792-1700847 1700550 -463 +465 BreakFix
+# fix break: contig_1:1701552-1701555 0 -0 +0 NoSolution
+# fix break: contig_1:1701843 0 -0 +0 NoSolution
+# fix break: contig_1:1705453-1705606 0 -0 +0 NoSolution
+# fix break: contig_1:1709270-1709287 0 -0 +0 NoSolution
+# fix break: contig_1:1711489-1711493 0 -0 +0 NoSolution
+fix break: contig_1:1712007-1712194 1711829 -566 +562 BreakFix
+fix break: contig_1:1712508-1712699 1712324 -637 +642 BreakFix
+# fix break: contig_1:1713131-1713143 0 -0 +0 NoSolution
+fix break: contig_1:1713635-1713695 1713390 -357 +349 BreakFix
+fix break: contig_1:1714011-1714402 1713938 -569 +565 BreakFix
+fix break: contig_1:1714778-1714978 1714512 -698 +697 BreakFix
+# fix break: contig_1:1715643-1715774 0 -0 +0 NoSolution
+fix break: contig_1:1716509-1716797 1716327 -469 +466 BreakFix
+# fix break: contig_1:1721019-1721023 0 -0 +0 NoSolution
+# fix break: contig_1:1721411-1721831 0 -0 +0 NoSolution
+# fix break: contig_1:1722072-1722081 0 -0 +0 NoSolution
+# fix break: contig_1:1724902-1724906 0 -0 +0 NoSolution
+# fix break: contig_1:1725755-1725863 0 -0 +0 NoSolution
+# fix break: contig_1:1727570-1727612 0 -0 +0 NoSolution
+# fix break: contig_1:1732298-1732536 0 -0 +0 NoSolution
+# fix break: contig_1:1746418-1746531 0 -0 +0 NoSolution
+# fix break: contig_1:1748279-1748285 0 -0 +0 NoSolution
+# fix break: contig_1:1748846-1748853 0 -0 +0 NoSolution
+# fix break: contig_1:1751053-1751142 0 -0 +0 NoSolution
+# fix break: contig_1:1758090-1758385 0 -0 +0 NoSolution
+# fix break: contig_1:1777070-1777140 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_1:1800281-1800301 0 -0 +0 NoSolution
+fix break: contig_1:1810158-1810212 1809983 -334 +333 BreakFix
+fix break: contig_1:1811074-1811149 1810818 -64 +66 BreakFix
+# fix break: contig_1:1819649 0 -0 +0 NoSolution
+# fix break: contig_1:1829142-1829210 0 -0 +0 NoSolution
+# fix break: contig_1:1829948-1829951 0 -0 +0 NoSolution
+# fix break: contig_1:1836026 0 -0 +0 NoSolution
+# fix break: contig_1:1836496-1836542 0 -0 +0 NoSolution
+# fix break: contig_1:1836812-1836815 0 -0 +0 NoSolution
+# fix break: contig_1:1837242-1837568 0 -0 +0 NoSolution
+# fix break: contig_1:1838566-1838569 0 -0 +0 NoSolution
+# fix break: contig_1:1839057-1839246 0 -0 +0 NoSolution
+# fix break: contig_1:1839695-1839715 0 -0 +0 NoSolution
+fix break: contig_1:1840122-1840124 1839870 -323 +322 BreakFix
+# fix break: contig_1:1840478-1840480 0 -0 +0 NoSolution
+# fix break: contig_1:1843856-1843907 0 -0 +0 NoSolution TandemRepeat 14
+fix break: contig_1:1848462 1848461 -157 +156 BreakFix
+# fix break: contig_1:1857590-1857593 0 -0 +0 NoSolution TandemRepeat 25
+fix break: contig_1:1887897 1887646 -265 +264 BreakFix
+# fix break: contig_1:1890341-1890510 0 -0 +0 NoSolution
+# fix break: contig_1:1894180-1894405 0 -0 +0 NoSolution
+# fix break: contig_1:1894981-1895400 0 -0 +0 NoSolution TandemRepeat 25
+# fix break: contig_1:1899774-1899785 0 -0 +0 NoSolution
+# fix break: contig_1:1900995-1901015 0 -0 +0 NoSolution
+# fix break: contig_1:1901787-1901794 0 -0 +0 NoSolution
+# fix break: contig_1:1902344-1902512 0 -0 +0 NoSolution
+# fix break: contig_1:1904051-1904166 0 -0 +0 NoSolution
+# fix break: contig_1:1914171-1914184 0 -0 +0 NoSolution
+fix break: contig_1:1915518-1915536 1915297 -227 +230 BreakFix
+# fix break: contig_1:1916113-1916307 0 -0 +0 NoSolution
+fix break: contig_1:1936194-1936273 1935946 -598 +590 BreakFix
+# fix break: contig_1:1936502-1936506 0 -0 +0 NoSolution
+# fix break: contig_1:1936777-1936806 0 -0 +0 NoSolution
+# fix break: contig_1:1938402-1938425 0 -0 +0 NoSolution
+# fix break: contig_1:1939187 0 -0 +0 NoSolution
+fix break: contig_1:1939851-1939867 1939654 -339 +338 BreakFix
+# fix break: contig_1:1941301-1941305 0 -0 +0 NoSolution
+# fix break: contig_1:1943325 0 -0 +0 NoSolution
+# fix break: contig_1:1955180-1955203 0 -0 +0 NoSolution TandemRepeat 25
+# fix break: contig_1:1956181-1956183 0 -0 +0 NoSolution
+# fix break: contig_1:1956888-1957256 0 -0 +0 NoSolution TandemRepeat 8
+# fix break: contig_1:1957898-1959641 0 -0 +0 NoSolution
+fix break: contig_1:1960807-1960821 1960550 -272 +270 BreakFix
+# fix break: contig_1:1974560-1974622 0 -0 +0 NoSolution
+# fix break: contig_1:1975890-1976504 0 -0 +0 NoSolution
+fix break: contig_1:1983825-1983829 1983812 -18 +20 BreakFix
+fix break: contig_1:1989835-1990112 1989725 -654 +655 BreakFix
+# fix break: contig_1:1991819-1992030 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_1:1993592 0 -0 +0 NoSolution
+fix break: contig_1:2000178-2000420 1999909 -223 +226 BreakFix
+# fix break: contig_1:2005265-2005462 0 -0 +0 NoSolution
+# fix break: contig_1:2007920-2007937 0 -0 +0 NoSolution
+# fix break: contig_1:2009362-2009567 0 -0 +0 NoSolution
+# fix break: contig_1:2009977-2010966 0 -0 +0 NoSolution
+fix break: contig_1:2021740 2021550 -383 +381 BreakFix
+fix break: contig_1:2022487-2022722 2022496 -297 +302 BreakFix
+# fix break: contig_1:2023025 0 -0 +0 NoSolution
+fix break: contig_1:2023542-2023741 2023341 -524 +521 BreakFix
+# fix break: contig_1:2024386-2024592 0 -0 +0 NoSolution
+# fix break: contig_1:2024933-2024951 0 -0 +0 NoSolution
+# fix break: contig_1:2025744-2025846 0 -0 +0 NoSolution
+fix break: contig_1:2026663-2027203 2026393 -1037 +1034 BreakFix
+fix break: contig_1:2027814-2027831 2027553 -434 +434 BreakFix
+# fix break: contig_1:2029018-2029295 0 -0 +0 NoSolution
+# fix break: contig_1:2038295-2038300 0 -0 +0 NoSolution
+fix break: contig_1:2038700-2038709 2038464 -496 +503 BreakFix
+# fix break: contig_1:2039412-2039723 0 -0 +0 NoSolution
+# fix break: contig_1:2040656-2040666 0 -0 +0 NoSolution
+fix break: contig_1:2041600-2041613 2041435 -285 +286 BreakFix
+# fix break: contig_1:2042986-2043308 0 -0 +0 NoSolution
+# fix break: contig_1:2043969-2044175 0 -0 +0 NoSolution TandemRepeat 2
+fix break: contig_1:2046067-2046113 2046141 -226 +224 BreakFix
+fix break: contig_1:2047082-2047149 2046822 -555 +557 BreakFix
+# fix break: contig_1:2047675-2047677 0 -0 +0 NoSolution
+# fix break: contig_1:2048493-2048499 0 -0 +0 NoSolution
+# fix break: contig_1:2049600-2049616 0 -0 +0 NoSolution
+# fix break: contig_1:2049909-2050550 0 -0 +0 NoSolution
+# fix break: contig_1:2050855-2051457 0 -0 +0 NoSolution
+# fix break: contig_1:2058963-2059772 0 -0 +0 NoSolution
+# fix break: contig_1:2072737-2072791 0 -0 +0 NoSolution
+# fix break: contig_1:2073840-2073852 0 -0 +0 NoSolution
+# fix break: contig_1:2084638-2084775 0 -0 +0 NoSolution
+fix break: contig_1:2093655-2093857 2093467 -648 +646 BreakFix
+# fix break: contig_1:2100386-2100484 0 -0 +0 NoSolution TandemRepeat 30
+fix break: contig_1:2107697-2107716 2107614 -317 +322 BreakFix
+fix break: contig_1:2123554-2123657 2123760 -57 +58 BreakFix
+# fix break: contig_1:2124140-2124172 0 -0 +0 NoSolution
+fix break: contig_1:2125313-2125317 2125136 -369 +370 BreakFix
+# fix break: contig_1:2130704-2130865 0 -0 +0 NoSolution
+# fix break: contig_1:2141265-2141417 0 -0 +0 NoSolution
+# fix break: contig_1:2146089-2146133 0 -0 +0 NoSolution
+fix break: contig_1:2157378-2157395 2157187 -434 +437 BreakFix
+# fix break: contig_1:2158774-2158785 0 -0 +0 NoSolution
+# fix break: contig_1:2159867-2159911 0 -0 +0 NoSolution
+# fix break: contig_1:2171530-2171734 0 -0 +0 NoSolution
+# fix break: contig_1:2176007-2176013 0 -0 +0 NoSolution TandemRepeat 48
+# fix break: contig_1:2177659-2177906 0 -0 +0 NoSolution
+# fix break: contig_1:2178301-2178321 0 -0 +0 NoSolution
+# fix break: contig_1:2178591-2178683 0 -0 +0 NoSolution
+fix break: contig_1:2181299-2181308 2181070 -502 +506 BreakFix
+# fix break: contig_1:2182220-2182367 0 -0 +0 NoSolution
+# fix break: contig_1:2192703-2192781 0 -0 +0 NoSolution
+# fix break: contig_1:2193809-2193888 0 -0 +0 NoSolution
+# fix break: contig_1:2198482-2198540 0 -0 +0 NoSolution
+fix break: contig_1:2207957-2208037 2207957 -72 +76 BreakFix
+fix break: contig_1:2211731-2212182 2211507 -822 +824 BreakFix
+fix break: contig_1:2214354 2214353 -228 +227 BreakFix
+# fix break: contig_1:2214880-2214904 0 -0 +0 NoSolution
+fix break: contig_1:2216887 2216657 -233 +233 BreakFix
+fix break: contig_1:2221203-2221607 2221087 -708 +707 BreakFix
+# fix break: contig_1:2233701-2233742 0 -0 +0 NoSolution TandemRepeat 28
+# fix break: contig_1:2242439-2242536 0 -0 +0 NoSolution
+# fix break: contig_1:2243155-2243613 0 -0 +0 NoSolution
+# fix break: contig_1:2244048-2244372 0 -0 +0 NoSolution
+# fix break: contig_1:2246404-2246692 0 -0 +0 NoSolution
+# fix break: contig_1:2247805-2248193 0 -0 +0 NoSolution
+# fix break: contig_1:2248984-2249080 0 -0 +0 NoSolution TandemRepeat 14
+# fix break: contig_1:2250839-2250989 0 -0 +0 NoSolution
+# fix break: contig_1:2257471-2257487 0 -0 +0 NoSolution TandemRepeat 58
+# fix break: contig_1:2260885-2260995 0 -0 +0 NoSolution
+# fix break: contig_1:2263430-2263435 0 -0 +0 NoSolution TandemRepeat 70
+# fix break: contig_1:2264093-2264280 0 -0 +0 NoSolution TandemRepeat 70
+# fix break: contig_1:2277530-2277590 0 -0 +0 NoSolution
+# fix break: contig_1:2279308-2279589 0 -0 +0 NoSolution
+fix break: contig_1:2280350-2280381 2280082 -394 +394 BreakFix
+fix break: contig_1:2280802-2280998 2280802 -431 +453 BreakFix
+fix break: contig_1:2282290-2282453 2282060 -663 +668 BreakFix
+# fix break: contig_1:2291018-2291280 0 -0 +0 NoSolution
+# fix break: contig_1:2298471-2298828 0 -0 +0 NoSolution
+# fix break: contig_1:2300579-2300692 0 -0 +0 NoSolution
+# fix break: contig_1:2302657-2303166 0 -0 +0 NoSolution
+# fix break: contig_1:2303499-2303691 0 -0 +0 NoSolution
+# fix break: contig_1:2304441-2304454 0 -0 +0 NoSolution
+fix break: contig_1:2304958-2304976 2304924 -312 +309 BreakFix
+# fix break: contig_1:2320591-2320739 0 -0 +0 NoSolution TandemRepeat 53
+fix break: contig_1:2321871 2321663 -331 +332 BreakFix
+# fix break: contig_1:2347340-2347423 0 -0 +0 NoSolution
+# fix break: contig_1:2349737-2349757 0 -0 +0 NoSolution
+fix break: contig_1:2362635-2362887 2362425 -367 +365 BreakFix
+# fix break: contig_1:2363725-2363938 0 -0 +0 NoSolution
+fix break: contig_1:2365503 2365324 -181 +183 BreakFix
+fix break: contig_1:2367759 2367540 -476 +479 BreakFix
+# fix break: contig_1:2368390-2368418 0 -0 +0 NoSolution
+# fix break: contig_1:2374401-2374638 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_1:2388808-2389152 0 -0 +0 NoSolution
+# fix break: contig_1:2390363-2390471 0 -0 +0 NoSolution
+# fix break: contig_1:2391193-2391466 0 -0 +0 NoSolution
+# fix break: contig_1:2391790-2391793 0 -0 +0 NoSolution
+# fix break: contig_1:2393216-2393234 0 -0 +0 NoSolution
+fix break: contig_1:2394898-2394907 2394689 -468 +469 BreakFix
+fix break: contig_1:2395958-2395961 2395724 -341 +341 BreakFix
+# fix break: contig_1:2397293-2397295 0 -0 +0 NoSolution
+# fix break: contig_1:2401924-2404494 0 -0 +0 NoSolution
+# fix break: contig_1:2404957-2407597 0 -0 +0 NoSolution
+# fix break: contig_1:2407832-2409281 0 -0 +0 NoSolution
+# fix break: contig_1:2409483-2413438 0 -0 +0 NoSolution
+# fix break: contig_1:2416925-2416934 0 -0 +0 NoSolution
+# fix break: contig_1:2418231-2418239 0 -0 +0 NoSolution
+# fix break: contig_1:2421851-2422064 0 -0 +0 NoSolution
+# fix break: contig_1:2431038-2431531 0 -0 +0 NoSolution
+# fix break: contig_1:2431866-2431868 0 -0 +0 NoSolution
+# fix break: contig_1:2437895-2438130 0 -0 +0 NoSolution
+# fix break: contig_1:2438982-2440027 0 -0 +0 NoSolution
+# fix break: contig_1:2440471-2440725 0 -0 +0 NoSolution
+# fix break: contig_1:2440993-2443873 0 -0 +0 NoSolution
+fix break: contig_1:2444408-2445078 2444334 -830 +829 BreakFix
+# fix break: contig_1:2445294-2445415 0 -0 +0 NoSolution
+fix break: contig_1:2446191-2446363 2446027 -607 +607 BreakFix
+# fix break: contig_1:2446960-2449500 0 -0 +0 NoSolution
+fix break: contig_1:2449763-2450435 2449547 -1146 +1148 BreakFix
+# fix break: contig_1:2450712-2450713 0 -0 +0 NoSolution
+fix break: contig_1:2451020-2451477 2450775 -719 +715 BreakFix
+# fix break: contig_1:2451796 0 -0 +0 NoSolution
+fix break: contig_1:2452182-2452186 2451916 -514 +518 BreakFix
+# fix break: contig_1:2452744-2452936 0 -0 +0 NoSolution
+fix break: contig_1:2453792-2453922 2453637 -282 +278 BreakFix
+# fix break: contig_1:2454283-2454470 0 -0 +0 NoSolution
+# fix break: contig_1:2454931-2454954 0 -0 +0 NoSolution
+# fix break: contig_1:2456062-2456838 0 -0 +0 NoSolution
+fix break: contig_1:2457091-2457441 2456896 -736 +734 BreakFix
+# fix break: contig_1:2457734-2470770 0 -0 +0 NoSolution
+# fix break: contig_1:2470976-2473315 0 -0 +0 NoSolution
+# fix break: contig_1:2473544-2478012 0 -0 +0 NoSolution
+fix break: contig_1:2478218-2479312 2478217 -1258 +1253 BreakFix
+# fix break: contig_1:2479661-2483029 0 -0 +0 NoSolution
+fix break: contig_1:2483442-2483587 2483230 -538 +542 BreakFix
+fix break: contig_1:2483854-2483861 2483626 -451 +453 BreakFix
+fix break: contig_1:2484340-2484595 2484077 -767 +769 BreakFix
+# fix break: contig_1:2484943-2485948 0 -0 +0 NoSolution
+# fix break: contig_1:2486154-2486628 0 -0 +0 NoSolution
+# fix break: contig_1:2486922-2488278 0 -0 +0 NoSolution
+# fix break: contig_1:2489205-2490232 0 -0 +0 NoSolution
+fix break: contig_1:2490951-2490983 2490751 -416 +417 BreakFix
+# fix break: contig_1:2491646-2492159 0 -0 +0 NoSolution
+fix break: contig_1:2494165 2494027 -381 +379 BreakFix
+# fix break: contig_1:2494585-2494780 0 -0 +0 NoSolution
+# fix break: contig_1:2497882 0 -0 +0 NoSolution
+# fix break: contig_1:2501686-2501884 0 -0 +0 NoSolution
+# fix break: contig_1:2517262-2521659 0 -0 +0 NoSolution
+# fix break: contig_1:2522029-2522703 0 -0 +0 NoSolution
+# fix break: contig_1:2523627-2523963 0 -0 +0 NoSolution
+# fix break: contig_1:2524249-2524477 0 -0 +0 NoSolution
+# fix break: contig_1:2524946 0 -0 +0 NoSolution
+# fix break: contig_1:2525224-2525401 0 -0 +0 NoSolution
+# fix break: contig_1:2525688-2525712 0 -0 +0 NoSolution
+# fix break: contig_1:2526057-2526059 0 -0 +0 NoSolution
+# fix break: contig_1:2526277-2526546 0 -0 +0 NoSolution
+# fix break: contig_1:2526790-2527462 0 -0 +0 NoSolution
+# fix break: contig_1:2527797-2528151 0 -0 +0 NoSolution
+# fix break: contig_1:2528519-2528557 0 -0 +0 NoSolution
+# fix break: contig_1:2528787-2528820 0 -0 +0 NoSolution
+# fix break: contig_1:2529149-2529462 0 -0 +0 NoSolution
+# fix break: contig_1:2529880-2530641 0 -0 +0 NoSolution
+# fix break: contig_1:2530886-2530894 0 -0 +0 NoSolution
+# fix break: contig_1:2531192-2531363 0 -0 +0 NoSolution
+fix break: contig_1:2532428-2532521 2532466 -265 +265 BreakFix
+# fix break: contig_1:2532856-2533834 0 -0 +0 NoSolution
+# fix break: contig_1:2534147-2534332 0 -0 +0 NoSolution
+fix break: contig_1:2543651-2543657 2543630 -176 +178 BreakFix
+fix break: contig_1:2544214-2544221 2544090 -386 +387 BreakFix
+# fix break: contig_1:2544791-2544870 0 -0 +0 NoSolution
+# fix break: contig_1:2545750 0 -0 +0 NoSolution
+fix break: contig_1:2546256-2546258 2546037 -475 +474 BreakFix
+fix break: contig_1:2546468-2546513 2546256 -256 +256 BreakFix
+fix break: contig_1:2546854-2546855 2546854 -102 +101 BreakFix
+fix break: contig_1:2548137-2548500 2548091 -658 +659 BreakFix
+fix break: contig_1:2551322-2551708 2551228 -725 +727 BreakFix
+# fix break: contig_1:2552263 0 -0 +0 NoSolution
+fix break: contig_1:2552516-2552710 2552262 -596 +592 BreakFix
+# fix break: contig_1:2553049-2554642 0 -0 +0 NoSolution
+# fix break: contig_1:2563274 0 -0 +0 NoSolution
+fix break: contig_1:2563624 2563444 -231 +227 BreakFix
+fix break: contig_1:2565564-2565914 2565300 -835 +833 BreakFix
+fix break: contig_1:2566502 2566342 -312 +314 BreakFix
+fix break: contig_1:2567134-2567279 2567157 -292 +291 BreakFix
+fix break: contig_1:2568027-2568042 2567759 -280 +281 BreakFix
+fix break: contig_1:2569131 2568934 -464 +459 BreakFix
+fix break: contig_1:2569395 2569128 -331 +328 BreakFix
+# fix break: contig_1:2576000-2576054 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_1:2577958-2577962 0 -0 +0 NoSolution
+# fix break: contig_1:2580144-2580152 0 -0 +0 NoSolution
+# fix break: contig_1:2580670-2580987 0 -0 +0 NoSolution
+fix break: contig_1:2581559-2581583 2581478 -96 +92 BreakFix
+fix break: contig_1:2582259-2582301 2582022 -308 +303 BreakFix
+# fix break: contig_1:2583528-2583564 0 -0 +0 NoSolution
+# fix break: contig_1:2584004-2584015 0 -0 +0 NoSolution
+# fix break: contig_1:2584845 0 -0 +0 NoSolution
+fix break: contig_1:2585235-2585289 2584991 -533 +532 BreakFix
+# fix break: contig_1:2586229-2586239 0 -0 +0 NoSolution
+# fix break: contig_1:2586765-2586807 0 -0 +0 NoSolution
+fix break: contig_1:2588150-2588153 2587942 -436 +435 BreakFix
+fix break: contig_1:2588899-2589075 2588642 -672 +678 BreakFix
+# fix break: contig_1:2590070-2590078 0 -0 +0 NoSolution
+# fix break: contig_1:2590771-2590809 0 -0 +0 NoSolution
+# fix break: contig_1:2591589 0 -0 +0 NoSolution
+# fix break: contig_1:2591883-2591884 0 -0 +0 NoSolution
+# fix break: contig_1:2592425-2592445 0 -0 +0 NoSolution
+fix break: contig_1:2593407 2593404 -225 +225 BreakFix
+# fix break: contig_1:2594272-2594277 0 -0 +0 NoSolution
+fix break: contig_1:2596680-2596847 2596518 -223 +227 BreakFix
+# fix break: contig_1:2604062-2604358 0 -0 +0 NoSolution
+# fix break: contig_1:2613849 0 -0 +0 NoSolution
+# fix break: contig_1:2614538-2614543 0 -0 +0 NoSolution
+# fix break: contig_1:2614863-2614936 0 -0 +0 NoSolution
+# fix break: contig_1:2615377-2617546 0 -0 +0 NoSolution
+# fix break: contig_1:2617771-2619879 0 -0 +0 NoSolution
+fix break: contig_1:2620123-2620812 2619886 -903 +907 BreakFix
+fix break: contig_1:2621014-2621113 2620789 -475 +478 BreakFix
+fix break: contig_1:2621385-2622483 2621268 -1344 +1341 BreakFix
+# fix break: contig_1:2622732-2624772 0 -0 +0 NoSolution TandemRepeat 404
+# fix break: contig_1:2625061-2625087 0 -0 +0 NoSolution TandemRepeat 403
+# fix break: contig_1:2626047 0 -0 +0 NoSolution
+fix break: contig_1:2627348-2627379 2627153 -497 +496 BreakFix
+# fix break: contig_1:2628115 0 -0 +0 NoSolution
+fix break: contig_1:2631686 2631635 -315 +312 BreakFix
+fix break: contig_1:2632478-2632494 2632393 -352 +352 BreakFix
+fix break: contig_1:2639366-2639368 2639216 -144 +147 BreakFix
+fix break: contig_1:2641671-2641849 2641541 -196 +198 BreakFix
+# fix break: contig_1:2651382 0 -0 +0 NoSolution
+fix break: contig_1:2652092 2651963 -132 +132 BreakFix
+fix break: contig_1:2660321-2660459 2660218 -477 +479 BreakFix
+fix break: contig_1:2666044-2666054 2665884 -154 +158 BreakFix
+# fix break: contig_1:2673302-2673306 0 -0 +0 NoSolution
+# fix break: contig_1:2674712-2674883 0 -0 +0 NoSolution
+# fix break: contig_1:2675192-2675550 0 -0 +0 NoSolution
+fix break: contig_1:2678995-2679250 2678816 -250 +255 BreakFix
+# fix break: contig_1:2682396-2682408 0 -0 +0 NoSolution
+fix break: contig_1:2683447-2683513 2683419 -225 +227 BreakFix
+# fix break: contig_1:2700659-2701095 0 -0 +0 NoSolution
+fix break: contig_1:2701403-2701461 2701205 -512 +517 BreakFix
+fix break: contig_1:2701801-2701855 2701582 -420 +423 BreakFix
+# fix break: contig_1:2702284-2702326 0 -0 +0 NoSolution
+# fix break: contig_1:2711073-2711141 0 -0 +0 NoSolution
+fix break: contig_1:2735720-2735741 2735460 -542 +541 BreakFix
+# fix break: contig_1:2735999-2736001 0 -0 +0 NoSolution
+# fix break: contig_1:2736273-2736363 0 -0 +0 NoSolution
+# fix break: contig_1:2736570-2736583 0 -0 +0 NoSolution
+# fix break: contig_1:2737005-2737098 0 -0 +0 NoSolution
+# fix break: contig_1:2737462-2737531 0 -0 +0 NoSolution
+# fix break: contig_1:2737839-2739252 0 -0 +0 NoSolution
+# fix break: contig_1:2739588-2739870 0 -0 +0 NoSolution
+# fix break: contig_1:2740180-2740247 0 -0 +0 NoSolution
+fix break: contig_1:2740721-2740722 2740552 -429 +437 BreakFix
+# fix break: contig_1:2741252-2741331 0 -0 +0 NoSolution
+# fix break: contig_1:2741992-2742092 0 -0 +0 NoSolution
+fix break: contig_1:2742303-2742765 2742164 -750 +748 BreakFix
+# fix break: contig_1:2743115-2743148 0 -0 +0 NoSolution
+# fix break: contig_1:2743433-2743508 0 -0 +0 NoSolution
+# fix break: contig_1:2744317-2744744 0 -0 +0 NoSolution
+# fix break: contig_1:2745103-2745165 0 -0 +0 NoSolution
+# fix break: contig_1:2745413-2745414 0 -0 +0 NoSolution
+contig_1:1-2746011 log:
+Finished processing contig_1:1-2746011
+Processing contig_12:1-1313427
+frags /home/mila6004/Genomeanalysis/results/3_assembly_polishing/bwa/bwa.sorted.bam: coverage 331
+Total Reads: 3702988, Coverage: 331, minDepth: 33
+Confirmed 1194873 of 1313427 bases (90.97%)
+Corrected 10890 snps; 98 ambiguous bases; corrected 3531 small insertions totaling 3895 bases, 2805 small deletions totaling 3497 bases
+Large collapsed region: contig_12:57495-73735 size 16241
+Large collapsed region: contig_12:959567-973317 size 13751
+Large collapsed region: contig_12:1093462-1104748 size 11287
+Large collapsed region: contig_12:1178710-1190844 size 12135
+# Attempting to fix local continuity breaks
+# fix break: contig_12:15892-18526 0 -0 +0 NoSolution
+# fix break: contig_12:18780-20336 0 -0 +0 NoSolution
+# fix break: contig_12:20619-23337 0 -0 +0 NoSolution
+# fix break: contig_12:23614-24455 0 -0 +0 NoSolution
+fix break: contig_12:25007-25361 24886 -564 +559 BreakFix
+# fix break: contig_12:25854 0 -0 +0 NoSolution
+fix break: contig_12:26287-26296 26021 -490 +489 BreakFix
+# fix break: contig_12:26958-27073 0 -0 +0 NoSolution
+# fix break: contig_12:27303-27530 0 -0 +0 NoSolution
+fix break: contig_12:27742-27836 27686 -150 +148 BreakFix
+# fix break: contig_12:28501-28508 0 -0 +0 NoSolution
+# fix break: contig_12:28938-29265 0 -0 +0 NoSolution
+# fix break: contig_12:29524 0 -0 +0 NoSolution
+# fix break: contig_12:29860-29877 0 -0 +0 NoSolution
+fix break: contig_12:30642 30643 -40 +37 BreakFix
+fix break: contig_12:31338-31412 31077 -599 +593 BreakFix
+# fix break: contig_12:32434-32499 0 -0 +0 NoSolution
+fix break: contig_12:33231-33584 33118 -674 +665 BreakFix
+# fix break: contig_12:34736-35286 0 -0 +0 NoSolution
+# fix break: contig_12:35603-36618 0 -0 +0 NoSolution
+# fix break: contig_12:36862-36868 0 -0 +0 NoSolution
+fix break: contig_12:37716-38413 37715 -853 +845 BreakFix
+fix break: contig_12:38715-38785 38476 -572 +571 BreakFix
+fix break: contig_12:39021-39046 38912 -249 +248 BreakFix
+# fix break: contig_12:39284-41551 0 -0 +0 NoSolution
+fix break: contig_12:41928-42264 41670 -808 +808 BreakFix
+# fix break: contig_12:45330-45360 0 -0 +0 NoSolution TandemRepeat 106
+# fix break: contig_12:51010-51148 0 -0 +0 NoSolution
+# fix break: contig_12:51734-51737 0 -0 +0 NoSolution
+# fix break: contig_12:52195-52894 0 -0 +0 NoSolution
+# fix break: contig_12:53138-53873 0 -0 +0 NoSolution
+# fix break: contig_12:54076-55021 0 -0 +0 NoSolution
+# fix break: contig_12:55322-55359 0 -0 +0 NoSolution
+# fix break: contig_12:55979-56460 0 -0 +0 NoSolution
+# fix break: contig_12:56780-57167 0 -0 +0 NoSolution
+# fix break: contig_12:57422-57534 0 -0 +0 NoSolution
+# fix break: contig_12:57873-58864 0 -0 +0 NoSolution
+# fix break: contig_12:59322-59439 0 -0 +0 NoSolution
+fix break: contig_12:60000-60278 59846 -550 +552 BreakFix
+fix break: contig_12:60542-60864 60338 -650 +647 BreakFix
+fix break: contig_12:61100-61355 60851 -773 +763 BreakFix
+# fix break: contig_12:61557 0 -0 +0 NoSolution
+fix break: contig_12:61791-62605 61623 -1118 +1110 BreakFix
+fix break: contig_12:63091-63092 62886 -414 +414 BreakFix
+fix break: contig_12:63310-63500 63090 -535 +534 BreakFix
+# fix break: contig_12:63744-63975 0 -0 +0 NoSolution
+fix break: contig_12:64185-64675 63962 -967 +967 BreakFix
+fix break: contig_12:65315-65630 65136 -657 +678 BreakFix
+fix break: contig_12:66185-66490 66238 -358 +359 BreakFix
+# fix break: contig_12:66716-67797 0 -0 +0 NoSolution
+# fix break: contig_12:68129-69208 0 -0 +0 NoSolution
+fix break: contig_12:69485-69572 69294 -464 +466 BreakFix
+# fix break: contig_12:69914-69978 0 -0 +0 NoSolution
+fix break: contig_12:70440-70494 70212 -414 +411 BreakFix
+fix break: contig_12:70868-70966 70629 -441 +444 BreakFix
+fix break: contig_12:71390-71625 71384 -429 +428 BreakFix
+# fix break: contig_12:71872-72476 0 -0 +0 NoSolution TandemRepeat 36
+# fix break: contig_12:72770 0 -0 +0 NoSolution
+fix break: contig_12:73173-73327 72909 -675 +679 BreakFix
+# fix break: contig_12:73892-73980 0 -0 +0 NoSolution
+# fix break: contig_12:74771-75365 0 -0 +0 NoSolution
+# fix break: contig_12:76097-76107 0 -0 +0 NoSolution
+# fix break: contig_12:76353-76366 0 -0 +0 NoSolution
+# fix break: contig_12:76680-76744 0 -0 +0 NoSolution
+# fix break: contig_12:77006-77083 0 -0 +0 NoSolution
+# fix break: contig_12:77773-77782 0 -0 +0 NoSolution
+# fix break: contig_12:78136-78472 0 -0 +0 NoSolution
+# fix break: contig_12:78967-79229 0 -0 +0 NoSolution
+# fix break: contig_12:79472-79476 0 -0 +0 NoSolution
+# fix break: contig_12:80092 0 -0 +0 NoSolution
+# fix break: contig_12:80583-80802 0 -0 +0 NoSolution
+fix break: contig_12:81016-81033 80798 -471 +470 BreakFix
+fix break: contig_12:81259-81271 81016 -439 +438 BreakFix
+# fix break: contig_12:81491-82244 0 -0 +0 NoSolution
+# fix break: contig_12:82585-83780 0 -0 +0 NoSolution
+# fix break: contig_12:84516-84919 0 -0 +0 NoSolution
+# fix break: contig_12:85228-87043 0 -0 +0 NoSolution
+# fix break: contig_12:87297-88816 0 -0 +0 NoSolution
+fix break: contig_12:92251-92452 92437 -188 +189 BreakFix
+fix break: contig_12:92887-93054 92624 -599 +601 BreakFix
+fix break: contig_12:97890-98303 97646 -100 +102 BreakFix
+# fix break: contig_12:111448-111859 0 -0 +0 NoSolution
+fix break: contig_12:114647-114674 114647 -37 +41 BreakFix
+# fix break: contig_12:120073-120677 0 -0 +0 NoSolution TandemRepeat 53
+# fix break: contig_12:136989 0 -0 +0 NoSolution
+# fix break: contig_12:149187-149640 0 -0 +0 NoSolution
+# fix break: contig_12:150021-150135 0 -0 +0 NoSolution
+# fix break: contig_12:150421-150833 0 -0 +0 NoSolution
+# fix break: contig_12:171903-171912 0 -0 +0 NoSolution
+fix break: contig_12:174585 174583 -247 +247 BreakFix
+fix break: contig_12:176977-177544 176716 -596 +598 BreakFix
+fix break: contig_12:179310-179396 179326 -31 +33 BreakFix
+fix break: contig_12:183721 183641 -315 +317 BreakFix
+# fix break: contig_12:184701-184893 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_12:196162-196572 0 -0 +0 NoSolution
+# fix break: contig_12:196908 0 -0 +0 NoSolution
+# fix break: contig_12:198531-198597 0 -0 +0 NoSolution
+# fix break: contig_12:201808-201812 0 -0 +0 NoSolution
+# fix break: contig_12:209001-209072 0 -0 +0 NoSolution
+fix break: contig_12:213592-213755 213325 -604 +608 BreakFix
+# fix break: contig_12:256124-256136 0 -0 +0 NoSolution
+# fix break: contig_12:256760-256774 0 -0 +0 NoSolution
+# fix break: contig_12:258476-258899 0 -0 +0 NoSolution TandemRepeat 1
+fix break: contig_12:270591-270648 270790 -110 +111 BreakFix
+# fix break: contig_12:271812-271839 0 -0 +0 NoSolution
+# fix break: contig_12:288189-288208 0 -0 +0 NoSolution
+# fix break: contig_12:308165-308411 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_12:310688-311123 0 -0 +0 NoSolution
+# fix break: contig_12:311669-311944 0 -0 +0 NoSolution TandemRepeat 2
+fix break: contig_12:316085 315827 -261 +262 BreakFix
+# fix break: contig_12:327584-327868 0 -0 +0 NoSolution
+# fix break: contig_12:328955-328982 0 -0 +0 NoSolution
+# fix break: contig_12:329323-329540 0 -0 +0 NoSolution
+# fix break: contig_12:329991-330216 0 -0 +0 NoSolution
+# fix break: contig_12:331601-331725 0 -0 +0 NoSolution
+# fix break: contig_12:331991-332129 0 -0 +0 NoSolution
+# fix break: contig_12:334598-334629 0 -0 +0 NoSolution
+# fix break: contig_12:336286-336400 0 -0 +0 NoSolution
+# fix break: contig_12:336824-336882 0 -0 +0 NoSolution
+# fix break: contig_12:339894-339910 0 -0 +0 NoSolution
+fix break: contig_12:340989-340990 340935 -160 +165 BreakFix
+# fix break: contig_12:345236 0 -0 +0 NoSolution
+# fix break: contig_12:348182-348526 0 -0 +0 NoSolution
+fix break: contig_12:349855-350023 349617 -601 +601 BreakFix
+# fix break: contig_12:350988-351146 0 -0 +0 NoSolution
+fix break: contig_12:351404-351476 351255 -473 +479 BreakFix
+# fix break: contig_12:356482-356590 0 -0 +0 NoSolution
+# fix break: contig_12:357047 0 -0 +0 NoSolution
+# fix break: contig_12:365788-366458 0 -0 +0 NoSolution TandemRepeat 28
+# fix break: contig_12:367244-367511 0 -0 +0 NoSolution TandemRepeat 21
+# fix break: contig_12:370433-370445 0 -0 +0 NoSolution
+# fix break: contig_12:370955 0 -0 +0 NoSolution
+fix break: contig_12:371297 371030 -526 +524 BreakFix
+fix break: contig_12:372429-372482 372448 -135 +137 BreakFix
+# fix break: contig_12:373509-373530 0 -0 +0 NoSolution
+# fix break: contig_12:378123 0 -0 +0 NoSolution
+fix break: contig_12:392306 392198 -167 +166 BreakFix
+# fix break: contig_12:395290-395447 0 -0 +0 NoSolution TandemRepeat 19
+fix break: contig_12:396036-396137 396079 -88 +90 BreakFix
+# fix break: contig_12:396993-397159 0 -0 +0 NoSolution
+# fix break: contig_12:397458-397478 0 -0 +0 NoSolution
+# fix break: contig_12:398842-400734 0 -0 +0 NoSolution
+# fix break: contig_12:403685-403709 0 -0 +0 NoSolution
+fix break: contig_12:407903-407904 407649 -134 +137 BreakFix
+# fix break: contig_12:417770-417898 0 -0 +0 NoSolution
+fix break: contig_12:418209-418299 418047 -483 +485 BreakFix
+# fix break: contig_12:418739 0 -0 +0 NoSolution
+# fix break: contig_12:419171-419601 0 -0 +0 NoSolution
+fix break: contig_12:419817-420017 419561 -456 +461 BreakFix
+# fix break: contig_12:420267-420294 0 -0 +0 NoSolution
+# fix break: contig_12:420536-421184 0 -0 +0 NoSolution
+# fix break: contig_12:421864-422357 0 -0 +0 NoSolution
+fix break: contig_12:423045-423068 422811 -432 +433 BreakFix
+fix break: contig_12:424764-425081 424573 -761 +762 BreakFix
+# fix break: contig_12:425583-425700 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_12:437241-437260 0 -0 +0 NoSolution
+# fix break: contig_12:445891-445896 0 -0 +0 NoSolution
+# fix break: contig_12:446168-446676 0 -0 +0 NoSolution
+fix break: contig_12:447262 447065 -241 +238 BreakFix
+# fix break: contig_12:448201-448220 0 -0 +0 NoSolution
+# fix break: contig_12:456193-456196 0 -0 +0 NoSolution
+# fix break: contig_12:462012-462013 0 -0 +0 NoSolution
+# fix break: contig_12:465890-466023 0 -0 +0 NoSolution
+fix break: contig_12:467226-467606 467085 -769 +760 BreakFix
+# fix break: contig_12:467843-467853 0 -0 +0 NoSolution
+# fix break: contig_12:468336-468355 0 -0 +0 NoSolution
+# fix break: contig_12:468624-468739 0 -0 +0 NoSolution
+# fix break: contig_12:469147-469432 0 -0 +0 NoSolution
+# fix break: contig_12:469941 0 -0 +0 NoSolution
+# fix break: contig_12:470213-470249 0 -0 +0 NoSolution
+# fix break: contig_12:470952-471199 0 -0 +0 NoSolution
+# fix break: contig_12:472106-472110 0 -0 +0 NoSolution
+fix break: contig_12:472470-472485 472258 -222 +219 BreakFix
+fix break: contig_12:472938 472902 -37 +35 BreakFix
+# fix break: contig_12:473465-473737 0 -0 +0 NoSolution
+# fix break: contig_12:474024-474061 0 -0 +0 NoSolution
+# fix break: contig_12:474391-475372 0 -0 +0 NoSolution
+fix break: contig_12:476337 476154 -436 +434 BreakFix
+# fix break: contig_12:476672-476694 0 -0 +0 NoSolution
+# fix break: contig_12:478497-478503 0 -0 +0 NoSolution
+# fix break: contig_12:478720-478773 0 -0 +0 NoSolution
+# fix break: contig_12:479220-479224 0 -0 +0 NoSolution
+# fix break: contig_12:479470-479471 0 -0 +0 NoSolution
+# fix break: contig_12:479880-480011 0 -0 +0 NoSolution
+# fix break: contig_12:481340-481441 0 -0 +0 NoSolution TandemRepeat 25
+# fix break: contig_12:493926-494277 0 -0 +0 NoSolution
+# fix break: contig_12:494580 0 -0 +0 NoSolution
+fix break: contig_12:500456-500468 500456 -12 +11 BreakFix
+# fix break: contig_12:501051-501061 0 -0 +0 NoSolution
+# fix break: contig_12:501331-501362 0 -0 +0 NoSolution
+# fix break: contig_12:502332-502579 0 -0 +0 NoSolution
+# fix break: contig_12:503714 0 -0 +0 NoSolution
+fix break: contig_12:503974-504063 503714 -350 +346 BreakFix
+fix break: contig_12:504577-504946 504581 -104 +104 BreakFix
+# fix break: contig_12:508574-508818 0 -0 +0 NoSolution
+fix break: contig_12:509502-509507 509321 -174 +177 BreakFix
+fix break: contig_12:511624-512504 511869 -445 +447 BreakFix
+fix break: contig_12:518936 518935 -221 +220 BreakFix
+# fix break: contig_12:519808 0 -0 +0 NoSolution
+# fix break: contig_12:532022-532733 0 -0 +0 NoSolution
+# fix break: contig_12:535130-538860 0 -0 +0 NoSolution TandemRepeat 404
+# fix break: contig_12:539126-539431 0 -0 +0 NoSolution
+# fix break: contig_12:539857-541715 0 -0 +0 NoSolution
+# fix break: contig_12:542075-543113 0 -0 +0 NoSolution
+# fix break: contig_12:543379-543526 0 -0 +0 NoSolution
+# fix break: contig_12:543732-543783 0 -0 +0 NoSolution
+fix break: contig_12:544001-544666 543758 -1165 +1174 BreakFix
+# fix break: contig_12:555805-556089 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_12:557215-557267 0 -0 +0 NoSolution
+# fix break: contig_12:561793-561811 0 -0 +0 NoSolution
+# fix break: contig_12:562940-562958 0 -0 +0 NoSolution
+# fix break: contig_12:569396-569416 0 -0 +0 NoSolution
+# fix break: contig_12:574301-574335 0 -0 +0 NoSolution
+# fix break: contig_12:574591-574613 0 -0 +0 NoSolution
+# fix break: contig_12:584782 0 -0 +0 NoSolution
+# fix break: contig_12:588241-588423 0 -0 +0 NoSolution
+fix break: contig_12:589753 589753 -171 +172 BreakFix
+# fix break: contig_12:615218-615381 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_12:615624-615642 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_12:618680 0 -0 +0 NoSolution
+fix break: contig_12:620670-620676 620612 -315 +314 BreakFix
+# fix break: contig_12:620926 0 -0 +0 NoSolution
+fix break: contig_12:621616-622312 621452 -900 +904 BreakFix
+fix break: contig_12:629489-629498 629309 -386 +386 BreakFix
+fix break: contig_12:632356 632162 -401 +400 BreakFix
+fix break: contig_12:633091-633200 632871 -55 +53 BreakFix
+# fix break: contig_12:644350-644367 0 -0 +0 NoSolution
+# fix break: contig_12:644652-644673 0 -0 +0 NoSolution
+fix break: contig_12:649740-649753 649519 -281 +291 BreakFix
+fix break: contig_12:655765-655778 655739 -253 +253 BreakFix
+# fix break: contig_12:657851-658031 0 -0 +0 NoSolution
+# fix break: contig_12:658296-658325 0 -0 +0 NoSolution
+# fix break: contig_12:662175-663892 0 -0 +0 NoSolution TandemRepeat 404
+# fix break: contig_12:664188-665946 0 -0 +0 NoSolution
+fix break: contig_12:666321-666431 666121 -397 +398 BreakFix
+# fix break: contig_12:667104-667346 0 -0 +0 NoSolution
+fix break: contig_12:667709-667710 667577 -187 +190 BreakFix
+fix break: contig_12:668163-668316 668074 -443 +425 BreakFix
+fix break: contig_12:672506-672526 672398 -292 +306 BreakFix
+fix break: contig_12:674838-674966 674885 -62 +0 BreakFix
+fix break: contig_12:693266-693299 693124 -300 +305 BreakFix
+# fix break: contig_12:696171-696182 0 -0 +0 NoSolution
+fix break: contig_12:698099-698114 697993 -328 +334 BreakFix
+# fix break: contig_12:707699-707772 0 -0 +0 NoSolution TandemRepeat 24
+# fix break: contig_12:710322 0 -0 +0 NoSolution
+fix break: contig_12:710954-710992 710866 -129 +127 BreakFix
+# fix break: contig_12:711664-711773 0 -0 +0 NoSolution
+fix break: contig_12:716215-716249 716037 -473 +467 BreakFix
+fix break: contig_12:716591-716842 716342 -763 +765 BreakFix
+fix break: contig_12:717458-717530 717213 -560 +560 BreakFix
+fix break: contig_12:717928-718090 717756 -601 +601 BreakFix
+# fix break: contig_12:718821-718880 0 -0 +0 NoSolution
+# fix break: contig_12:719885-720103 0 -0 +0 NoSolution
+# fix break: contig_12:720339 0 -0 +0 NoSolution
+# fix break: contig_12:720832-723090 0 -0 +0 NoSolution
+# fix break: contig_12:723302-723357 0 -0 +0 NoSolution
+# fix break: contig_12:723581-724047 0 -0 +0 NoSolution
+# fix break: contig_12:724263-724917 0 -0 +0 NoSolution
+# fix break: contig_12:725268-726719 0 -0 +0 NoSolution
+# fix break: contig_12:727010-727183 0 -0 +0 NoSolution
+fix break: contig_12:727483-728448 727426 -1117 +1113 BreakFix
+# fix break: contig_12:728853-729946 0 -0 +0 NoSolution
+# fix break: contig_12:730291-730989 0 -0 +0 NoSolution
+# fix break: contig_12:731519 0 -0 +0 NoSolution
+# fix break: contig_12:731735-733398 0 -0 +0 NoSolution
+# fix break: contig_12:733827-734258 0 -0 +0 NoSolution
+# fix break: contig_12:734614-735096 0 -0 +0 NoSolution
+# fix break: contig_12:735299-735345 0 -0 +0 NoSolution
+fix break: contig_12:735560-735587 735337 -447 +445 BreakFix
+# fix break: contig_12:736086-736114 0 -0 +0 NoSolution
+# fix break: contig_12:736492-736510 0 -0 +0 NoSolution
+# fix break: contig_12:736995-737165 0 -0 +0 NoSolution
+fix break: contig_12:738280-738281 738146 -351 +348 BreakFix
+# fix break: contig_12:738737-739065 0 -0 +0 NoSolution
+# fix break: contig_12:739296-739421 0 -0 +0 NoSolution
+fix break: contig_12:739651-739656 739381 -526 +528 BreakFix
+# fix break: contig_12:739860-739879 0 -0 +0 NoSolution
+# fix break: contig_12:740299-740300 0 -0 +0 NoSolution
+# fix break: contig_12:740874 0 -0 +0 NoSolution
+# fix break: contig_12:741299-741443 0 -0 +0 NoSolution
+# fix break: contig_12:741659-741665 0 -0 +0 NoSolution
+# fix break: contig_12:742117-742351 0 -0 +0 NoSolution
+# fix break: contig_12:742602-742736 0 -0 +0 NoSolution
+# fix break: contig_12:743318-743590 0 -0 +0 NoSolution
+# fix break: contig_12:743812-743815 0 -0 +0 NoSolution
+# fix break: contig_12:744332-744466 0 -0 +0 NoSolution
+# fix break: contig_12:744697-744901 0 -0 +0 NoSolution
+# fix break: contig_12:745315-745430 0 -0 +0 NoSolution
+# fix break: contig_12:745651-745938 0 -0 +0 NoSolution
+# fix break: contig_12:746202-746856 0 -0 +0 NoSolution
+# fix break: contig_12:747197-747704 0 -0 +0 NoSolution
+# fix break: contig_12:748638-748887 0 -0 +0 NoSolution
+# fix break: contig_12:754316-754759 0 -0 +0 NoSolution
+fix break: contig_12:761864 761791 -299 +299 BreakFix
+# fix break: contig_12:764168-764972 0 -0 +0 NoSolution
+# fix break: contig_12:765982 0 -0 +0 NoSolution
+# fix break: contig_12:771105 0 -0 +0 NoSolution
+# fix break: contig_12:771713-771714 0 -0 +0 NoSolution
+# fix break: contig_12:773842-774218 0 -0 +0 NoSolution
+# fix break: contig_12:777320-777334 0 -0 +0 NoSolution
+fix break: contig_12:778291-778292 778218 -279 +281 BreakFix
+# fix break: contig_12:779452-779472 0 -0 +0 NoSolution
+# fix break: contig_12:779884-779928 0 -0 +0 NoSolution
+# fix break: contig_12:780230-780236 0 -0 +0 NoSolution
+fix break: contig_12:780706 780442 -458 +461 BreakFix
+# fix break: contig_12:788525-788527 0 -0 +0 NoSolution TandemRepeat 24
+fix break: contig_12:794894-794910 794852 -303 +311 BreakFix
+# fix break: contig_12:797290-797867 0 -0 +0 NoSolution
+# fix break: contig_12:798437-798876 0 -0 +0 NoSolution TandemRepeat 18
+# fix break: contig_12:799330-799334 0 -0 +0 NoSolution TandemRepeat 18
+fix break: contig_12:799697-799814 799455 -624 +629 BreakFix
+# fix break: contig_12:800610 0 -0 +0 NoSolution
+fix break: contig_12:800821-800839 800610 -284 +278 BreakFix
+# fix break: contig_12:801935-803044 0 -0 +0 NoSolution
+# fix break: contig_12:803460-815472 0 -0 +0 NoSolution
+fix break: contig_12:815725-816445 815526 -1045 +1041 BreakFix
+fix break: contig_12:816702-817020 816570 -707 +709 BreakFix
+fix break: contig_12:817274-817429 817278 -270 +270 BreakFix
+fix break: contig_12:818259-818304 818058 -469 +469 BreakFix
+# fix break: contig_12:818985-820556 0 -0 +0 NoSolution
+fix break: contig_12:820813-821396 820648 -903 +900 BreakFix
+# fix break: contig_12:821870 0 -0 +0 NoSolution
+# fix break: contig_12:822110-822791 0 -0 +0 NoSolution
+# fix break: contig_12:823145-823638 0 -0 +0 NoSolution
+# fix break: contig_12:824132 0 -0 +0 NoSolution
+# fix break: contig_12:824359-824378 0 -0 +0 NoSolution
+# fix break: contig_12:824879 0 -0 +0 NoSolution
+# fix break: contig_12:825259-825691 0 -0 +0 NoSolution
+fix break: contig_12:826522-826720 826308 -662 +665 BreakFix
+# fix break: contig_12:827214-827319 0 -0 +0 NoSolution
+# fix break: contig_12:827572-827641 0 -0 +0 NoSolution
+fix break: contig_12:828268-829164 828088 -1077 +1065 BreakFix
+fix break: contig_12:829373-830215 829164 -1181 +1173 BreakFix
+# fix break: contig_12:830542-830560 0 -0 +0 NoSolution
+# fix break: contig_12:831292 0 -0 +0 NoSolution
+# fix break: contig_12:831666 0 -0 +0 NoSolution
+# fix break: contig_12:832112-833334 0 -0 +0 NoSolution
+# fix break: contig_12:833866-834137 0 -0 +0 NoSolution
+# fix break: contig_12:834434-834591 0 -0 +0 NoSolution
+# fix break: contig_12:835074-836421 0 -0 +0 NoSolution
+# fix break: contig_12:836646-837568 0 -0 +0 NoSolution
+# fix break: contig_12:837838-838089 0 -0 +0 NoSolution
+# fix break: contig_12:839304-839318 0 -0 +0 NoSolution
+# fix break: contig_12:842614 0 -0 +0 NoSolution
+# fix break: contig_12:842897-842915 0 -0 +0 NoSolution
+# fix break: contig_12:843197-843234 0 -0 +0 NoSolution
+# fix break: contig_12:843451-844138 0 -0 +0 NoSolution
+# fix break: contig_12:844713-845471 0 -0 +0 NoSolution
+# fix break: contig_12:846626-847009 0 -0 +0 NoSolution
+# fix break: contig_12:847215-848040 0 -0 +0 NoSolution
+# fix break: contig_12:848301-848313 0 -0 +0 NoSolution
+# fix break: contig_12:848537-848540 0 -0 +0 NoSolution
+# fix break: contig_12:848786-849361 0 -0 +0 NoSolution
+# fix break: contig_12:849874-850062 0 -0 +0 NoSolution
+fix break: contig_12:850626-850694 850461 -377 +374 BreakFix
+fix break: contig_12:851218-851254 851159 -304 +306 BreakFix
+# fix break: contig_12:851706-851716 0 -0 +0 NoSolution TandemRepeat 56
+# fix break: contig_12:852147 0 -0 +0 NoSolution TandemRepeat 56
+fix break: contig_12:853350-853368 853167 -285 +285 BreakFix
+# fix break: contig_12:853739-853740 0 -0 +0 NoSolution
+# fix break: contig_12:855456-855856 0 -0 +0 NoSolution
+# fix break: contig_12:857931-858592 0 -0 +0 NoSolution
+fix break: contig_12:859277 859109 -407 +405 BreakFix
+# fix break: contig_12:860241-860623 0 -0 +0 NoSolution
+# fix break: contig_12:861297-861423 0 -0 +0 NoSolution
+# fix break: contig_12:862094-862184 0 -0 +0 NoSolution
+fix break: contig_12:862501-862606 862455 -268 +270 BreakFix
+# fix break: contig_12:863058-863112 0 -0 +0 NoSolution
+# fix break: contig_12:864793-864820 0 -0 +0 NoSolution
+# fix break: contig_12:865609-865617 0 -0 +0 NoSolution
+fix break: contig_12:866354-866371 866226 -364 +365 BreakFix
+# fix break: contig_12:867524-867905 0 -0 +0 NoSolution
+# fix break: contig_12:868459-868594 0 -0 +0 NoSolution
+# fix break: contig_12:868801-868804 0 -0 +0 NoSolution
+# fix break: contig_12:869104-869119 0 -0 +0 NoSolution
+# fix break: contig_12:869702-869814 0 -0 +0 NoSolution
+# fix break: contig_12:870033-870078 0 -0 +0 NoSolution
+# fix break: contig_12:870746-870747 0 -0 +0 NoSolution
+fix break: contig_12:872751-872752 872486 -492 +490 BreakFix
+fix break: contig_12:873147-873276 872977 -533 +484 BreakFix
+# fix break: contig_12:874108 0 -0 +0 NoSolution
+# fix break: contig_12:874600-874753 0 -0 +0 NoSolution
+# fix break: contig_12:877079-877094 0 -0 +0 NoSolution
+# fix break: contig_12:878392-878576 0 -0 +0 NoSolution
+# fix break: contig_12:878795-879058 0 -0 +0 NoSolution
+# fix break: contig_12:879802-879832 0 -0 +0 NoSolution
+fix break: contig_12:880098 879928 -437 +436 BreakFix
+# fix break: contig_12:880651 0 -0 +0 NoSolution
+fix break: contig_12:882932-882940 882785 -379 +383 BreakFix
+# fix break: contig_12:883287-883525 0 -0 +0 NoSolution
+fix break: contig_12:890786-890792 890838 -122 +124 BreakFix
+# fix break: contig_12:898944-899946 0 -0 +0 NoSolution
+# fix break: contig_12:900173 0 -0 +0 NoSolution
+# fix break: contig_12:900409-906223 0 -0 +0 NoSolution
+# fix break: contig_12:906525-917807 0 -0 +0 NoSolution
+# fix break: contig_12:918025-919030 0 -0 +0 NoSolution
+# fix break: contig_12:919732-919862 0 -0 +0 NoSolution
+# fix break: contig_12:920223-920771 0 -0 +0 NoSolution
+# fix break: contig_12:921048-921626 0 -0 +0 NoSolution
+# fix break: contig_12:921868-923473 0 -0 +0 NoSolution
+# fix break: contig_12:923754-924295 0 -0 +0 NoSolution
+# fix break: contig_12:928221-928281 0 -0 +0 NoSolution
+# fix break: contig_12:928674 0 -0 +0 NoSolution
+# fix break: contig_12:929978 0 -0 +0 NoSolution
+# fix break: contig_12:930703-930798 0 -0 +0 NoSolution
+# fix break: contig_12:938464 0 -0 +0 NoSolution
+# fix break: contig_12:939062-939098 0 -0 +0 NoSolution
+# fix break: contig_12:939422 0 -0 +0 NoSolution
+fix break: contig_12:939646 939390 -308 +305 BreakFix
+fix break: contig_12:940148-940178 939977 -447 +449 BreakFix
+# fix break: contig_12:940551-940570 0 -0 +0 NoSolution
+# fix break: contig_12:941319 0 -0 +0 NoSolution
+# fix break: contig_12:942141-942261 0 -0 +0 NoSolution
+# fix break: contig_12:942846-942850 0 -0 +0 NoSolution
+fix break: contig_12:943722-943842 943668 -362 +362 BreakFix
+# fix break: contig_12:947185-947198 0 -0 +0 NoSolution
+# fix break: contig_12:947681-947917 0 -0 +0 NoSolution
+fix break: contig_12:949297-949298 949093 -411 +409 BreakFix
+fix break: contig_12:950260-950484 950144 -492 +492 BreakFix
+fix break: contig_12:950814-951938 950617 -1591 +1850 BreakFix
+# fix break: contig_12:952378-952436 0 -0 +0 NoSolution
+fix break: contig_12:953659-953673 953882 -37 +36 BreakFix
+# fix break: contig_12:954634-954642 0 -0 +0 NoSolution
+fix break: contig_12:954874-955204 954634 -635 +627 BreakFix
+fix break: contig_12:955555-955782 955301 -523 +525 BreakFix
+fix break: contig_12:956318-956653 956285 -544 +546 BreakFix
+fix break: contig_12:958164 957918 -290 +287 BreakFix
+fix break: contig_12:958863 958660 -450 +450 BreakFix
+# fix break: contig_12:959466-961067 0 -0 +0 NoSolution
+# fix break: contig_12:961303-961942 0 -0 +0 NoSolution
+# fix break: contig_12:962192-962205 0 -0 +0 NoSolution
+fix break: contig_12:962852-963617 962778 -768 +768 BreakFix
+# fix break: contig_12:963907-965088 0 -0 +0 NoSolution
+# fix break: contig_12:965418-967347 0 -0 +0 NoSolution
+# fix break: contig_12:967626-970055 0 -0 +0 NoSolution
+# fix break: contig_12:971174-971182 0 -0 +0 NoSolution
+# fix break: contig_12:971481-971780 0 -0 +0 NoSolution
+# fix break: contig_12:972407-972482 0 -0 +0 NoSolution
+# fix break: contig_12:972795-972986 0 -0 +0 NoSolution
+# fix break: contig_12:973190-973208 0 -0 +0 NoSolution
+fix break: contig_12:974087-974196 973842 -606 +605 BreakFix
+# fix break: contig_12:975674-975898 0 -0 +0 NoSolution
+# fix break: contig_12:976121-976124 0 -0 +0 NoSolution
+fix break: contig_12:986735 986671 -316 +314 BreakFix
+# fix break: contig_12:988064 0 -0 +0 NoSolution TandemRepeat 25
+fix break: contig_12:990338-990744 990166 -658 +661 BreakFix
+# fix break: contig_12:991157 0 -0 +0 NoSolution
+fix break: contig_12:991661-992032 991407 -873 +874 BreakFix
+fix break: contig_12:992608-993088 992469 -791 +796 BreakFix
+# fix break: contig_12:993791-994156 0 -0 +0 NoSolution
+# fix break: contig_12:994456 0 -0 +0 NoSolution
+# fix break: contig_12:994895-994918 0 -0 +0 NoSolution
+# fix break: contig_12:1006539-1006589 0 -0 +0 NoSolution
+fix break: contig_12:1006986-1007108 1006908 -431 +428 BreakFix
+fix break: contig_12:1008828-1008836 1008734 -131 +134 BreakFix
+fix break: contig_12:1009707-1010031 1009468 -663 +662 BreakFix
+# fix break: contig_12:1010560-1010588 0 -0 +0 NoSolution
+fix break: contig_12:1011957-1012414 1011793 -522 +522 BreakFix
+fix break: contig_12:1013496-1014212 1013357 -1111 +1110 BreakFix
+fix break: contig_12:1014540-1014761 1014348 -631 +627 BreakFix
+# fix break: contig_12:1016339-1016360 0 -0 +0 NoSolution
+# fix break: contig_12:1017574-1017666 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_12:1020839-1020841 0 -0 +0 NoSolution
+fix break: contig_12:1022724 1022485 -240 +239 BreakFix
+# fix break: contig_12:1025975-1026186 0 -0 +0 NoSolution TandemRepeat 48
+fix break: contig_12:1031953 1031951 -207 +205 BreakFix
+# fix break: contig_12:1032914-1033255 0 -0 +0 NoSolution
+# fix break: contig_12:1034839-1034942 0 -0 +0 NoSolution TandemRepeat 20
+# fix break: contig_12:1035979-1036077 0 -0 +0 NoSolution
+# fix break: contig_12:1036745-1037087 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_12:1041230-1041250 0 -0 +0 NoSolution TandemRepeat 17
+fix break: contig_12:1043073 1042974 -100 +99 BreakFix
+# fix break: contig_12:1047988-1048387 0 -0 +0 NoSolution TandemRepeat 2
+fix break: contig_12:1052170-1052176 1052012 -165 +167 BreakFix
+fix break: contig_12:1056638-1056656 1056787 -55 +55 BreakFix
+# fix break: contig_12:1059304-1059308 0 -0 +0 NoSolution
+# fix break: contig_12:1059516-1059540 0 -0 +0 NoSolution
+# fix break: contig_12:1059965-1060272 0 -0 +0 NoSolution
+# fix break: contig_12:1062456-1062461 0 -0 +0 NoSolution
+fix break: contig_12:1062693-1063086 1062455 -518 +520 BreakFix
+# fix break: contig_12:1063346-1063618 0 -0 +0 NoSolution
+# fix break: contig_12:1064707-1064710 0 -0 +0 NoSolution
+fix break: contig_12:1064968-1065131 1064712 -502 +511 BreakFix
+fix break: contig_12:1065533-1065537 1065422 -361 +359 BreakFix
+fix break: contig_12:1065961 1065783 -340 +342 BreakFix
+fix break: contig_12:1066370-1066380 1066166 -461 +463 BreakFix
+fix break: contig_12:1067110-1067566 1067168 -439 +437 BreakFix
+fix break: contig_12:1068167-1068173 1068167 -202 +203 BreakFix
+fix break: contig_12:1068434-1069037 1068167 -1037 +1041 BreakFix
+fix break: contig_12:1069261 1069073 -349 +348 BreakFix
+# fix break: contig_12:1069782-1075336 0 -0 +0 NoSolution
+fix break: contig_12:1075700-1076341 1075505 -927 +928 BreakFix
+# fix break: contig_12:1076592-1077185 0 -0 +0 NoSolution
+# fix break: contig_12:1077600-1078098 0 -0 +0 NoSolution
+# fix break: contig_12:1078437-1078699 0 -0 +0 NoSolution
+# fix break: contig_12:1078943-1078950 0 -0 +0 NoSolution
+# fix break: contig_12:1081548 0 -0 +0 NoSolution
+# fix break: contig_12:1081919-1082056 0 -0 +0 NoSolution
+fix break: contig_12:1087172 1086985 -188 +184 BreakFix
+# fix break: contig_12:1088302-1088307 0 -0 +0 NoSolution
+# fix break: contig_12:1088912-1089071 0 -0 +0 NoSolution
+# fix break: contig_12:1089591-1089903 0 -0 +0 NoSolution
+# fix break: contig_12:1090622-1091044 0 -0 +0 NoSolution
+fix break: contig_12:1091512 1091296 -416 +415 BreakFix
+# fix break: contig_12:1091880-1092187 0 -0 +0 NoSolution
+fix break: contig_12:1094678-1094978 1094652 -592 +583 BreakFix
+fix break: contig_12:1095380-1095539 1095138 -633 +628 BreakFix
+fix break: contig_12:1095936-1096142 1095731 -578 +577 BreakFix
+# fix break: contig_12:1097169-1097177 0 -0 +0 NoSolution
+# fix break: contig_12:1097409-1097559 0 -0 +0 NoSolution
+fix break: contig_12:1098157-1098170 1097925 -418 +421 BreakFix
+fix break: contig_12:1098535-1098541 1098343 -382 +380 BreakFix
+fix break: contig_12:1099669-1100216 1099499 -942 +934 BreakFix
+# fix break: contig_12:1102057-1102128 0 -0 +0 NoSolution
+fix break: contig_12:1102476-1102578 1102400 -221 +222 BreakFix
+# fix break: contig_12:1103224-1103273 0 -0 +0 NoSolution
+# fix break: contig_12:1103524-1103525 0 -0 +0 NoSolution
+fix break: contig_12:1104020-1104090 1103797 -481 +479 BreakFix
+fix break: contig_12:1104396-1104718 1104278 -705 +701 BreakFix
+fix break: contig_12:1105037-1105064 1104815 -517 +516 BreakFix
+fix break: contig_12:1112226-1112272 1112267 -107 +111 BreakFix
+fix break: contig_12:1116844 1116625 -353 +352 BreakFix
+# fix break: contig_12:1120812-1120909 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_12:1126406-1126451 0 -0 +0 NoSolution
+fix break: contig_12:1130093-1130194 1130079 -358 +362 BreakFix
+# fix break: contig_12:1130577-1130601 0 -0 +0 NoSolution
+# fix break: contig_12:1131504-1131692 0 -0 +0 NoSolution
+fix break: contig_12:1131963-1131971 1131813 -411 +405 BreakFix
+fix break: contig_12:1132541-1133012 1132466 -618 +620 BreakFix
+# fix break: contig_12:1133294-1134682 0 -0 +0 NoSolution
+fix break: contig_12:1134930-1135554 1134686 -995 +996 BreakFix
+# fix break: contig_12:1136345-1136459 0 -0 +0 NoSolution
+# fix break: contig_12:1136965-1136975 0 -0 +0 NoSolution
+# fix break: contig_12:1137230-1137576 0 -0 +0 NoSolution
+# fix break: contig_12:1138058-1138065 0 -0 +0 NoSolution
+fix break: contig_12:1138321-1138764 1138242 -669 +663 BreakFix
+fix break: contig_12:1139460-1139464 1139268 -240 +244 BreakFix
+# fix break: contig_12:1139989-1140642 0 -0 +0 NoSolution
+fix break: contig_12:1140882-1141112 1140615 -652 +652 BreakFix
+# fix break: contig_12:1141593-1141658 0 -0 +0 NoSolution
+# fix break: contig_12:1142193-1142351 0 -0 +0 NoSolution TandemRepeat 577
+# fix break: contig_12:1142688-1142690 0 -0 +0 NoSolution TandemRepeat 576
+# fix break: contig_12:1143735-1144010 0 -0 +0 NoSolution
+fix break: contig_12:1144292-1144295 1144127 -368 +371 BreakFix
+fix break: contig_12:1147847-1147989 1147705 -104 +101 BreakFix
+fix break: contig_12:1149610-1149614 1149534 -292 +287 BreakFix
+fix break: contig_12:1150039-1150237 1149812 -485 +487 BreakFix
+# fix break: contig_12:1150538-1150769 0 -0 +0 NoSolution
+fix break: contig_12:1151437-1151645 1151589 -195 +195 BreakFix
+fix break: contig_12:1152551-1152926 1152562 -602 +600 BreakFix
+# fix break: contig_12:1164158-1164224 0 -0 +0 NoSolution
+fix break: contig_12:1170461-1170463 1170326 -379 +379 BreakFix
+# fix break: contig_12:1173960-1174212 0 -0 +0 NoSolution
+# fix break: contig_12:1174842-1175065 0 -0 +0 NoSolution
+fix break: contig_12:1175512-1175818 1175322 -650 +646 BreakFix
+# fix break: contig_12:1177407-1177611 0 -0 +0 NoSolution
+fix break: contig_12:1178567-1178928 1178427 -553 +548 BreakFix
+fix break: contig_12:1179628-1179649 1179462 -285 +288 BreakFix
+# fix break: contig_12:1181332-1181334 0 -0 +0 NoSolution
+# fix break: contig_12:1181700-1181750 0 -0 +0 NoSolution
+fix break: contig_12:1182582-1182679 1182321 -522 +520 BreakFix
+fix break: contig_12:1182915-1182921 1182669 -481 +480 BreakFix
+fix break: contig_12:1183436-1183667 1183441 -242 +249 BreakFix
+fix break: contig_12:1183907-1184805 1183885 -1140 +1144 BreakFix
+fix break: contig_12:1185666-1186059 1185541 -779 +780 BreakFix
+fix break: contig_12:1186810-1186832 1186574 -372 +370 BreakFix
+# fix break: contig_12:1187254-1187425 0 -0 +0 NoSolution
+# fix break: contig_12:1187649-1189169 0 -0 +0 NoSolution
+# fix break: contig_12:1189496-1190797 0 -0 +0 NoSolution
+fix break: contig_12:1192060-1192201 1191910 -534 +534 BreakFix
+fix break: contig_12:1193223 1193066 -158 +158 BreakFix
+fix break: contig_12:1195692-1195837 1195739 -80 +57 BreakFix
+# fix break: contig_12:1203296-1203363 0 -0 +0 NoSolution
+fix break: contig_12:1203883-1204018 1203627 -450 +452 BreakFix
+# fix break: contig_12:1209604 0 -0 +0 NoSolution
+# fix break: contig_12:1210106-1210358 0 -0 +0 NoSolution
+fix break: contig_12:1211299-1211327 1211171 -259 +255 BreakFix
+# fix break: contig_12:1211872-1211916 0 -0 +0 NoSolution
+fix break: contig_12:1212365 1212198 -168 +169 BreakFix
+# fix break: contig_12:1216330-1216348 0 -0 +0 NoSolution
+# fix break: contig_12:1217784 0 -0 +0 NoSolution
+# fix break: contig_12:1218660-1218682 0 -0 +0 NoSolution
+# fix break: contig_12:1219012-1219162 0 -0 +0 NoSolution
+fix break: contig_12:1224045-1224060 1223989 -197 +201 BreakFix
+# fix break: contig_12:1228465-1228848 0 -0 +0 NoSolution
+# fix break: contig_12:1229360-1229364 0 -0 +0 NoSolution
+# fix break: contig_12:1240544 0 -0 +0 NoSolution
+# fix break: contig_12:1241196-1241209 0 -0 +0 NoSolution
+# fix break: contig_12:1241426-1241622 0 -0 +0 NoSolution
+fix break: contig_12:1242362-1242507 1242110 -525 +521 BreakFix
+# fix break: contig_12:1242875-1242939 0 -0 +0 NoSolution
+# fix break: contig_12:1243753 0 -0 +0 NoSolution
+fix break: contig_12:1244150 1243985 -166 +164 BreakFix
+# fix break: contig_12:1244473-1244487 0 -0 +0 NoSolution
+fix break: contig_12:1245454-1245520 1245221 -441 +441 BreakFix
+fix break: contig_12:1246635-1246648 1246374 -401 +403 BreakFix
+# fix break: contig_12:1246861-1247103 0 -0 +0 NoSolution
+# fix break: contig_12:1247820 0 -0 +0 NoSolution
+# fix break: contig_12:1248156-1248596 0 -0 +0 NoSolution
+fix break: contig_12:1249522-1249578 1249281 -485 +488 BreakFix
+# fix break: contig_12:1253185-1253187 0 -0 +0 NoSolution
+# fix break: contig_12:1255043-1255051 0 -0 +0 NoSolution
+fix break: contig_12:1284785-1284789 1284679 -107 +111 BreakFix
+fix break: contig_12:1285387 1285131 -427 +424 BreakFix
+# fix break: contig_12:1285688-1285947 0 -0 +0 NoSolution
+fix break: contig_12:1287045-1287248 1286831 -497 +497 BreakFix
+fix break: contig_12:1288367-1288612 1288179 -287 +286 BreakFix
+fix break: contig_12:1288864-1289084 1289048 -294 +292 BreakFix
+fix break: contig_12:1289308-1289491 1289048 -532 +531 BreakFix
+# fix break: contig_12:1289739-1289748 0 -0 +0 NoSolution
+fix break: contig_12:1289960-1290038 1289753 -546 +554 BreakFix
+# fix break: contig_12:1290482-1291073 0 -0 +0 NoSolution
+# fix break: contig_12:1291294-1291350 0 -0 +0 NoSolution
+# fix break: contig_12:1291645-1291651 0 -0 +0 NoSolution
+# fix break: contig_12:1292439-1292891 0 -0 +0 NoSolution
+# fix break: contig_12:1293250-1293497 0 -0 +0 NoSolution
+# fix break: contig_12:1294861-1295094 0 -0 +0 NoSolution
+# fix break: contig_12:1295682-1295867 0 -0 +0 NoSolution
+# fix break: contig_12:1296685-1297896 0 -0 +0 NoSolution
+# fix break: contig_12:1298639-1298652 0 -0 +0 NoSolution
+# fix break: contig_12:1298994 0 -0 +0 NoSolution
+# fix break: contig_12:1299608-1299699 0 -0 +0 NoSolution
+fix break: contig_12:1301099-1301113 1300952 -391 +391 BreakFix
+# fix break: contig_12:1301341-1301737 0 -0 +0 NoSolution
+fix break: contig_12:1301941-1301942 1301676 -483 +482 BreakFix
+# fix break: contig_12:1302496-1302608 0 -0 +0 NoSolution
+# fix break: contig_12:1302964-1303220 0 -0 +0 NoSolution
+# fix break: contig_12:1303467-1304990 0 -0 +0 NoSolution
+contig_12:1-1313427 log:
+Finished processing contig_12:1-1313427
+Processing contig_13:1-1780704
+frags /home/mila6004/Genomeanalysis/results/3_assembly_polishing/bwa/bwa.sorted.bam: coverage 354
+Total Reads: 5213597, Coverage: 354, minDepth: 35
+Confirmed 1726012 of 1780704 bases (96.93%)
+Corrected 10614 snps; 80 ambiguous bases; corrected 4488 small insertions totaling 4907 bases, 2809 small deletions totaling 3242 bases
+Large collapsed region: contig_13:8805-26138 size 17334
+Large collapsed region: contig_13:736509-755045 size 18537
+Large collapsed region: contig_13:1465460-1488650 size 23191
+Large collapsed region: contig_13:1629090-1647470 size 18381
+# Attempting to fix local continuity breaks
+# fix break: contig_13:322-328 0 -0 +0 NoSolution
+# fix break: contig_13:773-949 0 -0 +0 NoSolution
+fix break: contig_13:2424-2835 2204 -780 +793 BreakFix
+# fix break: contig_13:3875-4310 0 -0 +0 NoSolution
+fix break: contig_13:7719-7720 7725 -82 +80 BreakFix
+fix break: contig_13:8678-9253 8431 -865 +866 BreakFix
+fix break: contig_13:9665-9705 9538 -360 +362 BreakFix
+# fix break: contig_13:10125-10166 0 -0 +0 NoSolution
+fix break: contig_13:10885-11090 10670 -598 +598 BreakFix
+# fix break: contig_13:11749-11843 0 -0 +0 NoSolution
+fix break: contig_13:12203-13011 12036 -1240 +1235 BreakFix
+fix break: contig_13:13247-13313 12984 -501 +499 BreakFix
+fix break: contig_13:13844-14162 13637 -741 +741 BreakFix
+# fix break: contig_13:14502-14579 0 -0 +0 NoSolution
+fix break: contig_13:14944 14674 -388 +385 BreakFix
+fix break: contig_13:15774-15973 15749 -473 +474 BreakFix
+fix break: contig_13:16852-16924 16586 -442 +443 BreakFix
+# fix break: contig_13:17160-17201 0 -0 +0 NoSolution
+fix break: contig_13:18186-18266 18436 -55 +53 BreakFix
+# fix break: contig_13:18481 0 -0 +0 NoSolution
+# fix break: contig_13:18799 0 -0 +0 NoSolution
+fix break: contig_13:19382-19749 19157 -821 +816 BreakFix
+# fix break: contig_13:19990-20055 0 -0 +0 NoSolution
+# fix break: contig_13:20450-20501 0 -0 +0 NoSolution
+fix break: contig_13:21192-21211 21039 -342 +344 BreakFix
+# fix break: contig_13:21841-22095 0 -0 +0 NoSolution
+fix break: contig_13:22397-22448 22213 -462 +459 BreakFix
+fix break: contig_13:22773-22774 22674 -322 +319 BreakFix
+# fix break: contig_13:22994-23007 0 -0 +0 NoSolution
+fix break: contig_13:23218-23230 22995 -499 +500 BreakFix
+fix break: contig_13:23444-23911 23287 -794 +793 BreakFix
+# fix break: contig_13:24277-24298 0 -0 +0 NoSolution
+fix break: contig_13:24508-24544 24289 -299 +296 BreakFix
+# fix break: contig_13:24857-25291 0 -0 +0 NoSolution
+fix break: contig_13:25669-25808 25409 -614 +609 BreakFix
+# fix break: contig_13:26392-26565 0 -0 +0 NoSolution
+# fix break: contig_13:27762-27938 0 -0 +0 NoSolution
+# fix break: contig_13:29269-29273 0 -0 +0 NoSolution
+# fix break: contig_13:30291-30372 0 -0 +0 NoSolution
+# fix break: contig_13:30682-30704 0 -0 +0 NoSolution
+# fix break: contig_13:31163-31213 0 -0 +0 NoSolution
+# fix break: contig_13:32134-32397 0 -0 +0 NoSolution TandemRepeat 151
+# fix break: contig_13:32893-33470 0 -0 +0 NoSolution TandemRepeat 151
+# fix break: contig_13:33715-33884 0 -0 +0 NoSolution TandemRepeat 151
+# fix break: contig_13:34263-34634 0 -0 +0 NoSolution TandemRepeat 151
+# fix break: contig_13:35657-35662 0 -0 +0 NoSolution
+fix break: contig_13:35881-35882 35762 -283 +284 BreakFix
+# fix break: contig_13:36342-36351 0 -0 +0 NoSolution
+# fix break: contig_13:37508-37586 0 -0 +0 NoSolution
+# fix break: contig_13:37891-38276 0 -0 +0 NoSolution
+# fix break: contig_13:39177-39254 0 -0 +0 NoSolution
+fix break: contig_13:39701-39702 39584 -259 +260 BreakFix
+# fix break: contig_13:40066-40079 0 -0 +0 NoSolution
+fix break: contig_13:40439-40472 40243 -499 +496 BreakFix
+fix break: contig_13:40891-41852 40677 -1077 +1074 BreakFix
+# fix break: contig_13:42339-42543 0 -0 +0 NoSolution
+# fix break: contig_13:44308-44841 0 -0 +0 NoSolution
+fix break: contig_13:45505-45744 45377 -574 +575 BreakFix
+fix break: contig_13:46504-46865 46462 -629 +618 BreakFix
+# fix break: contig_13:47166-48415 0 -0 +0 NoSolution
+fix break: contig_13:48649-48977 48458 -662 +659 BreakFix
+# fix break: contig_13:49456-49493 0 -0 +0 NoSolution
+# fix break: contig_13:50259-50262 0 -0 +0 NoSolution
+# fix break: contig_13:50562-50623 0 -0 +0 NoSolution
+# fix break: contig_13:50983-51027 0 -0 +0 NoSolution
+fix break: contig_13:51291-51810 51082 -913 +914 BreakFix
+# fix break: contig_13:52867-53195 0 -0 +0 NoSolution
+fix break: contig_13:54039-54177 53848 -412 +412 BreakFix
+# fix break: contig_13:54714-54959 0 -0 +0 NoSolution
+fix break: contig_13:55277-55425 55011 -531 +530 BreakFix
+fix break: contig_13:55631-55682 55422 -332 +339 BreakFix
+# fix break: contig_13:55951-56667 0 -0 +0 NoSolution
+# fix break: contig_13:57324-57355 0 -0 +0 NoSolution
+# fix break: contig_13:57664-57689 0 -0 +0 NoSolution
+fix break: contig_13:58010-58016 57821 -388 +390 BreakFix
+# fix break: contig_13:58607-58658 0 -0 +0 NoSolution
+# fix break: contig_13:59560-60071 0 -0 +0 NoSolution
+# fix break: contig_13:60684-60818 0 -0 +0 NoSolution
+# fix break: contig_13:61828-62180 0 -0 +0 NoSolution
+# fix break: contig_13:62461-62465 0 -0 +0 NoSolution
+# fix break: contig_13:64067-64082 0 -0 +0 NoSolution
+# fix break: contig_13:66071-66082 0 -0 +0 NoSolution
+# fix break: contig_13:66767-66776 0 -0 +0 NoSolution
+# fix break: contig_13:68149-68370 0 -0 +0 NoSolution
+# fix break: contig_13:71586-71837 0 -0 +0 NoSolution
+fix break: contig_13:92686 92685 -262 +265 BreakFix
+# fix break: contig_13:102017-102178 0 -0 +0 NoSolution
+# fix break: contig_13:103140-103304 0 -0 +0 NoSolution
+fix break: contig_13:117465-117613 117551 -51 +53 BreakFix
+fix break: contig_13:120483 120304 -180 +183 BreakFix
+# fix break: contig_13:123376-123505 0 -0 +0 NoSolution
+# fix break: contig_13:135356-135514 0 -0 +0 NoSolution
+# fix break: contig_13:136574-136584 0 -0 +0 NoSolution
+fix break: contig_13:143635 143628 -68 +70 BreakFix
+# fix break: contig_13:154096-154184 0 -0 +0 NoSolution
+# fix break: contig_13:155037-155040 0 -0 +0 NoSolution
+# fix break: contig_13:157139 0 -0 +0 NoSolution
+fix break: contig_13:158464 158346 -323 +322 BreakFix
+# fix break: contig_13:177179-177381 0 -0 +0 NoSolution
+fix break: contig_13:179025 178829 -387 +386 BreakFix
+fix break: contig_13:181032-181045 180792 -475 +471 BreakFix
+# fix break: contig_13:183227-183230 0 -0 +0 NoSolution
+# fix break: contig_13:186415-186418 0 -0 +0 NoSolution
+# fix break: contig_13:186992-187014 0 -0 +0 NoSolution
+# fix break: contig_13:187381-187434 0 -0 +0 NoSolution
+# fix break: contig_13:188645-188663 0 -0 +0 NoSolution
+# fix break: contig_13:190807-190847 0 -0 +0 NoSolution
+# fix break: contig_13:191061-191084 0 -0 +0 NoSolution
+# fix break: contig_13:192101-192128 0 -0 +0 NoSolution
+fix break: contig_13:193203-193513 193174 -579 +579 BreakFix
+# fix break: contig_13:193751-194079 0 -0 +0 NoSolution
+# fix break: contig_13:194306-194578 0 -0 +0 NoSolution
+# fix break: contig_13:197120-197145 0 -0 +0 NoSolution
+# fix break: contig_13:198421-198459 0 -0 +0 NoSolution
+# fix break: contig_13:200734-200754 0 -0 +0 NoSolution
+# fix break: contig_13:201012-201105 0 -0 +0 NoSolution
+# fix break: contig_13:201345-201411 0 -0 +0 NoSolution
+# fix break: contig_13:202014-202099 0 -0 +0 NoSolution
+# fix break: contig_13:202337-202386 0 -0 +0 NoSolution
+# fix break: contig_13:202619-202653 0 -0 +0 NoSolution
+# fix break: contig_13:203834-203904 0 -0 +0 NoSolution
+# fix break: contig_13:205768-205786 0 -0 +0 NoSolution
+# fix break: contig_13:208205-208232 0 -0 +0 NoSolution
+# fix break: contig_13:208995-209208 0 -0 +0 NoSolution
+# fix break: contig_13:209739-209787 0 -0 +0 NoSolution
+# fix break: contig_13:210244-210248 0 -0 +0 NoSolution
+# fix break: contig_13:210504-210523 0 -0 +0 NoSolution
+fix break: contig_13:214138-214158 214138 -98 +107 BreakFix
+# fix break: contig_13:214948-214976 0 -0 +0 NoSolution
+# fix break: contig_13:215782-215977 0 -0 +0 NoSolution
+# fix break: contig_13:216233-216260 0 -0 +0 NoSolution
+# fix break: contig_13:216712-217386 0 -0 +0 NoSolution
+# fix break: contig_13:217702-217721 0 -0 +0 NoSolution
+# fix break: contig_13:221270-221314 0 -0 +0 NoSolution
+fix break: contig_13:221752-221791 221738 -109 +118 BreakFix
+# fix break: contig_13:223434-223459 0 -0 +0 NoSolution
+fix break: contig_13:224049-224368 223875 -648 +651 BreakFix
+# fix break: contig_13:224634-224918 0 -0 +0 NoSolution
+# fix break: contig_13:225286-225385 0 -0 +0 NoSolution
+# fix break: contig_13:226778-226869 0 -0 +0 NoSolution
+fix break: contig_13:228649-229332 228431 -587 +587 BreakFix
+# fix break: contig_13:233908 0 -0 +0 NoSolution
+# fix break: contig_13:235047-235083 0 -0 +0 NoSolution
+fix break: contig_13:236793-236900 236725 -84 +82 BreakFix
+# fix break: contig_13:237369-237532 0 -0 +0 NoSolution
+fix break: contig_13:239277-239309 239036 -375 +378 BreakFix
+# fix break: contig_13:240528-240653 0 -0 +0 NoSolution
+# fix break: contig_13:240995-241249 0 -0 +0 NoSolution
+# fix break: contig_13:241673-241923 0 -0 +0 NoSolution
+# fix break: contig_13:244966-244992 0 -0 +0 NoSolution
+fix break: contig_13:245263-245396 245183 -404 +400 BreakFix
+# fix break: contig_13:245845-245848 0 -0 +0 NoSolution
+fix break: contig_13:246280-246333 246165 -176 +178 BreakFix
+# fix break: contig_13:255214 0 -0 +0 NoSolution
+# fix break: contig_13:257070-257086 0 -0 +0 NoSolution
+# fix break: contig_13:261105 0 -0 +0 NoSolution
+# fix break: contig_13:274058-274074 0 -0 +0 NoSolution
+# fix break: contig_13:283545 0 -0 +0 NoSolution
+# fix break: contig_13:292401 0 -0 +0 NoSolution
+# fix break: contig_13:330458-330472 0 -0 +0 NoSolution
+fix break: contig_13:331068-331172 330833 -491 +500 BreakFix
+fix break: contig_13:336726-336911 336780 -111 +112 BreakFix
+# fix break: contig_13:337305-337416 0 -0 +0 NoSolution TandemRepeat 33
+# fix break: contig_13:337899-337912 0 -0 +0 NoSolution TandemRepeat 33
+# fix break: contig_13:338691-338696 0 -0 +0 NoSolution TandemRepeat 108
+fix break: contig_13:347576-347790 347443 -516 +524 BreakFix
+fix break: contig_13:348186-348289 347963 -561 +561 BreakFix
+fix break: contig_13:360982 360723 -260 +259 BreakFix
+# fix break: contig_13:373567-373572 0 -0 +0 NoSolution
+# fix break: contig_13:373992-374059 0 -0 +0 NoSolution
+# fix break: contig_13:375467-375470 0 -0 +0 NoSolution
+# fix break: contig_13:375688 0 -0 +0 NoSolution
+# fix break: contig_13:376037-376247 0 -0 +0 NoSolution
+# fix break: contig_13:376753-376785 0 -0 +0 NoSolution
+# fix break: contig_13:377978-378061 0 -0 +0 NoSolution
+# fix break: contig_13:378967-379093 0 -0 +0 NoSolution
+# fix break: contig_13:379577-379603 0 -0 +0 NoSolution
+# fix break: contig_13:380080-380625 0 -0 +0 NoSolution
+fix break: contig_13:381152-381162 381040 -359 +362 BreakFix
+# fix break: contig_13:382150-382174 0 -0 +0 NoSolution
+# fix break: contig_13:383424-383792 0 -0 +0 NoSolution
+# fix break: contig_13:384310-384339 0 -0 +0 NoSolution
+# fix break: contig_13:384742-384770 0 -0 +0 NoSolution
+fix break: contig_13:385742-385892 385611 -397 +394 BreakFix
+fix break: contig_13:386520-386661 386357 -362 +363 BreakFix
+# fix break: contig_13:386975-387118 0 -0 +0 NoSolution
+# fix break: contig_13:387811-387977 0 -0 +0 NoSolution
+fix break: contig_13:388207-388479 388104 -505 +508 BreakFix
+# fix break: contig_13:388686-389827 0 -0 +0 NoSolution
+# fix break: contig_13:390417-390421 0 -0 +0 NoSolution
+# fix break: contig_13:391020-392833 0 -0 +0 NoSolution
+fix break: contig_13:393108-393164 393027 -402 +401 BreakFix
+# fix break: contig_13:393674-393731 0 -0 +0 NoSolution
+# fix break: contig_13:394019-394092 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_13:394382-394524 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_13:394993-395032 0 -0 +0 NoSolution TandemRepeat 1
+fix break: contig_13:395839-395840 395636 -462 +464 BreakFix
+# fix break: contig_13:396097-396319 0 -0 +0 NoSolution
+# fix break: contig_13:396706-396879 0 -0 +0 NoSolution
+# fix break: contig_13:397103-397418 0 -0 +0 NoSolution
+fix break: contig_13:398665-399118 398842 -75 +76 BreakFix
+# fix break: contig_13:400624-400761 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_13:401373-401671 0 -0 +0 NoSolution
+# fix break: contig_13:402102-402302 0 -0 +0 NoSolution TandemRepeat 51
+# fix break: contig_13:403994-404228 0 -0 +0 NoSolution TandemRepeat 19
+# fix break: contig_13:407116-407120 0 -0 +0 NoSolution
+# fix break: contig_13:417709-418046 0 -0 +0 NoSolution TandemRepeat 24
+# fix break: contig_13:419037 0 -0 +0 NoSolution
+# fix break: contig_13:420154 0 -0 +0 NoSolution
+# fix break: contig_13:421504-421507 0 -0 +0 NoSolution
+fix break: contig_13:431727-431909 431514 -452 +457 BreakFix
+# fix break: contig_13:434068-434123 0 -0 +0 NoSolution
+fix break: contig_13:438221 437972 -491 +495 BreakFix
+# fix break: contig_13:438807-438828 0 -0 +0 NoSolution
+# fix break: contig_13:439848-440011 0 -0 +0 NoSolution
+# fix break: contig_13:442300-442333 0 -0 +0 NoSolution
+# fix break: contig_13:443145-443392 0 -0 +0 NoSolution
+# fix break: contig_13:443801-443981 0 -0 +0 NoSolution
+# fix break: contig_13:450824-450825 0 -0 +0 NoSolution
+# fix break: contig_13:454988-454996 0 -0 +0 NoSolution TandemRepeat 52
+# fix break: contig_13:469213-469400 0 -0 +0 NoSolution
+fix break: contig_13:481857 481752 -321 +322 BreakFix
+fix break: contig_13:497349-497842 497411 -92 +94 BreakFix
+# fix break: contig_13:500174-500447 0 -0 +0 NoSolution
+# fix break: contig_13:501301-501303 0 -0 +0 NoSolution
+fix break: contig_13:501721-501846 501463 -434 +407 BreakFix
+# fix break: contig_13:504913 0 -0 +0 NoSolution
+# fix break: contig_13:505705-505769 0 -0 +0 NoSolution
+fix break: contig_13:506773-506778 506763 -272 +272 BreakFix
+# fix break: contig_13:513840-514054 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_13:517373-517834 0 -0 +0 NoSolution
+# fix break: contig_13:527005-527058 0 -0 +0 NoSolution
+fix break: contig_13:527354-527469 527142 -239 +241 BreakFix
+# fix break: contig_13:533130-533159 0 -0 +0 NoSolution
+fix break: contig_13:533571 533437 -272 +267 BreakFix
+fix break: contig_13:534607 534606 -71 +68 BreakFix
+# fix break: contig_13:534849-535158 0 -0 +0 NoSolution
+fix break: contig_13:535488-536286 535286 -1208 +1212 BreakFix
+# fix break: contig_13:536531-537433 0 -0 +0 NoSolution
+# fix break: contig_13:537703-539123 0 -0 +0 NoSolution
+fix break: contig_13:539555-539867 539443 -636 +638 BreakFix
+# fix break: contig_13:541236-541578 0 -0 +0 NoSolution
+fix break: contig_13:544568-544643 544500 -124 +125 BreakFix
+# fix break: contig_13:547739-547753 0 -0 +0 NoSolution
+# fix break: contig_13:552967-553304 0 -0 +0 NoSolution
+fix break: contig_13:557343-557654 557139 -774 +776 BreakFix
+# fix break: contig_13:558283-558320 0 -0 +0 NoSolution
+fix break: contig_13:558646-559040 558449 -587 +595 BreakFix
+fix break: contig_13:559402-559408 559310 -311 +317 BreakFix
+# fix break: contig_13:559807-559868 0 -0 +0 NoSolution
+# fix break: contig_13:560075-560087 0 -0 +0 NoSolution
+fix break: contig_13:560638-560771 560384 -311 +312 BreakFix
+# fix break: contig_13:561235-561264 0 -0 +0 NoSolution
+# fix break: contig_13:562888-563085 0 -0 +0 NoSolution
+fix break: contig_13:566810-567667 567530 -356 +358 BreakFix
+fix break: contig_13:575322-575577 575440 -22 +6 BreakFix
+# fix break: contig_13:578566-578893 0 -0 +0 NoSolution
+# fix break: contig_13:582497-583106 0 -0 +0 NoSolution
+fix break: contig_13:584487 584320 -295 +293 BreakFix
+# fix break: contig_13:609549 0 -0 +0 NoSolution
+# fix break: contig_13:610020 0 -0 +0 NoSolution
+# fix break: contig_13:615563-615593 0 -0 +0 NoSolution
+# fix break: contig_13:615902-615908 0 -0 +0 NoSolution
+# fix break: contig_13:623281-623411 0 -0 +0 NoSolution TandemRepeat 23
+fix break: contig_13:625629 625628 -223 +220 BreakFix
+fix break: contig_13:626181-626186 626181 -64 +64 BreakFix
+fix break: contig_13:626576-626801 626579 -332 +336 BreakFix
+fix break: contig_13:627082-627238 626913 -346 +344 BreakFix
+fix break: contig_13:627609-627961 627635 -573 +572 BreakFix
+fix break: contig_13:629001-629006 628742 -409 +409 BreakFix
+fix break: contig_13:630785-630903 630792 -356 +356 BreakFix
+fix break: contig_13:653751-654206 653626 -764 +770 BreakFix
+# fix break: contig_13:659678-659838 0 -0 +0 NoSolution TandemRepeat 57
+fix break: contig_13:665542-665717 665704 -143 +147 BreakFix
+# fix break: contig_13:701129-701233 0 -0 +0 NoSolution TandemRepeat 42
+# fix break: contig_13:706094-706097 0 -0 +0 NoSolution
+fix break: contig_13:729277-729339 729123 -441 +443 BreakFix
+# fix break: contig_13:729955-729956 0 -0 +0 NoSolution TandemRepeat 57
+fix break: contig_13:730792-730957 730746 -285 +284 BreakFix
+# fix break: contig_13:731229-731582 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_13:732127-732185 0 -0 +0 NoSolution TandemRepeat 1
+fix break: contig_13:732758 732610 -399 +392 BreakFix
+# fix break: contig_13:733173-733188 0 -0 +0 NoSolution
+# fix break: contig_13:733647-733666 0 -0 +0 NoSolution
+# fix break: contig_13:734485 0 -0 +0 NoSolution
+fix break: contig_13:734920-735250 734900 -595 +603 BreakFix
+# fix break: contig_13:735492-735646 0 -0 +0 NoSolution
+fix break: contig_13:736297-736301 736083 -458 +448 BreakFix
+# fix break: contig_13:737493-737495 0 -0 +0 NoSolution
+# fix break: contig_13:738249-738300 0 -0 +0 NoSolution
+fix break: contig_13:738652-738673 738544 -281 +279 BreakFix
+# fix break: contig_13:739101-739206 0 -0 +0 NoSolution
+fix break: contig_13:739532-739805 739376 -652 +645 BreakFix
+fix break: contig_13:740078-740259 739834 -262 +260 BreakFix
+# fix break: contig_13:740694-741798 0 -0 +0 NoSolution
+# fix break: contig_13:742002-742003 0 -0 +0 NoSolution
+# fix break: contig_13:742226-743327 0 -0 +0 NoSolution
+fix break: contig_13:743545-744902 743278 -1661 +1657 BreakFix
+# fix break: contig_13:745611-745630 0 -0 +0 NoSolution
+# fix break: contig_13:746030-746044 0 -0 +0 NoSolution
+# fix break: contig_13:747021-748997 0 -0 +0 NoSolution TandemRepeat 157
+# fix break: contig_13:749318-749487 0 -0 +0 NoSolution
+# fix break: contig_13:750052-750075 0 -0 +0 NoSolution
+fix break: contig_13:750298-750386 750059 -489 +491 BreakFix
+# fix break: contig_13:750672-751866 0 -0 +0 NoSolution
+# fix break: contig_13:752102-752944 0 -0 +0 NoSolution
+# fix break: contig_13:753178-753194 0 -0 +0 NoSolution
+fix break: contig_13:753421-754014 753285 -987 +984 BreakFix
+# fix break: contig_13:754617-754619 0 -0 +0 NoSolution
+# fix break: contig_13:755034-755361 0 -0 +0 NoSolution
+# fix break: contig_13:756922-756932 0 -0 +0 NoSolution
+# fix break: contig_13:757229-757360 0 -0 +0 NoSolution
+# fix break: contig_13:759150-759153 0 -0 +0 NoSolution
+# fix break: contig_13:759472-759550 0 -0 +0 NoSolution
+# fix break: contig_13:760038-760050 0 -0 +0 NoSolution
+fix break: contig_13:760295-760299 760038 -528 +530 BreakFix
+fix break: contig_13:760964-761039 760762 -543 +541 BreakFix
+# fix break: contig_13:762403 0 -0 +0 NoSolution
+# fix break: contig_13:763046-763060 0 -0 +0 NoSolution
+# fix break: contig_13:765903 0 -0 +0 NoSolution
+fix break: contig_13:767522-767535 767311 -461 +467 BreakFix
+# fix break: contig_13:767931-768336 0 -0 +0 NoSolution
+fix break: contig_13:768573-769368 768358 -1266 +1272 BreakFix
+fix break: contig_13:769597-769809 769368 -656 +658 BreakFix
+fix break: contig_13:771112-771122 770846 -448 +446 BreakFix
+fix break: contig_13:771968 771801 -406 +406 BreakFix
+# fix break: contig_13:772312 0 -0 +0 NoSolution
+fix break: contig_13:773986-774366 773758 -721 +722 BreakFix
+# fix break: contig_13:774652-774817 0 -0 +0 NoSolution
+# fix break: contig_13:776590-776599 0 -0 +0 NoSolution
+fix break: contig_13:777067-777116 776799 -357 +356 BreakFix
+# fix break: contig_13:779809-779972 0 -0 +0 NoSolution
+# fix break: contig_13:788622-789098 0 -0 +0 NoSolution TandemRepeat 41
+# fix break: contig_13:790928-791341 0 -0 +0 NoSolution
+# fix break: contig_13:799477-799485 0 -0 +0 NoSolution
+fix break: contig_13:808600 808382 -343 +341 BreakFix
+# fix break: contig_13:809307-809334 0 -0 +0 NoSolution
+fix break: contig_13:809680-809794 809550 -303 +305 BreakFix
+# fix break: contig_13:810912-811017 0 -0 +0 NoSolution
+# fix break: contig_13:811442-811527 0 -0 +0 NoSolution
+# fix break: contig_13:812041-812068 0 -0 +0 NoSolution
+# fix break: contig_13:814905-814910 0 -0 +0 NoSolution
+# fix break: contig_13:828871-829145 0 -0 +0 NoSolution
+# fix break: contig_13:838728 0 -0 +0 NoSolution
+fix break: contig_13:839756 839700 -139 +139 BreakFix
+# fix break: contig_13:842358-842472 0 -0 +0 NoSolution
+# fix break: contig_13:843118-843133 0 -0 +0 NoSolution
+# fix break: contig_13:844484-844485 0 -0 +0 NoSolution
+# fix break: contig_13:846223-846501 0 -0 +0 NoSolution
+# fix break: contig_13:855358-855417 0 -0 +0 NoSolution
+# fix break: contig_13:855825-856252 0 -0 +0 NoSolution
+fix break: contig_13:857054-857100 856938 -374 +375 BreakFix
+# fix break: contig_13:858793-858931 0 -0 +0 NoSolution
+# fix break: contig_13:864030-864032 0 -0 +0 NoSolution
+# fix break: contig_13:864493-864718 0 -0 +0 NoSolution
+# fix break: contig_13:874944-875092 0 -0 +0 NoSolution
+fix break: contig_13:877848-877959 877725 -502 +510 BreakFix
+# fix break: contig_13:878424-878432 0 -0 +0 NoSolution
+# fix break: contig_13:889948-890017 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_13:892182-892298 0 -0 +0 NoSolution TandemRepeat 21
+fix break: contig_13:896112-896114 896112 -87 +89 BreakFix
+# fix break: contig_13:899167-899505 0 -0 +0 NoSolution
+# fix break: contig_13:901695-901740 0 -0 +0 NoSolution
+fix break: contig_13:902236-902243 902194 -260 +258 BreakFix
+# fix break: contig_13:904588-905193 0 -0 +0 NoSolution
+# fix break: contig_13:910062-910111 0 -0 +0 NoSolution TandemRepeat 15
+fix break: contig_13:911346-911815 911512 -450 +447 BreakFix
+# fix break: contig_13:914992-915006 0 -0 +0 NoSolution
+# fix break: contig_13:919264-919357 0 -0 +0 NoSolution TandemRepeat 26
+# fix break: contig_13:919668-919684 0 -0 +0 NoSolution
+# fix break: contig_13:920530 0 -0 +0 NoSolution
+fix break: contig_13:920779-920818 920732 -73 +78 BreakFix
+fix break: contig_13:921206-921217 921116 -345 +349 BreakFix
+# fix break: contig_13:921709-922006 0 -0 +0 NoSolution
+fix break: contig_13:939683-939768 939612 -341 +343 BreakFix
+# fix break: contig_13:941628-941908 0 -0 +0 NoSolution
+# fix break: contig_13:942328-942332 0 -0 +0 NoSolution
+fix break: contig_13:962597-962736 962595 -243 +245 BreakFix
+# fix break: contig_13:971531 0 -0 +0 NoSolution
+# fix break: contig_13:971919-972104 0 -0 +0 NoSolution
+# fix break: contig_13:973244-973248 0 -0 +0 NoSolution
+# fix break: contig_13:983752 0 -0 +0 NoSolution TandemRepeat 30
+fix break: contig_13:991140-991150 991088 -241 +241 BreakFix
+# fix break: contig_13:992992 0 -0 +0 NoSolution
+# fix break: contig_13:993678-993683 0 -0 +0 NoSolution
+# fix break: contig_13:994097-994098 0 -0 +0 NoSolution
+# fix break: contig_13:999564-999565 0 -0 +0 NoSolution TandemRepeat 17
+# fix break: contig_13:1005206 0 -0 +0 NoSolution
+# fix break: contig_13:1007441 0 -0 +0 NoSolution
+# fix break: contig_13:1023588-1023786 0 -0 +0 NoSolution TandemRepeat 21
+fix break: contig_13:1028444-1028483 1028210 -337 +342 BreakFix
+fix break: contig_13:1029196-1029351 1029028 -231 +236 BreakFix
+# fix break: contig_13:1039504-1039699 0 -0 +0 NoSolution
+# fix break: contig_13:1048587-1049298 0 -0 +0 NoSolution TandemRepeat 14
+# fix break: contig_13:1062433-1062654 0 -0 +0 NoSolution TandemRepeat 20
+# fix break: contig_13:1063008-1063012 0 -0 +0 NoSolution
+# fix break: contig_13:1064290-1064314 0 -0 +0 NoSolution TandemRepeat 18
+# fix break: contig_13:1077553-1077794 0 -0 +0 NoSolution
+# fix break: contig_13:1084484-1084715 0 -0 +0 NoSolution
+# fix break: contig_13:1087269-1087275 0 -0 +0 NoSolution
+fix break: contig_13:1093349-1093759 1093659 -238 +239 BreakFix
+fix break: contig_13:1094933-1095156 1094706 -442 +440 BreakFix
+fix break: contig_13:1110324-1110445 1110060 -493 +468 BreakFix
+fix break: contig_13:1126121-1126160 1125946 -137 +140 BreakFix
+fix break: contig_13:1130904-1131228 1130835 -417 +419 BreakFix
+# fix break: contig_13:1136214-1136223 0 -0 +0 NoSolution
+# fix break: contig_13:1137483-1138186 0 -0 +0 NoSolution
+# fix break: contig_13:1139073-1139081 0 -0 +0 NoSolution
+# fix break: contig_13:1139432 0 -0 +0 NoSolution
+# fix break: contig_13:1140287-1140293 0 -0 +0 NoSolution
+# fix break: contig_13:1140504 0 -0 +0 NoSolution
+# fix break: contig_13:1143089-1143116 0 -0 +0 NoSolution
+# fix break: contig_13:1147318-1147404 0 -0 +0 NoSolution TandemRepeat 42
+# fix break: contig_13:1148719-1148982 0 -0 +0 NoSolution
+# fix break: contig_13:1152423-1152577 0 -0 +0 NoSolution
+# fix break: contig_13:1161947 0 -0 +0 NoSolution
+fix break: contig_13:1164377-1164383 1164207 -352 +352 BreakFix
+fix break: contig_13:1173482 1173361 -349 +352 BreakFix
+# fix break: contig_13:1175527 0 -0 +0 NoSolution
+# fix break: contig_13:1178894-1179219 0 -0 +0 NoSolution
+fix break: contig_13:1180588 1180372 -460 +462 BreakFix
+# fix break: contig_13:1190286 0 -0 +0 NoSolution TandemRepeat 224
+# fix break: contig_13:1206494-1206609 0 -0 +0 NoSolution
+# fix break: contig_13:1207254-1207372 0 -0 +0 NoSolution
+# fix break: contig_13:1211221-1211429 0 -0 +0 NoSolution
+# fix break: contig_13:1213655 0 -0 +0 NoSolution
+# fix break: contig_13:1216275-1216279 0 -0 +0 NoSolution
+# fix break: contig_13:1217912-1218206 0 -0 +0 NoSolution
+# fix break: contig_13:1220512-1220518 0 -0 +0 NoSolution
+# fix break: contig_13:1220743-1220745 0 -0 +0 NoSolution
+fix break: contig_13:1230060 1229791 -511 +510 BreakFix
+# fix break: contig_13:1231683-1231698 0 -0 +0 NoSolution
+# fix break: contig_13:1232636-1232786 0 -0 +0 NoSolution
+# fix break: contig_13:1238374-1238519 0 -0 +0 NoSolution
+fix break: contig_13:1239157-1239290 1239041 -269 +272 BreakFix
+# fix break: contig_13:1241043-1241062 0 -0 +0 NoSolution
+# fix break: contig_13:1241337-1241369 0 -0 +0 NoSolution
+fix break: contig_13:1244929-1245097 1244803 -548 +548 BreakFix
+fix break: contig_13:1248044-1248231 1247828 -486 +489 BreakFix
+# fix break: contig_13:1255633 0 -0 +0 NoSolution
+fix break: contig_13:1256359-1256558 1256384 -239 +239 BreakFix
+# fix break: contig_13:1258725-1258896 0 -0 +0 NoSolution TandemRepeat 118
+# fix break: contig_13:1260009-1260127 0 -0 +0 NoSolution TandemRepeat 118
+fix break: contig_13:1260846-1260883 1260697 -267 +265 BreakFix
+# fix break: contig_13:1262230-1262430 0 -0 +0 NoSolution
+fix break: contig_13:1263115 1262964 -152 +149 BreakFix
+fix break: contig_13:1265387 1265162 -257 +260 BreakFix
+fix break: contig_13:1267296-1267324 1267118 -185 +187 BreakFix
+fix break: contig_13:1269991-1270109 1269972 -269 +272 BreakFix
+# fix break: contig_13:1271850 0 -0 +0 NoSolution
+fix break: contig_13:1277277-1277456 1277152 -394 +395 BreakFix
+# fix break: contig_13:1280820 0 -0 +0 NoSolution
+# fix break: contig_13:1282979 0 -0 +0 NoSolution
+# fix break: contig_13:1289770-1289772 0 -0 +0 NoSolution
+# fix break: contig_13:1290924-1291019 0 -0 +0 NoSolution
+fix break: contig_13:1291638-1291708 1291423 -410 +413 BreakFix
+# fix break: contig_13:1291958-1291965 0 -0 +0 NoSolution
+fix break: contig_13:1292606-1293311 1292379 -1015 +1009 BreakFix
+# fix break: contig_13:1293668 0 -0 +0 NoSolution
+fix break: contig_13:1294149-1294486 1294078 -657 +660 BreakFix
+fix break: contig_13:1295398-1295904 1295306 -869 +868 BreakFix
+# fix break: contig_13:1296353-1296354 0 -0 +0 NoSolution
+fix break: contig_13:1306886 1306822 -295 +296 BreakFix
+# fix break: contig_13:1307231-1307235 0 -0 +0 NoSolution
+# fix break: contig_13:1308001-1308153 0 -0 +0 NoSolution
+fix break: contig_13:1308988-1309087 1308735 -596 +601 BreakFix
+# fix break: contig_13:1314141-1314145 0 -0 +0 NoSolution
+fix break: contig_13:1322919-1323080 1323085 -223 +225 BreakFix
+fix break: contig_13:1323976 1323940 -153 +158 BreakFix
+fix break: contig_13:1326540 1326388 -253 +254 BreakFix
+# fix break: contig_13:1326851-1326858 0 -0 +0 NoSolution
+# fix break: contig_13:1336517-1337057 0 -0 +0 NoSolution TandemRepeat 24
+# fix break: contig_13:1337396-1338063 0 -0 +0 NoSolution
+# fix break: contig_13:1338309-1339194 0 -0 +0 NoSolution
+# fix break: contig_13:1339473-1339584 0 -0 +0 NoSolution
+# fix break: contig_13:1339841-1339846 0 -0 +0 NoSolution
+# fix break: contig_13:1340283-1340373 0 -0 +0 NoSolution
+# fix break: contig_13:1340674-1341258 0 -0 +0 NoSolution
+# fix break: contig_13:1342229-1342257 0 -0 +0 NoSolution
+# fix break: contig_13:1342677-1342703 0 -0 +0 NoSolution
+# fix break: contig_13:1343744-1343749 0 -0 +0 NoSolution
+# fix break: contig_13:1344731-1344750 0 -0 +0 NoSolution
+# fix break: contig_13:1345018-1345616 0 -0 +0 NoSolution
+# fix break: contig_13:1346040-1346099 0 -0 +0 NoSolution
+fix break: contig_13:1346640-1346774 1346379 -550 +550 BreakFix
+# fix break: contig_13:1347305-1347752 0 -0 +0 NoSolution
+# fix break: contig_13:1348933-1348936 0 -0 +0 NoSolution
+# fix break: contig_13:1349625-1349647 0 -0 +0 NoSolution
+fix break: contig_13:1350623-1351115 1350366 -934 +936 BreakFix
+fix break: contig_13:1351503-1351522 1351306 -389 +391 BreakFix
+# fix break: contig_13:1362174-1362354 0 -0 +0 NoSolution
+fix break: contig_13:1364711-1364883 1364662 -209 +209 BreakFix
+# fix break: contig_13:1366389-1366412 0 -0 +0 NoSolution
+# fix break: contig_13:1416992-1417035 0 -0 +0 NoSolution
+fix break: contig_13:1417277-1417418 1417030 -419 +423 BreakFix
+fix break: contig_13:1417856 1417748 -374 +373 BreakFix
+# fix break: contig_13:1437554-1437837 0 -0 +0 NoSolution
+fix break: contig_13:1457423-1457491 1457252 -172 +174 BreakFix
+# fix break: contig_13:1464729-1464827 0 -0 +0 NoSolution
+# fix break: contig_13:1465526-1465825 0 -0 +0 NoSolution
+# fix break: contig_13:1466262-1466645 0 -0 +0 NoSolution
+# fix break: contig_13:1466899-1466962 0 -0 +0 NoSolution
+# fix break: contig_13:1467264-1467324 0 -0 +0 NoSolution
+fix break: contig_13:1467537-1467811 1467442 -600 +598 BreakFix
+# fix break: contig_13:1468105-1468459 0 -0 +0 NoSolution
+# fix break: contig_13:1469125-1469178 0 -0 +0 NoSolution
+# fix break: contig_13:1470114-1470224 0 -0 +0 NoSolution
+# fix break: contig_13:1471668-1472001 0 -0 +0 NoSolution
+# fix break: contig_13:1472395-1472461 0 -0 +0 NoSolution TandemRepeat 123
+# fix break: contig_13:1473026-1473305 0 -0 +0 NoSolution TandemRepeat 61
+# fix break: contig_13:1474025 0 -0 +0 NoSolution
+# fix break: contig_13:1474301-1474985 0 -0 +0 NoSolution TandemRepeat 126
+fix break: contig_13:1476119-1476192 1475966 -446 +447 BreakFix
+# fix break: contig_13:1477109 0 -0 +0 NoSolution
+fix break: contig_13:1477493-1477578 1477293 -457 +454 BreakFix
+fix break: contig_13:1477807-1477848 1477749 -277 +275 BreakFix
+# fix break: contig_13:1478309-1478404 0 -0 +0 NoSolution
+# fix break: contig_13:1479114-1479119 0 -0 +0 NoSolution
+# fix break: contig_13:1479634-1479664 0 -0 +0 NoSolution
+# fix break: contig_13:1480053-1480391 0 -0 +0 NoSolution
+fix break: contig_13:1481370-1481380 1481370 -73 +74 BreakFix
+# fix break: contig_13:1482225-1484478 0 -0 +0 NoSolution
+fix break: contig_13:1484680-1484903 1484479 -558 +562 BreakFix
+# fix break: contig_13:1485154-1485928 0 -0 +0 NoSolution
+# fix break: contig_13:1486171-1488317 0 -0 +0 NoSolution
+# fix break: contig_13:1488882-1489980 0 -0 +0 NoSolution
+# fix break: contig_13:1490321 0 -0 +0 NoSolution
+# fix break: contig_13:1490796 0 -0 +0 NoSolution
+# fix break: contig_13:1491047-1491064 0 -0 +0 NoSolution
+# fix break: contig_13:1491854 0 -0 +0 NoSolution
+# fix break: contig_13:1492101-1492112 0 -0 +0 NoSolution
+# fix break: contig_13:1492360 0 -0 +0 NoSolution
+fix break: contig_13:1492798-1493025 1492656 -628 +1115 BreakFix
+fix break: contig_13:1493410 1493168 -477 +474 BreakFix
+# fix break: contig_13:1493811-1493813 0 -0 +0 NoSolution
+fix break: contig_13:1494260 1494018 -431 +424 BreakFix
+# fix break: contig_13:1494607 0 -0 +0 NoSolution
+fix break: contig_13:1494829 1494607 -387 +387 BreakFix
+# fix break: contig_13:1495129-1495347 0 -0 +0 NoSolution
+# fix break: contig_13:1495689-1495709 0 -0 +0 NoSolution
+# fix break: contig_13:1496504-1496522 0 -0 +0 NoSolution
+fix break: contig_13:1496839-1496945 1496586 -569 +566 BreakFix
+fix break: contig_13:1497324-1497331 1497057 -501 +496 BreakFix
+fix break: contig_13:1499338-1499956 1499116 -974 +979 BreakFix
+fix break: contig_13:1500214-1500840 1500053 -760 +764 BreakFix
+# fix break: contig_13:1501054-1501407 0 -0 +0 NoSolution
+# fix break: contig_13:1501705-1502204 0 -0 +0 NoSolution
+# fix break: contig_13:1502432-1502439 0 -0 +0 NoSolution
+# fix break: contig_13:1502659-1502671 0 -0 +0 NoSolution
+fix break: contig_13:1503405-1503418 1503252 -250 +250 BreakFix
+# fix break: contig_13:1503744 0 -0 +0 NoSolution
+# fix break: contig_13:1504756 0 -0 +0 NoSolution
+fix break: contig_13:1505659 1505647 -45 +42 BreakFix
+# fix break: contig_13:1513529-1513716 0 -0 +0 NoSolution
+fix break: contig_13:1514855-1514898 1514626 -414 +411 BreakFix
+fix break: contig_13:1530451-1530477 1530202 -491 +485 BreakFix
+# fix break: contig_13:1532239 0 -0 +0 NoSolution
+# fix break: contig_13:1533404-1533409 0 -0 +0 NoSolution
+fix break: contig_13:1535755-1535940 1535619 -216 +218 BreakFix
+# fix break: contig_13:1560448-1560493 0 -0 +0 NoSolution
+fix break: contig_13:1560824-1561268 1560734 -730 +736 BreakFix
+# fix break: contig_13:1562330-1562333 0 -0 +0 NoSolution
+# fix break: contig_13:1562641-1562660 0 -0 +0 NoSolution
+fix break: contig_13:1563475-1563476 1563215 -512 +510 BreakFix
+# fix break: contig_13:1565109-1565113 0 -0 +0 NoSolution
+# fix break: contig_13:1568984-1568999 0 -0 +0 NoSolution
+fix break: contig_13:1570415 1570146 -369 +371 BreakFix
+fix break: contig_13:1573068 1572803 -266 +266 BreakFix
+fix break: contig_13:1573466 1573465 -68 +65 BreakFix
+# fix break: contig_13:1575707-1575908 0 -0 +0 NoSolution
+fix break: contig_13:1598409 1598409 -156 +156 BreakFix
+# fix break: contig_13:1601888-1602246 0 -0 +0 NoSolution
+# fix break: contig_13:1602509-1602761 0 -0 +0 NoSolution
+fix break: contig_13:1603770-1603814 1603797 -286 +288 BreakFix
+# fix break: contig_13:1604241-1604277 0 -0 +0 NoSolution
+# fix break: contig_13:1604780-1604786 0 -0 +0 NoSolution
+fix break: contig_13:1605350-1605403 1605116 -514 +512 BreakFix
+fix break: contig_13:1606243-1606280 1606028 -514 +515 BreakFix
+# fix break: contig_13:1607634-1607800 0 -0 +0 NoSolution
+# fix break: contig_13:1608363-1608394 0 -0 +0 NoSolution
+# fix break: contig_13:1609857-1610107 0 -0 +0 NoSolution
+fix break: contig_13:1610672-1611329 1610444 -1073 +1075 BreakFix
+# fix break: contig_13:1613450-1613453 0 -0 +0 NoSolution
+fix break: contig_13:1613924 1613924 -87 +86 BreakFix
+fix break: contig_13:1621242-1621515 1621309 -173 +175 BreakFix
+# fix break: contig_13:1622302 0 -0 +0 NoSolution
+# fix break: contig_13:1623316-1623320 0 -0 +0 NoSolution
+# fix break: contig_13:1629004-1629208 0 -0 +0 NoSolution
+# fix break: contig_13:1629483 0 -0 +0 NoSolution
+# fix break: contig_13:1629709-1629738 0 -0 +0 NoSolution
+# fix break: contig_13:1629953 0 -0 +0 NoSolution
+fix break: contig_13:1630394-1630493 1630178 -483 +480 BreakFix
+fix break: contig_13:1630892-1631016 1630660 -318 +316 BreakFix
+# fix break: contig_13:1632077-1632101 0 -0 +0 NoSolution
+# fix break: contig_13:1632408-1633153 0 -0 +0 NoSolution
+# fix break: contig_13:1633427-1633742 0 -0 +0 NoSolution TandemRepeat 141
+fix break: contig_13:1634311-1635036 1634097 -1115 +1108 BreakFix
+# fix break: contig_13:1635268-1635361 0 -0 +0 NoSolution
+# fix break: contig_13:1635629-1635691 0 -0 +0 NoSolution
+# fix break: contig_13:1636075-1636100 0 -0 +0 NoSolution
+# fix break: contig_13:1636627-1636900 0 -0 +0 NoSolution
+# fix break: contig_13:1637285-1637757 0 -0 +0 NoSolution
+fix break: contig_13:1638090-1639188 1637993 -1382 +1376 BreakFix
+# fix break: contig_13:1639820-1640285 0 -0 +0 NoSolution
+fix break: contig_13:1640658-1641098 1640460 -832 +839 BreakFix
+# fix break: contig_13:1641724-1641894 0 -0 +0 NoSolution
+fix break: contig_13:1642375-1642388 1642108 -497 +494 BreakFix
+fix break: contig_13:1642597-1642726 1642338 -593 +593 BreakFix
+# fix break: contig_13:1643156-1643497 0 -0 +0 NoSolution
+fix break: contig_13:1644182-1644193 1643965 -272 +272 BreakFix
+# fix break: contig_13:1644535-1644705 0 -0 +0 NoSolution
+fix break: contig_13:1645426-1645510 1645342 -299 +300 BreakFix
+# fix break: contig_13:1645911-1645973 0 -0 +0 NoSolution TandemRepeat 24
+fix break: contig_13:1646588-1646589 1646391 -292 +293 BreakFix
+# fix break: contig_13:1646917-1647523 0 -0 +0 NoSolution
+fix break: contig_13:1648026-1648027 1648024 -214 +212 BreakFix
+fix break: contig_13:1648237-1648409 1648024 -214 +212 BreakFix
+# fix break: contig_13:1651997-1652099 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_13:1652317-1652321 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_13:1654273 0 -0 +0 NoSolution
+fix break: contig_13:1658435-1658557 1658221 -116 +118 BreakFix
+# fix break: contig_13:1659028-1659029 0 -0 +0 NoSolution
+# fix break: contig_13:1670896-1670901 0 -0 +0 NoSolution
+# fix break: contig_13:1671795-1672029 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_13:1672460-1672637 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_13:1685903-1685925 0 -0 +0 NoSolution
+# fix break: contig_13:1686300-1686314 0 -0 +0 NoSolution
+# fix break: contig_13:1691501-1691521 0 -0 +0 NoSolution
+# fix break: contig_13:1691909-1691945 0 -0 +0 NoSolution
+# fix break: contig_13:1692842-1692861 0 -0 +0 NoSolution
+# fix break: contig_13:1694758-1694907 0 -0 +0 NoSolution
+# fix break: contig_13:1700290-1700441 0 -0 +0 NoSolution
+fix break: contig_13:1701262-1702194 1701262 -1123 +1127 BreakFix
+# fix break: contig_13:1703918-1704089 0 -0 +0 NoSolution TandemRepeat 84
+# fix break: contig_13:1704439-1704573 0 -0 +0 NoSolution TandemRepeat 84
+fix break: contig_13:1705768-1705895 1705735 -161 +157 BreakFix
+# fix break: contig_13:1708079-1708105 0 -0 +0 NoSolution
+# fix break: contig_13:1708971-1709053 0 -0 +0 NoSolution
+# fix break: contig_13:1709399-1709471 0 -0 +0 NoSolution
+fix break: contig_13:1709676-1710129 1709423 -892 +893 BreakFix
+# fix break: contig_13:1710710-1710723 0 -0 +0 NoSolution
+# fix break: contig_13:1711591 0 -0 +0 NoSolution
+fix break: contig_13:1715942 1715703 -492 +493 BreakFix
+fix break: contig_13:1717968 1717878 -306 +308 BreakFix
+# fix break: contig_13:1720143 0 -0 +0 NoSolution
+# fix break: contig_13:1725923 0 -0 +0 NoSolution
+fix break: contig_13:1727032-1727829 1726762 -1171 +1167 BreakFix
+fix break: contig_13:1729361-1729371 1729175 -198 +197 BreakFix
+# fix break: contig_13:1730190-1730201 0 -0 +0 NoSolution
+# fix break: contig_13:1730911-1730929 0 -0 +0 NoSolution
+# fix break: contig_13:1731541-1731568 0 -0 +0 NoSolution
+fix break: contig_13:1732457-1732877 1732410 -735 +734 BreakFix
+fix break: contig_13:1734590 1734356 -235 +235 BreakFix
+fix break: contig_13:1735643-1735653 1735414 -493 +487 BreakFix
+fix break: contig_13:1735906 1735648 -521 +512 BreakFix
+# fix break: contig_13:1736146-1736632 0 -0 +0 NoSolution
+# fix break: contig_13:1737951-1737984 0 -0 +0 NoSolution
+# fix break: contig_13:1738264 0 -0 +0 NoSolution
+# fix break: contig_13:1739098-1739292 0 -0 +0 NoSolution TandemRepeat 56
+# fix break: contig_13:1739877 0 -0 +0 NoSolution TandemRepeat 56
+fix break: contig_13:1740837-1740839 1740659 -302 +301 BreakFix
+# fix break: contig_13:1741876-1741927 0 -0 +0 NoSolution
+# fix break: contig_13:1743055-1743916 0 -0 +0 NoSolution
+# fix break: contig_13:1744933 0 -0 +0 NoSolution
+# fix break: contig_13:1745171-1745201 0 -0 +0 NoSolution
+# fix break: contig_13:1745818-1746008 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_13:1747122 0 -0 +0 NoSolution
+# fix break: contig_13:1747553-1747719 0 -0 +0 NoSolution
+# fix break: contig_13:1748276-1748514 0 -0 +0 NoSolution
+# fix break: contig_13:1748893-1749438 0 -0 +0 NoSolution
+# fix break: contig_13:1749679-1749705 0 -0 +0 NoSolution
+# fix break: contig_13:1749934-1750164 0 -0 +0 NoSolution
+# fix break: contig_13:1750826-1751118 0 -0 +0 NoSolution
+# fix break: contig_13:1751863-1751875 0 -0 +0 NoSolution
+# fix break: contig_13:1752203-1752214 0 -0 +0 NoSolution
+# fix break: contig_13:1752454-1752599 0 -0 +0 NoSolution
+# fix break: contig_13:1753494-1753951 0 -0 +0 NoSolution
+# fix break: contig_13:1754195-1754328 0 -0 +0 NoSolution
+fix break: contig_13:1754646-1754650 1754379 -532 +527 BreakFix
+# fix break: contig_13:1755423-1755998 0 -0 +0 NoSolution
+# fix break: contig_13:1756299-1757991 0 -0 +0 NoSolution
+# fix break: contig_13:1758271-1758881 0 -0 +0 NoSolution
+fix break: contig_13:1759118-1759350 1758858 -704 +696 BreakFix
+# fix break: contig_13:1759591-1761183 0 -0 +0 NoSolution
+# fix break: contig_13:1761420-1761798 0 -0 +0 NoSolution
+# fix break: contig_13:1762020-1762071 0 -0 +0 NoSolution
+# fix break: contig_13:1762312-1764059 0 -0 +0 NoSolution
+# fix break: contig_13:1764559-1765648 0 -0 +0 NoSolution
+# fix break: contig_13:1766111-1766137 0 -0 +0 NoSolution
+# fix break: contig_13:1766354-1767816 0 -0 +0 NoSolution
+# fix break: contig_13:1768022-1771985 0 -0 +0 NoSolution
+# fix break: contig_13:1772479-1772556 0 -0 +0 NoSolution
+# fix break: contig_13:1772784-1772796 0 -0 +0 NoSolution
+# fix break: contig_13:1773147-1773995 0 -0 +0 NoSolution
+fix break: contig_13:1774987-1775077 1774893 -407 +405 BreakFix
+# fix break: contig_13:1775320-1775532 0 -0 +0 NoSolution
+# fix break: contig_13:1775863-1779353 0 -0 +0 NoSolution
+contig_13:1-1780704 log:
+Finished processing contig_13:1-1780704
+Processing contig_15:1-87316
+frags /home/mila6004/Genomeanalysis/results/3_assembly_polishing/bwa/bwa.sorted.bam: coverage 258
+Total Reads: 200329, Coverage: 258, minDepth: 26
+Confirmed 26105 of 87316 bases (29.90%)
+Corrected 49 snps; 0 ambiguous bases; corrected 199 small insertions totaling 239 bases, 5 small deletions totaling 5 bases
+Large collapsed region: contig_15:63354-73820 size 10467
+# Attempting to fix local continuity breaks
+# fix break: contig_15:1156-3401 0 -0 +0 NoSolution
+# fix break: contig_15:3648-4729 0 -0 +0 NoSolution
+# fix break: contig_15:4984-5817 0 -0 +0 NoSolution
+# fix break: contig_15:6181-7956 0 -0 +0 NoSolution
+# fix break: contig_15:8212-8865 0 -0 +0 NoSolution
+# fix break: contig_15:9109-14457 0 -0 +0 NoSolution
+# fix break: contig_15:14690-15163 0 -0 +0 NoSolution
+# fix break: contig_15:15382-16546 0 -0 +0 NoSolution
+# fix break: contig_15:16799-20620 0 -0 +0 NoSolution
+# fix break: contig_15:20897-22655 0 -0 +0 NoSolution
+# fix break: contig_15:22902-24227 0 -0 +0 NoSolution
+# fix break: contig_15:24539-26748 0 -0 +0 NoSolution
+# fix break: contig_15:26982-27106 0 -0 +0 NoSolution
+# fix break: contig_15:27328-28023 0 -0 +0 NoSolution
+# fix break: contig_15:28274-29925 0 -0 +0 NoSolution
+# fix break: contig_15:30154-31987 0 -0 +0 NoSolution
+# fix break: contig_15:32230-32746 0 -0 +0 NoSolution
+# fix break: contig_15:32948-34582 0 -0 +0 NoSolution
+# fix break: contig_15:34824-34900 0 -0 +0 NoSolution
+# fix break: contig_15:35149-35417 0 -0 +0 NoSolution
+# fix break: contig_15:35675-37272 0 -0 +0 NoSolution
+# fix break: contig_15:37555-38018 0 -0 +0 NoSolution
+# fix break: contig_15:38220-38223 0 -0 +0 NoSolution
+# fix break: contig_15:38444-38757 0 -0 +0 NoSolution
+# fix break: contig_15:39170-39705 0 -0 +0 NoSolution
+# fix break: contig_15:39958-45636 0 -0 +0 NoSolution
+# fix break: contig_15:45861-48776 0 -0 +0 NoSolution
+# fix break: contig_15:49078-49920 0 -0 +0 NoSolution
+# fix break: contig_15:50238-50381 0 -0 +0 NoSolution
+# fix break: contig_15:50694-52477 0 -0 +0 NoSolution
+# fix break: contig_15:52816-58985 0 -0 +0 NoSolution
+# fix break: contig_15:59243-59526 0 -0 +0 NoSolution
+# fix break: contig_15:59956-60329 0 -0 +0 NoSolution
+# fix break: contig_15:60584-61255 0 -0 +0 NoSolution
+# fix break: contig_15:61485-63725 0 -0 +0 NoSolution
+# fix break: contig_15:63950-64186 0 -0 +0 NoSolution
+# fix break: contig_15:64436-65236 0 -0 +0 NoSolution
+# fix break: contig_15:65441-67158 0 -0 +0 NoSolution
+# fix break: contig_15:67473-70382 0 -0 +0 NoSolution
+# fix break: contig_15:70605-77035 0 -0 +0 NoSolution
+# fix break: contig_15:77283-78066 0 -0 +0 NoSolution
+# fix break: contig_15:78307-79389 0 -0 +0 NoSolution
+# fix break: contig_15:79627-84155 0 -0 +0 NoSolution
+# fix break: contig_15:84359-86496 0 -0 +0 NoSolution
+contig_15:1-87316 log:
+Finished processing contig_15:1-87316
+Processing contig_18:1-1297188
+frags /home/mila6004/Genomeanalysis/results/3_assembly_polishing/bwa/bwa.sorted.bam: coverage 327
+Total Reads: 3534000, Coverage: 327, minDepth: 33
+Confirmed 1225630 of 1297188 bases (94.48%)
+Corrected 8293 snps; 52 ambiguous bases; corrected 3441 small insertions totaling 3792 bases, 2218 small deletions totaling 2587 bases
+Large collapsed region: contig_18:242406-253091 size 10686
+Large collapsed region: contig_18:256460-272191 size 15732
+# Attempting to fix local continuity breaks
+# fix break: contig_18:1363-3755 0 -0 +0 NoSolution
+# fix break: contig_18:4013-4582 0 -0 +0 NoSolution
+# fix break: contig_18:4818-5473 0 -0 +0 NoSolution
+# fix break: contig_18:5708-5751 0 -0 +0 NoSolution
+# fix break: contig_18:5984-5996 0 -0 +0 NoSolution
+# fix break: contig_18:6268-6357 0 -0 +0 NoSolution
+# fix break: contig_18:6837-7156 0 -0 +0 NoSolution
+fix break: contig_18:7639-7690 7426 -467 +464 BreakFix
+# fix break: contig_18:7913-8041 0 -0 +0 NoSolution
+# fix break: contig_18:8472-8478 0 -0 +0 NoSolution
+# fix break: contig_18:9022-9279 0 -0 +0 NoSolution
+# fix break: contig_18:9862-10429 0 -0 +0 NoSolution
+# fix break: contig_18:11297-13739 0 -0 +0 NoSolution
+# fix break: contig_18:14444-14456 0 -0 +0 NoSolution
+# fix break: contig_18:14698-14717 0 -0 +0 NoSolution
+# fix break: contig_18:15196-16320 0 -0 +0 NoSolution
+fix break: contig_18:18926-18928 18659 -319 +314 BreakFix
+# fix break: contig_18:24807-24823 0 -0 +0 NoSolution
+# fix break: contig_18:26333 0 -0 +0 NoSolution
+# fix break: contig_18:26661-26687 0 -0 +0 NoSolution
+fix break: contig_18:27015 26863 -423 +417 BreakFix
+fix break: contig_18:27503-27505 27286 -358 +356 BreakFix
+# fix break: contig_18:29590-29697 0 -0 +0 NoSolution
+# fix break: contig_18:41287-41321 0 -0 +0 NoSolution
+# fix break: contig_18:41780-41783 0 -0 +0 NoSolution
+# fix break: contig_18:42933-43051 0 -0 +0 NoSolution TandemRepeat 1
+fix break: contig_18:77930 77703 -434 +430 BreakFix
+fix break: contig_18:78136 77927 -478 +471 BreakFix
+# fix break: contig_18:78616 0 -0 +0 NoSolution
+# fix break: contig_18:79000-79010 0 -0 +0 NoSolution
+# fix break: contig_18:79213-79395 0 -0 +0 NoSolution
+# fix break: contig_18:91342-91354 0 -0 +0 NoSolution
+# fix break: contig_18:102425-102493 0 -0 +0 NoSolution
+# fix break: contig_18:123631 0 -0 +0 NoSolution
+# fix break: contig_18:124875-125091 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_18:127782-127817 0 -0 +0 NoSolution TandemRepeat 20
+# fix break: contig_18:138790-138886 0 -0 +0 NoSolution
+# fix break: contig_18:145531-145556 0 -0 +0 NoSolution
+# fix break: contig_18:146493-146512 0 -0 +0 NoSolution
+# fix break: contig_18:150362-150425 0 -0 +0 NoSolution
+fix break: contig_18:153437-153534 153197 -561 +495 BreakFix
+# fix break: contig_18:157333-157354 0 -0 +0 NoSolution
+# fix break: contig_18:160433-160594 0 -0 +0 NoSolution
+# fix break: contig_18:163521-163738 0 -0 +0 NoSolution
+# fix break: contig_18:164904-164920 0 -0 +0 NoSolution
+fix break: contig_18:165291 165138 -154 +158 BreakFix
+fix break: contig_18:169888 169759 -252 +252 BreakFix
+# fix break: contig_18:171622-171811 0 -0 +0 NoSolution TandemRepeat 2
+fix break: contig_18:172509-172663 172518 -347 +345 BreakFix
+# fix break: contig_18:173284 0 -0 +0 NoSolution
+# fix break: contig_18:184311-184323 0 -0 +0 NoSolution
+fix break: contig_18:186022-186328 185828 -763 +1166 BreakFix
+# fix break: contig_18:186767-186905 0 -0 +0 NoSolution
+# fix break: contig_18:190692-191003 0 -0 +0 NoSolution
+fix break: contig_18:191263-191430 191083 -593 +592 BreakFix
+fix break: contig_18:192846 192733 -214 +210 BreakFix
+# fix break: contig_18:197844-197964 0 -0 +0 NoSolution
+# fix break: contig_18:204807-204822 0 -0 +0 NoSolution
+fix break: contig_18:205065-206178 204902 -1249 +1243 BreakFix
+# fix break: contig_18:206414-207463 0 -0 +0 NoSolution
+fix break: contig_18:207674-207693 207469 -395 +397 BreakFix
+# fix break: contig_18:208247-208274 0 -0 +0 NoSolution
+# fix break: contig_18:208501-208531 0 -0 +0 NoSolution
+fix break: contig_18:208778-208941 208569 -504 +505 BreakFix
+fix break: contig_18:209203-209221 208936 -416 +415 BreakFix
+fix break: contig_18:209859-209871 209634 -483 +482 BreakFix
+fix break: contig_18:210103-210121 209867 -461 +463 BreakFix
+# fix break: contig_18:216753-216819 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_18:219897 0 -0 +0 NoSolution
+fix break: contig_18:231625-231691 231625 -331 +332 BreakFix
+# fix break: contig_18:232396-232445 0 -0 +0 NoSolution
+fix break: contig_18:232734-232774 232467 -550 +557 BreakFix
+# fix break: contig_18:233617-233682 0 -0 +0 NoSolution
+fix break: contig_18:234311-234572 234227 -571 +569 BreakFix
+# fix break: contig_18:234798-235004 0 -0 +0 NoSolution
+fix break: contig_18:235267-235279 234998 -282 +278 BreakFix
+# fix break: contig_18:237190-237195 0 -0 +0 NoSolution
+# fix break: contig_18:238577-238598 0 -0 +0 NoSolution
+# fix break: contig_18:239031-239254 0 -0 +0 NoSolution
+# fix break: contig_18:239705-239728 0 -0 +0 NoSolution
+# fix break: contig_18:240601-240778 0 -0 +0 NoSolution
+# fix break: contig_18:242463-244637 0 -0 +0 NoSolution
+# fix break: contig_18:245230-245784 0 -0 +0 NoSolution
+fix break: contig_18:246158-246439 245933 -735 +732 BreakFix
+fix break: contig_18:247104-247594 247037 -763 +762 BreakFix
+# fix break: contig_18:248022-248404 0 -0 +0 NoSolution
+# fix break: contig_18:249020-249110 0 -0 +0 NoSolution
+# fix break: contig_18:249367-249490 0 -0 +0 NoSolution
+# fix break: contig_18:249699-249709 0 -0 +0 NoSolution
+fix break: contig_18:250023-250203 249920 -460 +459 BreakFix
+fix break: contig_18:250446-253664 250379 -3525 +3519 BreakFix
+# fix break: contig_18:253873-254347 0 -0 +0 NoSolution
+fix break: contig_18:256199-256205 256017 -320 +319 BreakFix
+# fix break: contig_18:256431-258712 0 -0 +0 NoSolution
+# fix break: contig_18:260422-265707 0 -0 +0 NoSolution
+# fix break: contig_18:265943-266006 0 -0 +0 NoSolution
+# fix break: contig_18:267285-268202 0 -0 +0 NoSolution
+# fix break: contig_18:268646-269234 0 -0 +0 NoSolution
+# fix break: contig_18:269699-270368 0 -0 +0 NoSolution
+fix break: contig_18:270646-270751 270463 -390 +391 BreakFix
+fix break: contig_18:271046-271182 270781 -492 +493 BreakFix
+# fix break: contig_18:271402-271409 0 -0 +0 NoSolution
+# fix break: contig_18:271748-272489 0 -0 +0 NoSolution
+# fix break: contig_18:276209-276230 0 -0 +0 NoSolution
+# fix break: contig_18:279381-279408 0 -0 +0 NoSolution
+# fix break: contig_18:279859-279881 0 -0 +0 NoSolution
+# fix break: contig_18:283791-284024 0 -0 +0 NoSolution TandemRepeat 6
+# fix break: contig_18:285844-285851 0 -0 +0 NoSolution
+fix break: contig_18:286791-286794 286613 -267 +270 BreakFix
+# fix break: contig_18:288598-288605 0 -0 +0 NoSolution
+# fix break: contig_18:288845-289196 0 -0 +0 NoSolution
+# fix break: contig_18:297334 0 -0 +0 NoSolution
+# fix break: contig_18:304051 0 -0 +0 NoSolution
+fix break: contig_18:306726 306723 -136 +133 BreakFix
+fix break: contig_18:307624-308824 307466 -1557 +1556 BreakFix
+fix break: contig_18:309201-309567 308964 -739 +745 BreakFix
+fix break: contig_18:310065-310220 309889 -400 +406 BreakFix
+fix break: contig_18:316702-316725 316460 -412 +411 BreakFix
+# fix break: contig_18:319655 0 -0 +0 NoSolution
+# fix break: contig_18:319965 0 -0 +0 NoSolution
+fix break: contig_18:320693-320996 320658 -601 +600 BreakFix
+fix break: contig_18:321255-321438 321259 -211 +209 BreakFix
+fix break: contig_18:321707-322235 321455 -977 +976 BreakFix
+fix break: contig_18:322824-322958 322634 -552 +550 BreakFix
+# fix break: contig_18:323639-323649 0 -0 +0 NoSolution
+# fix break: contig_18:324084 0 -0 +0 NoSolution
+# fix break: contig_18:324780-324782 0 -0 +0 NoSolution
+# fix break: contig_18:329561-329588 0 -0 +0 NoSolution
+fix break: contig_18:330000 329825 -342 +339 BreakFix
+# fix break: contig_18:330908-331234 0 -0 +0 NoSolution
+# fix break: contig_18:332041-332217 0 -0 +0 NoSolution
+fix break: contig_18:332748-333723 332555 -1286 +1287 BreakFix
+# fix break: contig_18:334081-334234 0 -0 +0 NoSolution
+fix break: contig_18:334950-335114 334698 -594 +593 BreakFix
+fix break: contig_18:337427 337159 -421 +418 BreakFix
+fix break: contig_18:338118 337942 -429 +427 BreakFix
+fix break: contig_18:340778 340545 -463 +461 BreakFix
+# fix break: contig_18:341100-341191 0 -0 +0 NoSolution
+fix break: contig_18:341765 341763 -102 +100 BreakFix
+fix break: contig_18:353223 353221 -13 +13 BreakFix
+# fix break: contig_18:354949-354950 0 -0 +0 NoSolution
+fix break: contig_18:355630-355635 355419 -486 +490 BreakFix
+# fix break: contig_18:355909-355959 0 -0 +0 NoSolution
+# fix break: contig_18:356611-356806 0 -0 +0 NoSolution
+# fix break: contig_18:357553-357661 0 -0 +0 NoSolution
+# fix break: contig_18:357871-357875 0 -0 +0 NoSolution
+# fix break: contig_18:358155-358180 0 -0 +0 NoSolution
+fix break: contig_18:358860-358995 358641 -559 +560 BreakFix
+# fix break: contig_18:359702-359808 0 -0 +0 NoSolution
+# fix break: contig_18:360287-360291 0 -0 +0 NoSolution
+# fix break: contig_18:360573-360985 0 -0 +0 NoSolution
+# fix break: contig_18:361249-361440 0 -0 +0 NoSolution
+# fix break: contig_18:361958-361967 0 -0 +0 NoSolution
+fix break: contig_18:362219-362438 361958 -736 +736 BreakFix
+# fix break: contig_18:363140-363380 0 -0 +0 NoSolution
+# fix break: contig_18:364251 0 -0 +0 NoSolution
+# fix break: contig_18:364898-364906 0 -0 +0 NoSolution
+# fix break: contig_18:366256-366464 0 -0 +0 NoSolution
+fix break: contig_18:377679-377691 377434 -358 +358 BreakFix
+fix break: contig_18:379179 379001 -277 +274 BreakFix
+fix break: contig_18:380807-380817 380680 -129 +127 BreakFix
+# fix break: contig_18:383201 0 -0 +0 NoSolution
+# fix break: contig_18:383419-383505 0 -0 +0 NoSolution
+fix break: contig_18:384146 383936 -449 +449 BreakFix
+# fix break: contig_18:388646-388886 0 -0 +0 NoSolution TandemRepeat 2
+fix break: contig_18:390304 390049 -256 +255 BreakFix
+# fix break: contig_18:394345-394624 0 -0 +0 NoSolution TandemRepeat 2
+fix break: contig_18:395446-395471 395468 -145 +148 BreakFix
+# fix break: contig_18:404645-405163 0 -0 +0 NoSolution
+# fix break: contig_18:405848-406587 0 -0 +0 NoSolution
+# fix break: contig_18:407140 0 -0 +0 NoSolution
+fix break: contig_18:407895-408032 407652 -343 +351 BreakFix
+# fix break: contig_18:423051-423234 0 -0 +0 NoSolution TandemRepeat 76
+# fix break: contig_18:423968 0 -0 +0 NoSolution TandemRepeat 76
+fix break: contig_18:426497-426787 426307 -181 +183 BreakFix
+# fix break: contig_18:427892-428060 0 -0 +0 NoSolution TandemRepeat 148
+fix break: contig_18:428444 428433 -189 +186 BreakFix
+# fix break: contig_18:428936-429034 0 -0 +0 NoSolution
+# fix break: contig_18:434553-434674 0 -0 +0 NoSolution
+# fix break: contig_18:435365-435474 0 -0 +0 NoSolution
+# fix break: contig_18:441653-441657 0 -0 +0 NoSolution
+# fix break: contig_18:442817-443472 0 -0 +0 NoSolution
+# fix break: contig_18:443871-443928 0 -0 +0 NoSolution
+fix break: contig_18:445086-445251 444868 -407 +404 BreakFix
+# fix break: contig_18:446725-446813 0 -0 +0 NoSolution
+# fix break: contig_18:447170-447178 0 -0 +0 NoSolution
+fix break: contig_18:447931-448157 447785 -627 +635 BreakFix
+# fix break: contig_18:449815-449958 0 -0 +0 NoSolution
+fix break: contig_18:450936 450685 -517 +525 BreakFix
+# fix break: contig_18:452312-452317 0 -0 +0 NoSolution
+fix break: contig_18:454504-454670 454300 -381 +383 BreakFix
+fix break: contig_18:456813-457176 456569 -795 +798 BreakFix
+# fix break: contig_18:459942 0 -0 +0 NoSolution
+# fix break: contig_18:460703-460733 0 -0 +0 NoSolution
+# fix break: contig_18:462139 0 -0 +0 NoSolution TandemRepeat 54
+fix break: contig_18:463953 463705 -369 +369 BreakFix
+fix break: contig_18:465728-465828 465586 -449 +453 BreakFix
+fix break: contig_18:466262-466554 466008 -731 +737 BreakFix
+fix break: contig_18:467412 467195 -218 +215 BreakFix
+fix break: contig_18:467909-468530 467870 -721 +731 BreakFix
+fix break: contig_18:469005-469217 468852 -359 +334 BreakFix
+# fix break: contig_18:496807-496892 0 -0 +0 NoSolution TandemRepeat 2
+# fix break: contig_18:502815-502825 0 -0 +0 NoSolution
+fix break: contig_18:514054-514058 513890 -317 +314 BreakFix
+# fix break: contig_18:514990 0 -0 +0 NoSolution
+# fix break: contig_18:516494-516501 0 -0 +0 NoSolution
+# fix break: contig_18:516819-516990 0 -0 +0 NoSolution
+# fix break: contig_18:517394-517538 0 -0 +0 NoSolution
+# fix break: contig_18:518305-518308 0 -0 +0 NoSolution
+# fix break: contig_18:520611 0 -0 +0 NoSolution
+fix break: contig_18:521431-521655 521425 -445 +446 BreakFix
+# fix break: contig_18:523270 0 -0 +0 NoSolution
+# fix break: contig_18:523969-523990 0 -0 +0 NoSolution
+# fix break: contig_18:524262 0 -0 +0 NoSolution

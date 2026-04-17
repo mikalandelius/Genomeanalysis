@@ -1,0 +1,2 @@
+To execute Pilon run: java -Xmx8G -jar $EBROOTPILON/pilon.jar
+Adjust the memory value according to the size of your input files
