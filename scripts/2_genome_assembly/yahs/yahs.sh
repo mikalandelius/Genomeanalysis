@@ -13,7 +13,7 @@ module load SAMtools/1.22.1-GCC-13.3.0
 module load YaHS/1.2.2-foss-2024a
 
 # Step 1: Index genome
-bwa index /home/mila6004/Genomeanalysis/results/3_assembly_polishing/pilon/pilon.fasta
+bwa-mem2 index /home/mila6004/Genomeanalysis/results/3_assembly_polishing/pilon/pilon.fasta
 
 # Step 2: Map Hi-C reads
 bwa-mem2 mem -5SP -t 4 \
