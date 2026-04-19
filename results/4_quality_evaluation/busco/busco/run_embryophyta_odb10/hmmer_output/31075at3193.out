@@ -1,0 +1,15 @@
+#                                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+31075at3193_472368_0:005754|contig_1_pilon:1017772-1018492|- -            241 31075at3193          -            549   1.6e-40  125.3   0.1   1   2   9.7e-24   9.7e-24   69.9   0.0   216   348    59   202    22   205 0.90 <unknown description>
+31075at3193_472368_0:005754|contig_1_pilon:1017772-1018492|- -            241 31075at3193          -            549   1.6e-40  125.3   0.1   2   2     7e-21     7e-21   60.5   0.0   224   348   103   237   102   240 0.91 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/31075at3193.hmm
+# Target file:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/31075at3193.faa
+# Option settings: hmmsearch --domtblout /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/hmmer_output/31075at3193.out --cpu 1 /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/31075at3193.hmm /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/31075at3193.faa 
+# Current dir:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco
+# Date:            Sun Apr 19 09:22:44 2026
+# [ok]

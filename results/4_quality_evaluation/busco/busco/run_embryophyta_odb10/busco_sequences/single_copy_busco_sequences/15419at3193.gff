@@ -1,0 +1,16 @@
+contig_13_pilon	miniprot	mRNA	813323	820695	2178	-	.	ID=MP004518;Rank=1;Identity=0.5269;Positive=0.6679;Target=15419at3193_142615_0:001306 10 785
+contig_13_pilon	miniprot	CDS	820426	820695	115	-	0	Parent=MP004518;Rank=1;Identity=0.3333;Target=15419at3193_142615_0:001306 10 107
+contig_13_pilon	miniprot	CDS	820133	820226	95	-	0	Parent=MP004518;Rank=1;Identity=0.5000;Target=15419at3193_142615_0:001306 108 138
+contig_13_pilon	miniprot	CDS	819525	819711	181	-	2	Parent=MP004518;Rank=1;Identity=0.4925;Target=15419at3193_142615_0:001306 139 205
+contig_13_pilon	miniprot	CDS	819085	819328	199	-	1	Parent=MP004518;Rank=1;Identity=0.4756;Target=15419at3193_142615_0:001306 206 287
+contig_13_pilon	miniprot	CDS	818655	818861	170	-	0	Parent=MP004518;Rank=1;Identity=0.4306;Target=15419at3193_142615_0:001306 288 359
+contig_13_pilon	miniprot	CDS	818233	818319	108	-	0	Parent=MP004518;Rank=1;Identity=0.5862;Target=15419at3193_142615_0:001306 360 388
+contig_13_pilon	miniprot	CDS	817744	817878	155	-	0	Parent=MP004518;Rank=1;Identity=0.5778;Target=15419at3193_142615_0:001306 389 433
+contig_13_pilon	miniprot	CDS	817493	817609	116	-	0	Parent=MP004518;Rank=1;Identity=0.5385;Target=15419at3193_142615_0:001306 434 471
+contig_13_pilon	miniprot	CDS	817070	817317	326	-	0	Parent=MP004518;Rank=1;Identity=0.7108;Target=15419at3193_142615_0:001306 472 553
+contig_13_pilon	miniprot	CDS	816838	816918	102	-	1	Parent=MP004518;Rank=1;Identity=0.7037;Target=15419at3193_142615_0:001306 554 580
+contig_13_pilon	miniprot	CDS	816326	816557	266	-	1	Parent=MP004518;Rank=1;Identity=0.6753;Target=15419at3193_142615_0:001306 581 658
+contig_13_pilon	miniprot	CDS	816080	816178	103	-	0	Parent=MP004518;Rank=1;Identity=0.5758;Target=15419at3193_142615_0:001306 659 691
+contig_13_pilon	miniprot	CDS	815450	815635	142	-	0	Parent=MP004518;Rank=1;Identity=0.4355;Target=15419at3193_142615_0:001306 692 753
+contig_13_pilon	miniprot	CDS	815213	815298	82	-	0	Parent=MP004518;Rank=1;Identity=0.5172;Target=15419at3193_142615_0:001306 754 780
+contig_13_pilon	miniprot	CDS	813323	813335	18	-	1	Parent=MP004518;Rank=1;Identity=1.0000;Target=15419at3193_142615_0:001306 781 785

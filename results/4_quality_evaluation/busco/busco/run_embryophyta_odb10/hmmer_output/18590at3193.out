@@ -1,0 +1,18 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+18590at3193_2711_0:0003c0|contig_1_pilon:1016419-1018315|- -            569 18590at3193          -            678     3e-64  203.7   0.0   1   5     4e-19     4e-19   54.6   0.0   347   471    10   143     3   154 0.89 <unknown description>
+18590at3193_2711_0:0003c0|contig_1_pilon:1016419-1018315|- -            569 18590at3193          -            678     3e-64  203.7   0.0   2   5     2e-10     2e-10   25.8   0.0   349   418   153   228   147   229 0.89 <unknown description>
+18590at3193_2711_0:0003c0|contig_1_pilon:1016419-1018315|- -            569 18590at3193          -            678     3e-64  203.7   0.0   3   5   1.3e-18   1.3e-18   52.8   0.0   375   486   220   336   220   353 0.89 <unknown description>
+18590at3193_2711_0:0003c0|contig_1_pilon:1016419-1018315|- -            569 18590at3193          -            678     3e-64  203.7   0.0   4   5   4.7e-17   4.7e-17   47.7   0.0   353   485   332   475   331   476 0.88 <unknown description>
+18590at3193_2711_0:0003c0|contig_1_pilon:1016419-1018315|- -            569 18590at3193          -            678     3e-64  203.7   0.0   5   5   5.1e-15   5.1e-15   41.0   0.0   352   470   436   568   436   569 0.85 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/18590at3193.hmm
+# Target file:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/18590at3193.faa
+# Option settings: hmmsearch --domtblout /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/hmmer_output/18590at3193.out --cpu 1 /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/18590at3193.hmm /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/18590at3193.faa 
+# Current dir:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco
+# Date:            Sun Apr 19 09:22:40 2026
+# [ok]

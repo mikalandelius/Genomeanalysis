@@ -1,0 +1,20 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+62081at3193_4097_0:0082b0|contig_28_pilon:628778-630257|+  -            493 62081at3193          -            458  2.3e-141  459.5   0.2   1   2   2.8e-58   2.8e-58  185.6   0.1   232   447     1   222     1   226 0.94 <unknown description>
+62081at3193_4097_0:0082b0|contig_28_pilon:628778-630257|+  -            493 62081at3193          -            458  2.3e-141  459.5   0.2   2   2   1.6e-84   1.6e-84  272.2   0.0   204   445   245   492   230   493 0.93 <unknown description>
+62081at3193_57577_0:003892|contig_28_pilon:629129-630263|+ -            342 62081at3193          -            458     1e-94  305.7   2.2   1   3     1e-29     1e-29   91.4   0.5   344   447     1   105     1   110 0.95 <unknown description>
+62081at3193_57577_0:003892|contig_28_pilon:629129-630263|+ -            342 62081at3193          -            458     1e-94  305.7   2.2   2   3     3e-36     3e-36  113.0   0.0   204   301   128   225   113   228 0.92 <unknown description>
+62081at3193_57577_0:003892|contig_28_pilon:629129-630263|+ -            342 62081at3193          -            458     1e-94  305.7   2.2   3   3   1.6e-32   1.6e-32  100.7   0.0   334   447   226   341   223   342 0.94 <unknown description>
+62081at3193_3775_0:006ab2|contig_22_pilon:636842-638123|-  -            189 62081at3193          -            458   4.9e-44  138.7   0.0   1   1   1.5e-43   1.5e-43  137.0   0.0   223   404     3   179     1   188 0.90 <unknown description>
+62081at3193_3914_0:003035|contig_22_pilon:636869-638441|-  -            191 62081at3193          -            458   1.1e-42  134.1   0.0   1   1   3.2e-42   3.2e-42  132.7   0.0   228   403    19   189     4   191 0.91 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/62081at3193.hmm
+# Target file:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/62081at3193.faa
+# Option settings: hmmsearch --domtblout /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/hmmer_output/62081at3193.out --cpu 1 /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/62081at3193.hmm /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/62081at3193.faa 
+# Current dir:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco
+# Date:            Sun Apr 19 09:22:49 2026
+# [ok]

@@ -1,0 +1,21 @@
+#                                                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                  accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                          ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+105160at3193_3218_0:000fb0|contig_13_pilon:1354594-1358345|-   -            396 105160at3193         -            283  1.9e-145  472.9   0.0   1   1  1.7e-145  2.2e-145  472.6   0.0     1   282    82   390    82   391 0.94 <unknown description>
+105160at3193_33119_0:002c50|contig_13_pilon:1354618-1360168|-  -            362 105160at3193         -            283  1.1e-140  457.3   0.5   1   2   1.1e-32   1.5e-32  102.5   0.0     1    68    14    82    14    99 0.92 <unknown description>
+105160at3193_33119_0:002c50|contig_13_pilon:1354618-1360168|-  -            362 105160at3193         -            283  1.1e-140  457.3   0.5   2   2  3.8e-109  4.8e-109  353.4   0.1    63   280   118   361   107   362 0.92 <unknown description>
+105160at3193_158383_0:00482e|contig_13_pilon:1355061-1357193|- -            294 105160at3193         -            283  3.4e-124  403.1   0.0   1   1    3e-124  3.8e-124  403.0   0.0     1   240    27   288    27   294 0.92 <unknown description>
+105160at3193_4565_0:003012|contig_13_pilon:1354594-1356692|-   -            249 105160at3193         -            283  7.2e-108  349.6   0.2   1   1  6.4e-108  8.3e-108  349.4   0.2    66   282     1   243     1   244 0.93 <unknown description>
+105160at3193_200316_0:00178b|contig_13_pilon:1355686-1357115|- -            189 105160at3193         -            283  2.4e-103  334.7   0.0   1   1  2.1e-103  2.8e-103  334.5   0.0     1   178     1   182     1   188 0.97 <unknown description>
+105160at3193_158383_0:008240|contig_13_pilon:1355692-1356698|- -            123 105160at3193         -            283   3.2e-67  216.2   0.1   1   1   2.8e-67   3.6e-67  216.0   0.1    64   178     1   118     1   122 0.97 <unknown description>
+105160at3193_57577_0:001d17|contig_13_pilon:1354618-1355460|-  -            119 105160at3193         -            283     3e-42  134.3   0.0   1   1   2.6e-42   3.3e-42  134.1   0.0   179   280     1   118     1   119 0.91 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/105160at3193.hmm
+# Target file:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/105160at3193.faa
+# Option settings: hmmsearch --domtblout /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/hmmer_output/105160at3193.out --cpu 1 /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/105160at3193.hmm /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/105160at3193.faa 
+# Current dir:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco
+# Date:            Sun Apr 19 09:22:31 2026
+# [ok]

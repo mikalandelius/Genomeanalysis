@@ -1,0 +1,2 @@
+contig_1_pilon	miniprot	mRNA	1016804	1018798	818	-	.	ID=MP008279;Rank=1;Identity=0.3093;Positive=0.5180;Target=25883at3193_51953_0:004257 18 638
+contig_1_pilon	miniprot	CDS	1016804	1018798	818	-	0	Parent=MP008279;Rank=1;Identity=0.3093;Target=25883at3193_51953_0:004257 18 638

@@ -1,0 +1,2 @@
+contig_28_pilon	miniprot	mRNA	851950	852999	1202	+	.	ID=MP001371;Rank=1;Identity=0.6959;Positive=0.7534;Target=121323at3193_3218_0:0010f3 1 360
+contig_28_pilon	miniprot	CDS	851950	852999	1202	+	0	Parent=MP001371;Rank=1;Identity=0.6959;Target=121323at3193_3218_0:0010f3 1 360

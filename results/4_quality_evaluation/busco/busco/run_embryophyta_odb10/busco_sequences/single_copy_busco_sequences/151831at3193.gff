@@ -1,0 +1,6 @@
+contig_1_pilon	miniprot	mRNA	1304417	1310289	703	-	.	ID=MP004282;Rank=1;Identity=0.4607;Positive=0.5962;Frameshift=1;Target=151831at3193_3726_0:00747c 41 390
+contig_1_pilon	miniprot	CDS	1309896	1310289	73	-	0	Parent=MP004282;Rank=1;Identity=0.2879;Frameshift=1;Target=151831at3193_3726_0:00747c 41 153
+contig_1_pilon	miniprot	CDS	1304974	1305493	418	-	0	Parent=MP004282;Rank=1;Identity=0.4972;Target=151831at3193_3726_0:00747c 154 333
+contig_1_pilon	miniprot	CDS	1304661	1304741	68	-	2	Parent=MP004282;Rank=1;Identity=0.5185;Target=151831at3193_3726_0:00747c 334 360
+contig_1_pilon	miniprot	CDS	1304417	1304508	144	-	2	Parent=MP004282;Rank=1;Identity=0.9655;Target=151831at3193_3726_0:00747c 361 390
+contig_1_pilon	miniprot	stop_codon	1304417	1304419	0	-	0	Parent=MP004282;Rank=1

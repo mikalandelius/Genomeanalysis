@@ -1,0 +1,3 @@
+contig_1_pilon	miniprot	mRNA	1072520	1074796	2900	-	.	ID=MP001615;Rank=1;Identity=0.7391;Positive=0.8445;Target=123110at3193_3218_0:000c53 1 756
+contig_1_pilon	miniprot	CDS	1072520	1074796	2900	-	0	Parent=MP001615;Rank=1;Identity=0.7391;Target=123110at3193_3218_0:000c53 1 756
+contig_1_pilon	miniprot	stop_codon	1072520	1072522	0	-	0	Parent=MP001615;Rank=1

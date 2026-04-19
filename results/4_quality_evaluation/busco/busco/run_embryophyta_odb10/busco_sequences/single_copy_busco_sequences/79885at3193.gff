@@ -1,0 +1,11 @@
+contig_12_pilon	miniprot	mRNA	205549	208785	1960	-	.	ID=MP013527;Rank=1;Identity=0.6933;Positive=0.8000;Target=79885at3193_3218_0:0010bc 6 530
+contig_12_pilon	miniprot	CDS	208672	208785	110	-	0	Parent=MP013527;Rank=1;Identity=0.5263;Target=79885at3193_3218_0:0010bc 6 43
+contig_12_pilon	miniprot	CDS	208158	208246	150	-	0	Parent=MP013527;Rank=1;Identity=0.8000;Target=79885at3193_3218_0:0010bc 44 72
+contig_12_pilon	miniprot	CDS	207736	207995	339	-	1	Parent=MP013527;Rank=1;Identity=0.7356;Target=79885at3193_3218_0:0010bc 73 159
+contig_12_pilon	miniprot	CDS	207495	207568	119	-	2	Parent=MP013527;Rank=1;Identity=1.0000;Target=79885at3193_3218_0:0010bc 160 184
+contig_12_pilon	miniprot	CDS	207013	207304	215	-	0	Parent=MP013527;Rank=1;Identity=0.4796;Target=79885at3193_3218_0:0010bc 185 281
+contig_12_pilon	miniprot	CDS	206679	206816	163	-	2	Parent=MP013527;Rank=1;Identity=0.6957;Target=79885at3193_3218_0:0010bc 282 327
+contig_12_pilon	miniprot	CDS	206372	206570	266	-	2	Parent=MP013527;Rank=1;Identity=0.7273;Target=79885at3193_3218_0:0010bc 328 393
+contig_12_pilon	miniprot	CDS	206044	206186	249	-	1	Parent=MP013527;Rank=1;Identity=0.8542;Target=79885at3193_3218_0:0010bc 394 441
+contig_12_pilon	miniprot	CDS	205549	205817	349	-	2	Parent=MP013527;Rank=1;Identity=0.7273;Target=79885at3193_3218_0:0010bc 442 530
+contig_12_pilon	miniprot	stop_codon	205549	205551	0	-	0	Parent=MP013527;Rank=1

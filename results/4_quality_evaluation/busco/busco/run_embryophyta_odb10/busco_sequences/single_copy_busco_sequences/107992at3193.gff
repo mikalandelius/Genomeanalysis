@@ -1,0 +1,4 @@
+contig_22_pilon	miniprot	mRNA	1975076	1979806	1108	-	.	ID=MP000546;Rank=1;Identity=0.5473;Positive=0.7161;Target=107992at3193_3760_0:002463 1 391
+contig_22_pilon	miniprot	CDS	1979645	1979806	18	-	0	Parent=MP000546;Rank=1;Identity=0.1940;Target=107992at3193_3760_0:002463 1 67
+contig_22_pilon	miniprot	CDS	1975076	1976050	1090	-	0	Parent=MP000546;Rank=1;Identity=0.6204;Target=107992at3193_3760_0:002463 68 391
+contig_22_pilon	miniprot	stop_codon	1975076	1975078	0	-	0	Parent=MP000546;Rank=1

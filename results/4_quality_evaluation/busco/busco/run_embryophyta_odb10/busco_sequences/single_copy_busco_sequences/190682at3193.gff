@@ -1,0 +1,7 @@
+contig_1_pilon	miniprot	mRNA	180700	182935	556	-	.	ID=MP007016;Rank=1;Identity=0.7152;Positive=0.7939;Target=190682at3193_3218_0:002ad7 1 164
+contig_1_pilon	miniprot	CDS	182848	182935	42	-	0	Parent=MP007016;Rank=1;Identity=0.4667;Target=190682at3193_3218_0:002ad7 1 28
+contig_1_pilon	miniprot	CDS	181914	182011	94	-	2	Parent=MP007016;Rank=1;Identity=0.6471;Target=190682at3193_3218_0:002ad7 29 63
+contig_1_pilon	miniprot	CDS	181442	181576	187	-	0	Parent=MP007016;Rank=1;Identity=0.8222;Target=190682at3193_3218_0:002ad7 64 108
+contig_1_pilon	miniprot	CDS	181140	181241	153	-	0	Parent=MP007016;Rank=1;Identity=0.8824;Target=190682at3193_3218_0:002ad7 109 142
+contig_1_pilon	miniprot	CDS	180700	180768	80	-	0	Parent=MP007016;Rank=1;Identity=0.6818;Target=190682at3193_3218_0:002ad7 143 164
+contig_1_pilon	miniprot	stop_codon	180700	180702	0	-	0	Parent=MP007016;Rank=1

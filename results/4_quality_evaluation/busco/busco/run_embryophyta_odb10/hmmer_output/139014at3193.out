@@ -1,0 +1,24 @@
+#                                                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                  accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                          ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+139014at3193_88036_0:006c93|contig_28_pilon:947924-949483|+    -            314 139014at3193         -            252   1.7e-77  249.7   0.6   1   1   6.2e-77   6.2e-77  247.8   0.6     2   252    32   314    31   314 0.85 <unknown description>
+139014at3193_35883_0:001ac8|contig_22_pilon:647168-648463|+    -            290 139014at3193         -            252   3.1e-67  216.0   0.0   1   1   3.9e-67   3.9e-67  215.7   0.0     2   250     9   288     8   290 0.86 <unknown description>
+139014at3193_22663_0:007aee|contig_22_pilon:660605-662350|+    -            290 139014at3193         -            252     1e-64  207.7   0.0   1   1   1.3e-64   1.3e-64  207.4   0.0     2   249     9   287     8   290 0.84 <unknown description>
+139014at3193_88036_0:006c93|contig_1_pilon:1887891-1889197|+   -            326 139014at3193         -            252   3.2e-64  206.2   0.4   1   1     7e-63     7e-63  201.8   0.4     2   252    29   324    28   324 0.82 <unknown description>
+139014at3193_88036_0:0066bd|contig_23_pilon:76584-77679|-      -            299 139014at3193         -            252   1.5e-63  203.9   0.6   1   2   6.9e-52   6.9e-52  165.7   0.4     2   168     9   179     8   187 0.92 <unknown description>
+139014at3193_88036_0:0066bd|contig_23_pilon:76584-77679|-      -            299 139014at3193         -            252   1.5e-63  203.9   0.6   2   2   1.9e-12   1.9e-12   36.5   0.0   184   249   215   295   203   298 0.81 <unknown description>
+139014at3193_214687_0:0020ef|contig_13_pilon:497726-498595|+   -            289 139014at3193         -            252   7.7e-63  201.6   0.0   1   1   1.1e-62   1.1e-62  201.1   0.0     2   247     9   284     8   289 0.83 <unknown description>
+139014at3193_1088818_0:002a01|contig_1_pilon:1887978-1888894|+ -            241 139014at3193         -            252   2.4e-62  200.0   0.2   1   1     5e-61     5e-61  195.7   0.2     3   215     1   240     1   241 0.87 <unknown description>
+139014at3193_4100_0:001619|contig_28_pilon:947993-949239|+     -            219 139014at3193         -            252   2.2e-54  173.9   1.6   1   1   1.4e-51   1.4e-51  164.7   1.6     2   214     9   218     8   219 0.88 <unknown description>
+139014at3193_93759_0:007c67|contig_1_pilon:1888189-1889194|+   -            260 139014at3193         -            252   8.1e-51  162.2   0.4   1   1   2.1e-49   2.1e-49  157.6   0.4    38   252     1   259     1   259 0.80 <unknown description>
+139014at3193_3562_0:003aad|contig_28_pilon:947993-948638|+     -            105 139014at3193         -            252   6.5e-41  129.8   1.0   1   1   7.2e-41   7.2e-41  129.6   1.0     2    98     9   104     8   105 0.95 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/139014at3193.hmm
+# Target file:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/139014at3193.faa
+# Option settings: hmmsearch --domtblout /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/hmmer_output/139014at3193.out --cpu 1 /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/139014at3193.hmm /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/139014at3193.faa 
+# Current dir:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco
+# Date:            Sun Apr 19 09:22:34 2026
+# [ok]

@@ -1,0 +1,8 @@
+contig_22_pilon	miniprot	mRNA	723939	726376	1150	-	.	ID=MP002856;Rank=1;Identity=0.7052;Positive=0.7845;Frameshift=1;Target=134878at3193_3218_0:000f06 1 327
+contig_22_pilon	miniprot	CDS	726251	726376	215	-	0	Parent=MP002856;Rank=1;Identity=0.9286;Target=134878at3193_3218_0:000f06 1 42
+contig_22_pilon	miniprot	CDS	725828	725916	130	-	0	Parent=MP002856;Rank=1;Identity=0.8000;Target=134878at3193_3218_0:000f06 43 71
+contig_22_pilon	miniprot	CDS	725371	725459	72	-	1	Parent=MP002856;Rank=1;Identity=0.6818;Frameshift=1;Target=134878at3193_3218_0:000f06 72 100
+contig_22_pilon	miniprot	CDS	725008	725109	152	-	0	Parent=MP002856;Rank=1;Identity=0.8235;Target=134878at3193_3218_0:000f06 101 134
+contig_22_pilon	miniprot	CDS	724718	724823	128	-	0	Parent=MP002856;Rank=1;Identity=0.7778;Target=134878at3193_3218_0:000f06 135 169
+contig_22_pilon	miniprot	CDS	723939	724438	453	-	2	Parent=MP002856;Rank=1;Identity=0.5976;Target=134878at3193_3218_0:000f06 170 327
+contig_22_pilon	miniprot	stop_codon	723939	723941	0	-	0	Parent=MP002856;Rank=1

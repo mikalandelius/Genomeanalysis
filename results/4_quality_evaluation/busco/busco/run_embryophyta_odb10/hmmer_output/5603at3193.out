@@ -1,0 +1,17 @@
+#                                                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+5603at3193_4615_0:003b8f|contig_22_pilon:1823371-1826209|+  -            625 5603at3193           -            866  4.6e-102  330.4   2.9   1   1  6.2e-102  6.2e-102  330.0   2.9   183   658    12   508     5   533 0.83 <unknown description>
+5603at3193_3661_0:003589|contig_22_pilon:1821577-1826074|+  -            794 5603at3193           -            866  5.9e-102  330.1   2.4   1   1  8.8e-102  8.8e-102  329.5   2.4   182   658   225   722   215   747 0.83 <unknown description>
+5603at3193_4565_0:00b26c|contig_22_pilon:1824109-1826140|+  -            356 5603at3193           -            866   1.4e-64  206.4   4.9   1   1   1.6e-64   1.6e-64  206.2   4.9   416   676     1   278     1   288 0.85 <unknown description>
+5603at3193_33119_0:00611a|contig_22_pilon:1825354-1826209|+ -            286 5603at3193           -            866   8.9e-51  160.8   2.2   1   1     1e-50     1e-50  160.5   2.2   496   676     1   185     1   195 0.88 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/5603at3193.hmm
+# Target file:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/5603at3193.faa
+# Option settings: hmmsearch --domtblout /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/hmmer_output/5603at3193.out --cpu 1 /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/5603at3193.hmm /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/5603at3193.faa 
+# Current dir:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco
+# Date:            Sun Apr 19 09:22:48 2026
+# [ok]

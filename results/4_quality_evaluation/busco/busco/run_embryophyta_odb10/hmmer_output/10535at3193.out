@@ -1,0 +1,34 @@
+#                                                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+10535at3193_4686_0:004498|contig_1_pilon:1016347-1018540|-  -            732 10535at3193          -            871  1.6e-223  732.9   0.0   1   9    0.0001    0.0001    9.0   0.0   375   425    13    63     3    72 0.80 <unknown description>
+10535at3193_4686_0:004498|contig_1_pilon:1016347-1018540|-  -            732 10535at3193          -            871  1.6e-223  732.9   0.0   2   9   7.9e-32   7.9e-32   98.7   0.0   191   331    70   211    61   213 0.95 <unknown description>
+10535at3193_4686_0:004498|contig_1_pilon:1016347-1018540|-  -            732 10535at3193          -            871  1.6e-223  732.9   0.0   3   9   2.7e-34   2.7e-34  106.8   0.0   196   335   146   285   144   289 0.97 <unknown description>
+10535at3193_4686_0:004498|contig_1_pilon:1016347-1018540|-  -            732 10535at3193          -            871  1.6e-223  732.9   0.0   4   9   1.7e-28   1.7e-28   87.6   0.0   213   336   198   321   198   322 0.98 <unknown description>
+10535at3193_4686_0:004498|contig_1_pilon:1016347-1018540|-  -            732 10535at3193          -            871  1.6e-223  732.9   0.0   5   9   1.9e-38   1.9e-38  120.6   0.1   196   337   286   427   283   429 0.98 <unknown description>
+10535at3193_4686_0:004498|contig_1_pilon:1016347-1018540|-  -            732 10535at3193          -            871  1.6e-223  732.9   0.0   6   9   4.8e-39   4.8e-39  122.5   0.1   195   337   320   462   317   464 0.97 <unknown description>
+10535at3193_4686_0:004498|contig_1_pilon:1016347-1018540|-  -            732 10535at3193          -            871  1.6e-223  732.9   0.0   7   9   1.5e-37   1.5e-37  117.6   0.0   195   357   425   592   424   593 0.94 <unknown description>
+10535at3193_4686_0:004498|contig_1_pilon:1016347-1018540|-  -            732 10535at3193          -            871  1.6e-223  732.9   0.0   8   9   1.6e-18   1.6e-18   54.7   0.0   225   334   560   669   559   672 0.97 <unknown description>
+10535at3193_4686_0:004498|contig_1_pilon:1016347-1018540|-  -            732 10535at3193          -            871  1.6e-223  732.9   0.0   9   9   1.1e-22   1.1e-22   68.5   0.0   195   325   600   730   599   732 0.97 <unknown description>
+10535at3193_4097_0:009e80|contig_1_pilon:1016473-1017706|-  -            412 10535at3193          -            871  4.7e-105  340.9   0.0   1   4   3.1e-30   3.1e-30   93.4   0.0   224   332     1   109     1   110 0.98 <unknown description>
+10535at3193_4097_0:009e80|contig_1_pilon:1016473-1017706|-  -            412 10535at3193          -            871  4.7e-105  340.9   0.0   2   4   6.2e-31   6.2e-31   95.7   0.0   215   330    97   212    97   213 0.99 <unknown description>
+10535at3193_4097_0:009e80|contig_1_pilon:1016473-1017706|-  -            412 10535at3193          -            871  4.7e-105  340.9   0.0   3   4   2.6e-35   2.6e-35  110.2   0.0   195   335   147   287   147   288 0.98 <unknown description>
+10535at3193_4097_0:009e80|contig_1_pilon:1016473-1017706|-  -            412 10535at3193          -            871  4.7e-105  340.9   0.0   4   4   7.3e-20   7.3e-20   59.1   0.0   224   348   281   410   279   412 0.89 <unknown description>
+10535at3193_75702_0:000dc3|contig_1_pilon:1016473-1017223|- -            251 10535at3193          -            871   8.3e-49  154.8   0.0   1   2   5.7e-31   5.7e-31   95.8   0.0   211   335     2   126     1   127 0.98 <unknown description>
+10535at3193_75702_0:000dc3|contig_1_pilon:1016473-1017223|- -            251 10535at3193          -            871   8.3e-49  154.8   0.0   2   2   2.8e-20   2.8e-20   60.5   0.0   225   348   121   249   119   251 0.89 <unknown description>
+10535at3193_72664_0:00377e|contig_13_pilon:313789-315574|-  -            441 10535at3193          -            871     7e-46  145.1   0.1   1   3   2.9e-09   2.9e-09   24.0   0.0   636   730    85   181    63   188 0.77 <unknown description>
+10535at3193_72664_0:00377e|contig_13_pilon:313789-315574|-  -            441 10535at3193          -            871     7e-46  145.1   0.1   2   3   2.4e-21   2.4e-21   64.0   0.0   202   324   193   318   185   324 0.88 <unknown description>
+10535at3193_72664_0:00377e|contig_13_pilon:313789-315574|-  -            441 10535at3193          -            871     7e-46  145.1   0.1   3   3   6.7e-23   6.7e-23   69.1   0.0   197   329   296   429   295   440 0.94 <unknown description>
+10535at3193_4236_0:003937|contig_22_pilon:984087-985059|+   -            325 10535at3193          -            871   1.6e-45  144.0   0.2   1   2   8.4e-33   8.4e-33  101.9   0.0   223   437     4   224     2   226 0.94 <unknown description>
+10535at3193_4236_0:003937|contig_22_pilon:984087-985059|+   -            325 10535at3193          -            871   1.6e-45  144.0   0.2   2   2   1.5e-14   1.5e-14   41.5   0.2   230   332   222   323   219   325 0.82 <unknown description>
+10535at3193_3750_0:004feb|contig_13_pilon:314368-314770|-   -            135 10535at3193          -            871   8.1e-22   65.5   0.0   1   1   4.1e-21   4.1e-21   63.2   0.0   342   468     3   133     3   135 0.77 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/10535at3193.hmm
+# Target file:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/10535at3193.faa
+# Option settings: hmmsearch --domtblout /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/hmmer_output/10535at3193.out --cpu 1 /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/10535at3193.hmm /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/10535at3193.faa 
+# Current dir:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco
+# Date:            Sun Apr 19 09:22:31 2026
+# [ok]

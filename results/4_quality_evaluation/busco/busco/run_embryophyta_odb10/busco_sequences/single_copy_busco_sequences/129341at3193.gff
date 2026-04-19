@@ -1,0 +1,14 @@
+contig_1_pilon	miniprot	mRNA	1445120	1448299	1406	+	.	ID=MP002140;Rank=1;Identity=0.7861;Positive=0.8960;Target=129341at3193_3218_0:001e22 7 352
+contig_1_pilon	miniprot	CDS	1445120	1445216	113	+	0	Parent=MP002140;Rank=1;Identity=0.6364;Target=129341at3193_3218_0:001e22 7 38
+contig_1_pilon	miniprot	CDS	1445647	1445865	265	+	2	Parent=MP002140;Rank=1;Identity=0.6986;Target=129341at3193_3218_0:001e22 39 111
+contig_1_pilon	miniprot	CDS	1446061	1446158	157	+	2	Parent=MP002140;Rank=1;Identity=0.9375;Target=129341at3193_3218_0:001e22 112 144
+contig_1_pilon	miniprot	CDS	1446274	1446316	48	+	0	Parent=MP002140;Rank=1;Identity=0.7333;Target=129341at3193_3218_0:001e22 145 158
+contig_1_pilon	miniprot	CDS	1446418	1446479	98	+	2	Parent=MP002140;Rank=1;Identity=0.8500;Target=129341at3193_3218_0:001e22 159 179
+contig_1_pilon	miniprot	CDS	1446717	1446773	86	+	0	Parent=MP002140;Rank=1;Identity=0.8947;Target=129341at3193_3218_0:001e22 180 198
+contig_1_pilon	miniprot	CDS	1446995	1447030	49	+	0	Parent=MP002140;Rank=1;Identity=0.7500;Target=129341at3193_3218_0:001e22 199 210
+contig_1_pilon	miniprot	CDS	1447144	1447221	112	+	0	Parent=MP002140;Rank=1;Identity=0.8077;Target=129341at3193_3218_0:001e22 211 236
+contig_1_pilon	miniprot	CDS	1447337	1447403	101	+	0	Parent=MP002140;Rank=1;Identity=0.8696;Target=129341at3193_3218_0:001e22 237 258
+contig_1_pilon	miniprot	CDS	1447684	1447749	89	+	2	Parent=MP002140;Rank=1;Identity=0.6818;Target=129341at3193_3218_0:001e22 259 280
+contig_1_pilon	miniprot	CDS	1447867	1447970	140	+	2	Parent=MP002140;Rank=1;Identity=0.8857;Target=129341at3193_3218_0:001e22 281 316
+contig_1_pilon	miniprot	CDS	1448189	1448299	148	+	0	Parent=MP002140;Rank=1;Identity=0.8056;Target=129341at3193_3218_0:001e22 317 352
+contig_1_pilon	miniprot	stop_codon	1448297	1448299	0	+	0	Parent=MP002140;Rank=1

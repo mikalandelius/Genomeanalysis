@@ -1,0 +1,6 @@
+contig_1_pilon	miniprot	mRNA	2318249	2320042	1099	+	.	ID=MP003768;Rank=1;Identity=0.7420;Positive=0.8551;Target=144454at3193_3218_0:000d57 1 282
+contig_1_pilon	miniprot	CDS	2318249	2318568	409	+	0	Parent=MP003768;Rank=1;Identity=0.7383;Target=144454at3193_3218_0:000d57 1 106
+contig_1_pilon	miniprot	CDS	2318926	2319064	205	+	1	Parent=MP003768;Rank=1;Identity=0.7826;Target=144454at3193_3218_0:000d57 107 153
+contig_1_pilon	miniprot	CDS	2319195	2319256	100	+	0	Parent=MP003768;Rank=1;Identity=0.8571;Target=144454at3193_3218_0:000d57 154 173
+contig_1_pilon	miniprot	CDS	2319535	2319673	214	+	1	Parent=MP003768;Rank=1;Identity=0.8913;Target=144454at3193_3218_0:000d57 174 220
+contig_1_pilon	miniprot	CDS	2319857	2320042	171	+	0	Parent=MP003768;Rank=1;Identity=0.5714;Target=144454at3193_3218_0:000d57 221 282

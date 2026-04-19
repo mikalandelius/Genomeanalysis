@@ -1,0 +1,17 @@
+contig_13_pilon	miniprot	mRNA	644871	649831	2367	+	.	ID=MP013049;Rank=1;Identity=0.7945;Positive=0.8647;Target=71815at3193_3218_0:004daf 1 582
+contig_13_pilon	miniprot	CDS	644871	645018	92	+	0	Parent=MP013049;Rank=1;Identity=0.4400;Target=71815at3193_3218_0:004daf 1 49
+contig_13_pilon	miniprot	CDS	645433	645746	311	+	2	Parent=MP013049;Rank=1;Identity=0.5865;Target=71815at3193_3218_0:004daf 50 152
+contig_13_pilon	miniprot	CDS	646019	646120	154	+	0	Parent=MP013049;Rank=1;Identity=0.8824;Target=71815at3193_3218_0:004daf 153 186
+contig_13_pilon	miniprot	CDS	646245	646292	67	+	0	Parent=MP013049;Rank=1;Identity=0.8125;Donor=GC;Target=71815at3193_3218_0:004daf 187 202
+contig_13_pilon	miniprot	CDS	646427	646497	119	+	0	Parent=MP013049;Rank=1;Identity=0.9583;Target=71815at3193_3218_0:004daf 203 225
+contig_13_pilon	miniprot	CDS	646820	646938	210	+	1	Parent=MP013049;Rank=1;Identity=1.0000;Target=71815at3193_3218_0:004daf 226 265
+contig_13_pilon	miniprot	CDS	647188	647283	145	+	2	Parent=MP013049;Rank=1;Identity=0.8750;Target=71815at3193_3218_0:004daf 266 297
+contig_13_pilon	miniprot	CDS	647445	647554	165	+	2	Parent=MP013049;Rank=1;Identity=0.8889;Target=71815at3193_3218_0:004daf 298 334
+contig_13_pilon	miniprot	CDS	647657	647737	124	+	0	Parent=MP013049;Rank=1;Identity=0.9630;Target=71815at3193_3218_0:004daf 335 361
+contig_13_pilon	miniprot	CDS	648023	648123	162	+	0	Parent=MP013049;Rank=1;Identity=0.9118;Target=71815at3193_3218_0:004daf 362 394
+contig_13_pilon	miniprot	CDS	648379	648487	153	+	1	Parent=MP013049;Rank=1;Identity=0.8611;Target=71815at3193_3218_0:004daf 395 431
+contig_13_pilon	miniprot	CDS	648642	648747	173	+	0	Parent=MP013049;Rank=1;Identity=0.9167;Target=71815at3193_3218_0:004daf 432 466
+contig_13_pilon	miniprot	CDS	648861	648946	130	+	2	Parent=MP013049;Rank=1;Identity=0.8929;Target=71815at3193_3218_0:004daf 467 495
+contig_13_pilon	miniprot	CDS	649088	649213	211	+	0	Parent=MP013049;Rank=1;Identity=0.9048;Target=71815at3193_3218_0:004daf 496 537
+contig_13_pilon	miniprot	CDS	649694	649831	151	+	0	Parent=MP013049;Rank=1;Identity=0.6889;Target=71815at3193_3218_0:004daf 538 582
+contig_13_pilon	miniprot	stop_codon	649829	649831	0	+	0	Parent=MP013049;Rank=1

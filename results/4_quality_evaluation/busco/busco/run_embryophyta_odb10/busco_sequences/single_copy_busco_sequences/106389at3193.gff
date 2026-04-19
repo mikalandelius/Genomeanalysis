@@ -1,0 +1,3 @@
+contig_1_pilon	miniprot	mRNA	2573760	2575395	1742	+	.	ID=MP000337;Rank=1;Identity=0.7341;Positive=0.8364;Target=106389at3193_3218_0:002a45 1 439
+contig_1_pilon	miniprot	CDS	2573760	2574221	488	+	0	Parent=MP000337;Rank=1;Identity=0.6687;Target=106389at3193_3218_0:002a45 1 165
+contig_1_pilon	miniprot	CDS	2574574	2575395	1254	+	0	Parent=MP000337;Rank=1;Identity=0.7737;Target=106389at3193_3218_0:002a45 166 439

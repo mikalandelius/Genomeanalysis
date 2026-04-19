@@ -1,0 +1,2 @@
+contig_18_pilon	miniprot	mRNA	85525	88278	2247	+	.	ID=MP014033;Rank=1;Identity=0.5405;Positive=0.6544;Target=84405at3193_3218_0:004d53 16 954
+contig_18_pilon	miniprot	CDS	85525	88278	2247	+	0	Parent=MP014033;Rank=1;Identity=0.5405;Target=84405at3193_3218_0:004d53 16 954

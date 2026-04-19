@@ -1,0 +1,16 @@
+contig_22_pilon	miniprot	mRNA	1491651	1498674	3623	-	.	ID=MP005899;Rank=1;Identity=0.8183;Positive=0.8804;Target=16984at3193_3218_0:000bc2 1 845
+contig_22_pilon	miniprot	CDS	1498327	1498674	172	-	0	Parent=MP005899;Rank=1;Identity=0.4310;Target=16984at3193_3218_0:000bc2 1 108
+contig_22_pilon	miniprot	CDS	1497924	1498018	129	-	0	Parent=MP005899;Rank=1;Identity=0.7500;Target=16984at3193_3218_0:000bc2 109 139
+contig_22_pilon	miniprot	CDS	1496879	1496957	136	-	1	Parent=MP005899;Rank=1;Identity=0.9231;Target=16984at3193_3218_0:000bc2 140 166
+contig_22_pilon	miniprot	CDS	1496674	1496706	58	-	0	Parent=MP005899;Rank=1;Identity=1.0000;Target=16984at3193_3218_0:000bc2 167 177
+contig_22_pilon	miniprot	CDS	1496323	1496471	277	-	0	Parent=MP005899;Rank=1;Identity=1.0000;Target=16984at3193_3218_0:000bc2 178 226
+contig_22_pilon	miniprot	CDS	1495875	1496034	217	-	1	Parent=MP005899;Rank=1;Identity=0.8302;Target=16984at3193_3218_0:000bc2 227 280
+contig_22_pilon	miniprot	CDS	1495249	1495489	408	-	0	Parent=MP005899;Rank=1;Identity=0.9136;Target=16984at3193_3218_0:000bc2 281 360
+contig_22_pilon	miniprot	CDS	1494619	1494860	387	-	2	Parent=MP005899;Rank=1;Identity=0.9250;Target=16984at3193_3218_0:000bc2 361 441
+contig_22_pilon	miniprot	CDS	1493961	1494224	396	-	0	Parent=MP005899;Rank=1;Identity=0.8295;Target=16984at3193_3218_0:000bc2 442 529
+contig_22_pilon	miniprot	CDS	1493440	1493550	187	-	0	Parent=MP005899;Rank=1;Identity=0.9730;Target=16984at3193_3218_0:000bc2 530 566
+contig_22_pilon	miniprot	CDS	1493004	1493228	365	-	0	Parent=MP005899;Rank=1;Identity=0.9067;Target=16984at3193_3218_0:000bc2 567 641
+contig_22_pilon	miniprot	CDS	1492661	1492864	294	-	0	Parent=MP005899;Rank=1;Identity=0.8235;Target=16984at3193_3218_0:000bc2 642 709
+contig_22_pilon	miniprot	CDS	1492296	1492472	276	-	0	Parent=MP005899;Rank=1;Identity=0.8644;Target=16984at3193_3218_0:000bc2 710 768
+contig_22_pilon	miniprot	CDS	1491651	1491884	321	-	0	Parent=MP005899;Rank=1;Identity=0.8182;Target=16984at3193_3218_0:000bc2 769 845
+contig_22_pilon	miniprot	stop_codon	1491651	1491653	0	-	0	Parent=MP005899;Rank=1

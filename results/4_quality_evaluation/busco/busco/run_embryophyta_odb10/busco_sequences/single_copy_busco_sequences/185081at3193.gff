@@ -1,0 +1,4 @@
+contig_28_pilon	miniprot	mRNA	316988	317660	713	+	.	ID=MP006518;Rank=1;Identity=0.9155;Positive=0.9718;Target=185081at3193_218851_0:004d3a 1 142
+contig_28_pilon	miniprot	CDS	316988	317107	199	+	0	Parent=MP006518;Rank=1;Identity=0.8750;Target=185081at3193_218851_0:004d3a 1 40
+contig_28_pilon	miniprot	CDS	317352	317660	514	+	0	Parent=MP006518;Rank=1;Identity=0.9314;Target=185081at3193_218851_0:004d3a 41 142
+contig_28_pilon	miniprot	stop_codon	317658	317660	0	+	0	Parent=MP006518;Rank=1

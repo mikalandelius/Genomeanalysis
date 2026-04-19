@@ -1,0 +1,16 @@
+contig_1_pilon	miniprot	mRNA	1789015	1793398	2171	+	.	ID=MP012484;Rank=1;Identity=0.7879;Positive=0.8674;Frameshift=1;StopCodon=1;Target=57821at3193_3218_0:002a3e 1 522
+contig_1_pilon	miniprot	CDS	1789015	1789073	105	+	0	Parent=MP012484;Rank=1;Identity=0.8500;Target=57821at3193_3218_0:002a3e 1 19
+contig_1_pilon	miniprot	CDS	1789293	1789390	160	+	1	Parent=MP012484;Rank=1;Identity=0.9091;Target=57821at3193_3218_0:002a3e 20 52
+contig_1_pilon	miniprot	CDS	1789674	1789818	217	+	2	Parent=MP012484;Rank=1;Identity=0.8542;Target=57821at3193_3218_0:002a3e 53 99
+contig_1_pilon	miniprot	CDS	1790201	1790229	58	+	1	Parent=MP012484;Rank=1;Identity=1.0000;Target=57821at3193_3218_0:002a3e 100 109
+contig_1_pilon	miniprot	CDS	1790439	1790535	170	+	2	Parent=MP012484;Rank=1;Identity=0.9688;Target=57821at3193_3218_0:002a3e 110 141
+contig_1_pilon	miniprot	CDS	1790658	1790713	100	+	1	Parent=MP012484;Rank=1;Identity=0.8421;Target=57821at3193_3218_0:002a3e 142 160
+contig_1_pilon	miniprot	CDS	1790892	1791002	157	+	2	Parent=MP012484;Rank=1;Identity=0.8108;Target=57821at3193_3218_0:002a3e 161 196
+contig_1_pilon	miniprot	CDS	1791111	1791167	106	+	2	Parent=MP012484;Rank=1;Identity=1.0000;Target=57821at3193_3218_0:002a3e 197 215
+contig_1_pilon	miniprot	CDS	1791395	1791486	167	+	2	Parent=MP012484;Rank=1;Identity=0.9667;Target=57821at3193_3218_0:002a3e 216 246
+contig_1_pilon	miniprot	CDS	1791646	1791730	159	+	0	Parent=MP012484;Rank=1;Identity=0.9310;Target=57821at3193_3218_0:002a3e 247 274
+contig_1_pilon	miniprot	CDS	1791825	1791977	264	+	2	Parent=MP012484;Rank=1;Identity=0.9216;Target=57821at3193_3218_0:002a3e 275 325
+contig_1_pilon	miniprot	CDS	1792283	1792392	93	+	2	Parent=MP012484;Rank=1;Identity=0.6111;Target=57821at3193_3218_0:002a3e 326 359
+contig_1_pilon	miniprot	CDS	1792589	1792771	210	+	0	Parent=MP012484;Rank=1;Identity=0.7049;Target=57821at3193_3218_0:002a3e 360 420
+contig_1_pilon	miniprot	CDS	1793088	1793398	205	+	0	Parent=MP012484;Rank=1;Identity=0.5243;Frameshift=1;StopCodon=1;Target=57821at3193_3218_0:002a3e 421 522
+contig_1_pilon	miniprot	stop_codon	1793396	1793398	0	+	0	Parent=MP012484;Rank=1

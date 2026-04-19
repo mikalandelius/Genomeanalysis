@@ -1,0 +1,3 @@
+contig_22_pilon	miniprot	mRNA	2236440	2238887	3034	-	.	ID=MP014325;Rank=1;Identity=0.7439;Positive=0.8297;Target=89263at3193_3218_0:002c78 1 785
+contig_22_pilon	miniprot	CDS	2236440	2238887	3034	-	0	Parent=MP014325;Rank=1;Identity=0.7439;Target=89263at3193_3218_0:002c78 1 785
+contig_22_pilon	miniprot	stop_codon	2236440	2236442	0	-	0	Parent=MP014325;Rank=1

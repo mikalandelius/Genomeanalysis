@@ -1,0 +1,19 @@
+#                                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+202482at3193_3218_0:000de4|contig_22_pilon:580882-584085|+   -            239 202482at3193         -            137   1.6e-61  194.6   0.5   1   1   2.9e-61   2.9e-61  193.8   0.5     1   136    31   181    31   182 0.92 <unknown description>
+202482at3193_13333_0:00089d|contig_22_pilon:582083-583727|+  -            143 202482at3193         -            137   2.6e-45  142.1   4.2   1   2   9.6e-31   9.6e-31   94.9   0.0    19    78     5    70     1    88 0.84 <unknown description>
+202482at3193_13333_0:00089d|contig_22_pilon:582083-583727|+  -            143 202482at3193         -            137   2.6e-45  142.1   4.2   2   2   4.3e-16   4.3e-16   47.5   2.2    92   134   101   143    86   143 0.93 <unknown description>
+202482at3193_888268_0:00438e|contig_22_pilon:580918-582382|+ -             92 202482at3193         -            137   9.1e-41  127.4   0.5   1   1     1e-40     1e-40  127.2   0.5     1    73    19    91    19    92 0.98 <unknown description>
+202482at3193_78828_0:0034f2|contig_22_pilon:582104-582382|+  -             53 202482at3193         -            137   4.4e-30   92.8   0.1   1   1   4.6e-30   4.6e-30   92.7   0.1    22    73     1    52     1    53 0.97 <unknown description>
+202482at3193_75702_0:003211|contig_22_pilon:582304-582382|+  -             27 202482at3193         -            137   2.8e-12   35.1   0.0   1   1   2.8e-12   2.8e-12   35.1   0.0    48    73     1    26     1    27 0.95 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/202482at3193.hmm
+# Target file:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/202482at3193.faa
+# Option settings: hmmsearch --domtblout /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/hmmer_output/202482at3193.out --cpu 1 /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/202482at3193.hmm /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/202482at3193.faa 
+# Current dir:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco
+# Date:            Sun Apr 19 09:22:42 2026
+# [ok]

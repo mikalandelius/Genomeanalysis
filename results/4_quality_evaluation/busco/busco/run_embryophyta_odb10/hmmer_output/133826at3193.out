@@ -1,0 +1,23 @@
+#                                                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+133826at3193_3218_0:0011dd|contig_13_pilon:1459964-1463440|+    -            666 133826at3193         -            400   1.3e-69  223.6  25.3   1   3     0.018     0.023    2.3   5.1    19   132    93   206    71   213 0.42 <unknown description>
+133826at3193_3218_0:0011dd|contig_13_pilon:1459964-1463440|+    -            666 133826at3193         -            400   1.3e-69  223.6  25.3   2   3     2e-60   2.6e-60  193.1   4.9   101   338   254   492   222   522 0.67 <unknown description>
+133826at3193_3218_0:0011dd|contig_13_pilon:1459964-1463440|+    -            666 133826at3193         -            400   1.3e-69  223.6  25.3   3   3   1.3e-11   1.7e-11   32.3   0.9   232   383   520   644   507   662 0.62 <unknown description>
+133826at3193_1480154_0:000f4a|contig_13_pilon:1460138-1462705|+ -            498 133826at3193         -            400   1.2e-64  207.3  28.3   1   3     0.012     0.014    2.9   5.2    19   132    35   148    13   155 0.42 <unknown description>
+133826at3193_1480154_0:000f4a|contig_13_pilon:1460138-1462705|+ -            498 133826at3193         -            400   1.2e-64  207.3  28.3   2   3   1.5e-60   1.8e-60  193.6   5.5   101   339   196   435   164   464 0.67 <unknown description>
+133826at3193_1480154_0:000f4a|contig_13_pilon:1460138-1462705|+ -            498 133826at3193         -            400   1.2e-64  207.3  28.3   3   3   6.5e-09   8.2e-09   23.5   2.3   234   267   462   495   447   498 0.86 <unknown description>
+133826at3193_3821_0:0028d4|contig_13_pilon:1124438-1124825|-    -            130 133826at3193         -            400         5  -11.3  48.8   1   2       2.2       2.8   -4.6  20.9   272   330     7    66     1    76 0.33 <unknown description>
+133826at3193_3821_0:0028d4|contig_13_pilon:1124438-1124825|-    -            130 133826at3193         -            400         5  -11.3  48.8   2   2         4         5   -7.6  37.9   262   357    36   127    35   130 0.56 <unknown description>
+133826at3193_3847_0:009069|contig_13_pilon:1124282-1125069|-    -            246 133826at3193         -            400         5  -12.1  47.3   1   2       2.6       3.3   -4.9  27.4   277   352    76   158    57   163 0.52 <unknown description>
+133826at3193_3847_0:009069|contig_13_pilon:1124282-1125069|-    -            246 133826at3193         -            400         5  -12.1  47.3   2   2         4         5   -9.1  33.9   281   354   119   200   114   243 0.49 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/133826at3193.hmm
+# Target file:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/133826at3193.faa
+# Option settings: hmmsearch --domtblout /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/hmmer_output/133826at3193.out --cpu 1 /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/133826at3193.hmm /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/133826at3193.faa 
+# Current dir:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco
+# Date:            Sun Apr 19 09:22:32 2026
+# [ok]

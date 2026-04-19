@@ -1,0 +1,35 @@
+#                                                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+20489at3193_51953_0:005266|contig_28_pilon:737966-742104|-    -            646 20489at3193          -            642   8.9e-82  265.5   0.8   1   1   1.1e-81   1.1e-81  265.2   0.8    73   549   160   643   151   646 0.86 <unknown description>
+20489at3193_29729_0:00823a|contig_28_pilon:737726-740143|-    -            576 20489at3193          -            642   2.2e-80  260.9   0.2   1   1   2.7e-80   2.7e-80  260.6   0.2    74   552     2   496     1   518 0.85 <unknown description>
+20489at3193_3218_0:001241|contig_28_pilon:737972-743578|-     -            681 20489at3193          -            642   8.9e-80  258.9   0.6   1   1   1.1e-79   1.1e-79  258.6   0.6    73   546   187   677   178   681 0.85 <unknown description>
+20489at3193_37682_0:008bc2|contig_28_pilon:737966-746399|-    -            682 20489at3193          -            642   6.2e-78  252.9   0.4   1   1   2.9e-77   2.9e-77  250.6   0.4    73   549   175   679   166   682 0.82 <unknown description>
+20489at3193_218851_0:001551|contig_22_pilon:1819149-1825909|+ -            706 20489at3193          -            642   3.4e-77  250.4   0.3   1   1   5.2e-77   5.2e-77  249.8   0.3    76   574   176   697   166   704 0.85 <unknown description>
+20489at3193_3750_0:0018d8|contig_22_pilon:1822498-1825909|+   -            720 20489at3193          -            642     4e-77  250.2   0.3   1   1   5.5e-77   5.5e-77  249.7   0.3    76   574   190   711   180   718 0.85 <unknown description>
+20489at3193_71139_0:004a34|contig_22_pilon:1823428-1825909|+  -            529 20489at3193          -            642     5e-77  249.9   0.2   1   1   6.2e-77   6.2e-77  249.5   0.2    78   574     1   520     1   527 0.85 <unknown description>
+20489at3193_3914_0:005b0e|contig_28_pilon:697674-700115|+     -            571 20489at3193          -            642   7.4e-76  246.0   0.1   1   2   1.2e-44   1.2e-44  142.9   0.0    73   361    18   318    10   327 0.85 <unknown description>
+20489at3193_3914_0:005b0e|contig_28_pilon:697674-700115|+     -            571 20489at3193          -            642   7.4e-76  246.0   0.1   2   2   5.3e-32   5.3e-32  101.1   0.0   419   552   368   500   361   522 0.90 <unknown description>
+20489at3193_4533_0:000d2b|contig_28_pilon:696576-699902|+     -            669 20489at3193          -            642   7.6e-76  245.9   0.2   1   1   8.2e-75   8.2e-75  242.5   0.2    73   549   157   666   148   669 0.80 <unknown description>
+20489at3193_4686_0:003cf4|contig_28_pilon:694384-699896|+     -            676 20489at3193          -            642   8.3e-76  245.8   0.1   1   1   8.8e-75   8.8e-75  242.4   0.1    73   546   168   672   159   676 0.81 <unknown description>
+20489at3193_3649_0:002081|contig_28_pilon:692703-699959|+     -            680 20489at3193          -            642   3.1e-75  243.9   0.1   1   2   3.3e-44   3.3e-44  141.4   0.0    73   361   177   479   168   488 0.84 <unknown description>
+20489at3193_3649_0:002081|contig_28_pilon:692703-699959|+     -            680 20489at3193          -            642   3.1e-75  243.9   0.1   2   2   7.9e-32   7.9e-32  100.5   0.0   419   552   529   661   522   679 0.90 <unknown description>
+20489at3193_93759_0:007527|contig_28_pilon:697806-702347|+    -            494 20489at3193          -            642     5e-67  216.8   0.1   1   2   1.6e-42   1.6e-42  135.9   0.0   100   361     1   268     1   280 0.86 <unknown description>
+20489at3193_93759_0:007527|contig_28_pilon:697806-702347|+    -            494 20489at3193          -            642     5e-67  216.8   0.1   2   2   2.5e-25   2.5e-25   79.1   0.0   454   552   324   421   310   462 0.88 <unknown description>
+20489at3193_80379_0:00739c|contig_28_pilon:737966-739753|-    -            355 20489at3193          -            642   5.4e-61  196.9   0.2   1   1   6.7e-61   6.7e-61  196.6   0.2   198   549     1   352     1   355 0.86 <unknown description>
+20489at3193_80379_0:00739c|contig_28_pilon:698115-699902|+    -            369 20489at3193          -            642   5.2e-57  183.7   0.1   1   1   7.7e-56   7.7e-56  179.8   0.1   198   549     1   366     1   369 0.79 <unknown description>
+20489at3193_3476_0:0023b0|contig_22_pilon:1824079-1825909|+   -            312 20489at3193          -            642   1.2e-48  156.2   0.4   1   1   1.3e-48   1.3e-48  155.9   0.4   289   574     5   303     1   310 0.86 <unknown description>
+20489at3193_4098_0:005a41|contig_28_pilon:739090-740149|-     -            327 20489at3193          -            642   1.9e-45  145.6   0.0   1   1   2.2e-45   2.2e-45  145.3   0.0    74   361     4   297     1   308 0.86 <unknown description>
+20489at3193_4098_0:005a41|contig_28_pilon:697719-698805|+     -            336 20489at3193          -            642     2e-45  145.4   0.0   1   1   2.4e-45   2.4e-45  145.2   0.0    74   361     4   297     1   309 0.86 <unknown description>
+20489at3193_4100_0:008880|contig_28_pilon:697719-698322|+     -            202 20489at3193          -            642   4.2e-32  101.4   0.0   1   1   4.6e-32   4.6e-32  101.3   0.0    74   263     4   201     1   202 0.87 <unknown description>
+20489at3193_4100_0:008880|contig_28_pilon:739546-740149|-     -            202 20489at3193          -            642   4.2e-32  101.4   0.0   1   1   4.6e-32   4.6e-32  101.3   0.0    74   263     4   201     1   202 0.87 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/20489at3193.hmm
+# Target file:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/20489at3193.faa
+# Option settings: hmmsearch --domtblout /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/hmmer_output/20489at3193.out --cpu 1 /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/20489at3193.hmm /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/20489at3193.faa 
+# Current dir:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco
+# Date:            Sun Apr 19 09:22:43 2026
+# [ok]

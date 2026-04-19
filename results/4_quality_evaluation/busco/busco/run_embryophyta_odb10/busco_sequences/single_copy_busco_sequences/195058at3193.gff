@@ -1,0 +1,5 @@
+contig_18_pilon	miniprot	mRNA	1249024	1250479	559	-	.	ID=MP007278;Rank=1;Identity=0.6124;Positive=0.7177;Target=195058at3193_3218_0:002c7c 1 208
+contig_18_pilon	miniprot	CDS	1250218	1250479	115	-	0	Parent=MP007278;Rank=1;Identity=0.4000;Target=195058at3193_3218_0:002c7c 1 93
+contig_18_pilon	miniprot	CDS	1249991	1250056	82	-	2	Parent=MP007278;Rank=1;Identity=0.7727;Target=195058at3193_3218_0:002c7c 94 115
+contig_18_pilon	miniprot	CDS	1249024	1249301	362	-	2	Parent=MP007278;Rank=1;Identity=0.7935;Target=195058at3193_3218_0:002c7c 116 208
+contig_18_pilon	miniprot	stop_codon	1249024	1249026	0	-	0	Parent=MP007278;Rank=1

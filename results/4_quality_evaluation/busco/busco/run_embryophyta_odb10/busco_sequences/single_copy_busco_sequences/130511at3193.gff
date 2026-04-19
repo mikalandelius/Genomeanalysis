@@ -1,0 +1,9 @@
+contig_13_pilon	miniprot	mRNA	886984	889521	637	-	.	ID=MP002378;Rank=1;Identity=0.4243;Positive=0.6202;Target=130511at3193_3900_0:008eb5 29 349
+contig_13_pilon	miniprot	CDS	889303	889521	77	-	0	Parent=MP002378;Rank=1;Identity=0.3333;Target=130511at3193_3900_0:008eb5 29 100
+contig_13_pilon	miniprot	CDS	888969	889094	129	-	0	Parent=MP002378;Rank=1;Identity=0.5952;Target=130511at3193_3900_0:008eb5 101 142
+contig_13_pilon	miniprot	CDS	888651	888803	69	-	0	Parent=MP002378;Rank=1;Identity=0.2745;Target=130511at3193_3900_0:008eb5 143 193
+contig_13_pilon	miniprot	CDS	888362	888512	117	-	0	Parent=MP002378;Rank=1;Identity=0.5098;Target=130511at3193_3900_0:008eb5 194 235
+contig_13_pilon	miniprot	CDS	888011	888052	49	-	2	Parent=MP002378;Rank=1;Identity=0.5000;Target=130511at3193_3900_0:008eb5 236 249
+contig_13_pilon	miniprot	CDS	887857	887922	32	-	2	Parent=MP002378;Rank=1;Identity=0.5455;Target=130511at3193_3900_0:008eb5 250 268
+contig_13_pilon	miniprot	CDS	887328	887478	43	-	2	Parent=MP002378;Rank=1;Identity=0.3000;Target=130511at3193_3900_0:008eb5 269 316
+contig_13_pilon	miniprot	CDS	886984	887080	121	-	1	Parent=MP002378;Rank=1;Identity=0.5938;Target=130511at3193_3900_0:008eb5 317 349

@@ -1,0 +1,20 @@
+contig_18_pilon	miniprot	mRNA	850815	860771	2151	-	.	ID=MP010450;Rank=1;Identity=0.6363;Positive=0.7669;Frameshift=1;Target=40708at3193_3760_0:000b8d 15 658
+contig_18_pilon	miniprot	CDS	860671	860771	8	-	0	Parent=MP010450;Rank=1;Identity=0.2970;Frameshift=1;Target=40708at3193_3760_0:000b8d 15 47
+contig_18_pilon	miniprot	CDS	856147	856453	160	-	0	Parent=MP010450;Rank=1;Identity=0.4228;Target=40708at3193_3760_0:000b8d 48 165
+contig_18_pilon	miniprot	CDS	855806	855882	100	-	2	Parent=MP010450;Rank=1;Identity=0.6800;Target=40708at3193_3760_0:000b8d 166 191
+contig_18_pilon	miniprot	CDS	855320	855426	135	-	0	Parent=MP010450;Rank=1;Identity=0.6667;Target=40708at3193_3760_0:000b8d 192 226
+contig_18_pilon	miniprot	CDS	854823	855010	262	-	1	Parent=MP010450;Rank=1;Identity=0.7812;Target=40708at3193_3760_0:000b8d 227 290
+contig_18_pilon	miniprot	CDS	854611	854657	63	-	2	Parent=MP010450;Rank=1;Identity=0.8000;Target=40708at3193_3760_0:000b8d 291 306
+contig_18_pilon	miniprot	CDS	854249	854323	99	-	0	Parent=MP010450;Rank=1;Identity=0.7600;Target=40708at3193_3760_0:000b8d 307 331
+contig_18_pilon	miniprot	CDS	853967	854083	175	-	0	Parent=MP010450;Rank=1;Identity=0.7436;Target=40708at3193_3760_0:000b8d 332 370
+contig_18_pilon	miniprot	CDS	853780	853848	90	-	0	Parent=MP010450;Rank=1;Identity=0.6522;Target=40708at3193_3760_0:000b8d 371 393
+contig_18_pilon	miniprot	CDS	853388	853480	134	-	0	Parent=MP010450;Rank=1;Identity=0.7419;Target=40708at3193_3760_0:000b8d 394 424
+contig_18_pilon	miniprot	CDS	852963	853065	147	-	0	Parent=MP010450;Rank=1;Identity=0.8000;Target=40708at3193_3760_0:000b8d 425 458
+contig_18_pilon	miniprot	CDS	852713	852843	109	-	2	Parent=MP010450;Rank=1;Identity=0.4884;Target=40708at3193_3760_0:000b8d 459 500
+contig_18_pilon	miniprot	CDS	852485	852534	62	-	0	Parent=MP010450;Rank=1;Identity=0.6471;Target=40708at3193_3760_0:000b8d 501 516
+contig_18_pilon	miniprot	CDS	852257	852323	88	-	1	Parent=MP010450;Rank=1;Identity=0.6364;Target=40708at3193_3760_0:000b8d 517 539
+contig_18_pilon	miniprot	CDS	852014	852093	88	-	0	Parent=MP010450;Rank=1;Identity=0.6296;Target=40708at3193_3760_0:000b8d 540 565
+contig_18_pilon	miniprot	CDS	851704	851832	199	-	1	Parent=MP010450;Rank=1;Identity=0.7907;Target=40708at3193_3760_0:000b8d 566 608
+contig_18_pilon	miniprot	CDS	851480	851546	91	-	1	Parent=MP010450;Rank=1;Identity=0.6818;Target=40708at3193_3760_0:000b8d 609 631
+contig_18_pilon	miniprot	CDS	850815	850898	141	-	0	Parent=MP010450;Rank=1;Identity=0.8519;Target=40708at3193_3760_0:000b8d 632 658
+contig_18_pilon	miniprot	stop_codon	850815	850817	0	-	0	Parent=MP010450;Rank=1

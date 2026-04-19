@@ -1,0 +1,3 @@
+contig_1_pilon	miniprot	mRNA	183737	184279	607	-	.	ID=MP007590;Rank=1;Identity=0.7059;Positive=0.7968;Target=204060at3193_3218_0:0026ce 1 186
+contig_1_pilon	miniprot	CDS	183737	184279	607	-	0	Parent=MP007590;Rank=1;Identity=0.7059;Target=204060at3193_3218_0:0026ce 1 186
+contig_1_pilon	miniprot	stop_codon	183737	183739	0	-	0	Parent=MP007590;Rank=1

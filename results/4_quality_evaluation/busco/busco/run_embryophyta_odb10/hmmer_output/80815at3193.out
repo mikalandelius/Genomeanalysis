@@ -1,0 +1,37 @@
+#                                                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+80815at3193_1088818_0:00252d|contig_1_pilon:1016731-1017856|- -            376 80815at3193          -            389   1.1e-86  279.6   0.0   1   5   5.6e-17   6.5e-17   50.0   0.0   239   312     1    76     1    82 0.94 <unknown description>
+80815at3193_1088818_0:00252d|contig_1_pilon:1016731-1017856|- -            376 80815at3193          -            389   1.1e-86  279.6   0.0   2   5     2e-19   2.3e-19   58.0   0.0   162   255    61   157    60   158 0.92 <unknown description>
+80815at3193_1088818_0:00252d|contig_1_pilon:1016731-1017856|- -            376 80815at3193          -            389   1.1e-86  279.6   0.0   3   5   2.4e-29   2.8e-29   90.7   0.0   146   260   113   232   111   233 0.93 <unknown description>
+80815at3193_1088818_0:00252d|contig_1_pilon:1016731-1017856|- -            376 80815at3193          -            389   1.1e-86  279.6   0.0   4   5   2.7e-18   3.1e-18   54.3   0.0   191   260   230   302   228   303 0.93 <unknown description>
+80815at3193_1088818_0:00252d|contig_1_pilon:1016731-1017856|- -            376 80815at3193          -            389   1.1e-86  279.6   0.0   5   5     9e-17     1e-16   49.3   0.0   224   298   301   374   298   376 0.96 <unknown description>
+80815at3193_142615_0:004a63|contig_1_pilon:1016716-1018774|-  -            405 80815at3193          -            389   1.8e-78  252.7   0.0   1   4     3e-25   3.5e-25   77.2   0.0   133   283    19   173     9   177 0.92 <unknown description>
+80815at3193_142615_0:004a63|contig_1_pilon:1016716-1018774|-  -            405 80815at3193          -            389   1.8e-78  252.7   0.0   2   4   6.1e-29   7.1e-29   89.4   0.0   147   260   138   256   138   257 0.94 <unknown description>
+80815at3193_142615_0:004a63|contig_1_pilon:1016716-1018774|-  -            405 80815at3193          -            389   1.8e-78  252.7   0.0   3   4     3e-18   3.5e-18   54.2   0.0   191   260   254   326   252   327 0.93 <unknown description>
+80815at3193_142615_0:004a63|contig_1_pilon:1016716-1018774|-  -            405 80815at3193          -            389   1.8e-78  252.7   0.0   4   4   9.4e-17   1.1e-16   49.3   0.0   224   298   325   398   323   402 0.96 <unknown description>
+80815at3193_3880_0:008d89|contig_1_pilon:1016473-1017709|-    -            340 80815at3193          -            389   1.4e-77  249.8   0.0   1   4   2.7e-21   3.1e-21   64.2   0.0   187   283     2   100     1   105 0.91 <unknown description>
+80815at3193_3880_0:008d89|contig_1_pilon:1016473-1017709|-    -            340 80815at3193          -            389   1.4e-77  249.8   0.0   2   4   2.5e-36   2.9e-36  113.7   0.0   147   301    65   219    65   219 0.96 <unknown description>
+80815at3193_3880_0:008d89|contig_1_pilon:1016473-1017709|-    -            340 80815at3193          -            389   1.4e-77  249.8   0.0   3   4   9.2e-23   1.1e-22   69.0   0.0   191   298   177   286   177   290 0.95 <unknown description>
+80815at3193_3880_0:008d89|contig_1_pilon:1016473-1017709|-    -            340 80815at3193          -            389   1.4e-77  249.8   0.0   4   4   1.1e-07   1.2e-07   19.4   0.0   234   280   294   339   287   340 0.86 <unknown description>
+80815at3193_1088818_0:00252d|contig_1_pilon:1017523-1018804|- -            428 80815at3193          -            389   9.4e-74  237.1   0.0   1   4   4.6e-10   5.4e-10   27.2   0.0   170   266    33   132    26   134 0.93 <unknown description>
+80815at3193_1088818_0:00252d|contig_1_pilon:1017523-1018804|- -            428 80815at3193          -            389   9.4e-74  237.1   0.0   2   4   9.5e-28   1.1e-27   85.5   0.0   129   279   130   286   128   286 0.90 <unknown description>
+80815at3193_1088818_0:00252d|contig_1_pilon:1017523-1018804|- -            428 80815at3193          -            389   9.4e-74  237.1   0.0   3   4   1.9e-37   2.2e-37  117.4   0.0   161   312   234   392   233   398 0.93 <unknown description>
+80815at3193_1088818_0:00252d|contig_1_pilon:1017523-1018804|- -            428 80815at3193          -            389   9.4e-74  237.1   0.0   4   4   2.9e-09   3.3e-09   24.6   0.0   163   212   378   427   376   428 0.89 <unknown description>
+80815at3193_3661_0:00561f|contig_1_pilon:1017145-1018879|-    -            437 80815at3193          -            389   1.4e-73  236.5   0.0   1   4    0.0012    0.0014    6.1   0.0     2    41    11    49    10    54 0.90 <unknown description>
+80815at3193_3661_0:00561f|contig_1_pilon:1017145-1018879|-    -            437 80815at3193          -            389   1.4e-73  236.5   0.0   2   4   5.8e-14   6.8e-14   40.1   0.0   171   315    59   176    49   181 0.44 <unknown description>
+80815at3193_3661_0:00561f|contig_1_pilon:1017145-1018879|-    -            437 80815at3193          -            389   1.4e-73  236.5   0.0   3   4     2e-41   2.3e-41  130.5   0.0   134   312   163   348   162   355 0.95 <unknown description>
+80815at3193_3661_0:00561f|contig_1_pilon:1017145-1018879|-    -            437 80815at3193          -            389   1.4e-73  236.5   0.0   4   4   1.6e-20   1.8e-20   61.7   0.0   188   261   356   432   352   437 0.90 <unknown description>
+80815at3193_888268_0:000bf0|contig_1_pilon:1017574-1018549|-  -            293 80815at3193          -            389   7.8e-59  188.0   0.0   1   3   1.4e-06   1.7e-06   15.7   0.0   220   266     1    47     1    49 0.95 <unknown description>
+80815at3193_888268_0:000bf0|contig_1_pilon:1017574-1018549|-  -            293 80815at3193          -            389   7.8e-59  188.0   0.0   2   3   5.5e-26   6.4e-26   79.7   0.0   130   259    46   184    44   185 0.89 <unknown description>
+80815at3193_888268_0:000bf0|contig_1_pilon:1017574-1018549|-  -            293 80815at3193          -            389   7.8e-59  188.0   0.0   3   3   3.7e-33   4.3e-33  103.2   0.0   183   312   140   274   138   280 0.93 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/80815at3193.hmm
+# Target file:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/80815at3193.faa
+# Option settings: hmmsearch --domtblout /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/hmmer_output/80815at3193.out --cpu 1 /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/80815at3193.hmm /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/80815at3193.faa 
+# Current dir:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco
+# Date:            Sun Apr 19 09:22:50 2026
+# [ok]

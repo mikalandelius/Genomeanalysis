@@ -1,0 +1,9 @@
+contig_22_pilon	miniprot	mRNA	954201	956267	727	+	.	ID=MP005293;Rank=1;Identity=0.6024;Positive=0.7173;Frameshift=1;StopCodon=1;Target=163212at3193_888268_0:001ffc 1 236
+contig_22_pilon	miniprot	CDS	954201	954265	95	+	0	Parent=MP005293;Rank=1;Identity=0.8636;Target=163212at3193_888268_0:001ffc 1 21
+contig_22_pilon	miniprot	CDS	954559	954604	39	+	1	Parent=MP005293;Rank=1;Identity=0.4667;Target=163212at3193_888268_0:001ffc 22 37
+contig_22_pilon	miniprot	CDS	954784	954892	126	+	0	Parent=MP005293;Rank=1;Identity=0.5946;Target=163212at3193_888268_0:001ffc 38 73
+contig_22_pilon	miniprot	CDS	955054	955145	126	+	2	Parent=MP005293;Rank=1;Identity=0.8000;Target=163212at3193_888268_0:001ffc 74 104
+contig_22_pilon	miniprot	CDS	955289	955351	95	+	0	Parent=MP005293;Rank=1;Identity=0.8095;Target=163212at3193_888268_0:001ffc 105 125
+contig_22_pilon	miniprot	CDS	955513	955631	84	+	0	Parent=MP005293;Rank=1;Identity=0.5000;Target=163212at3193_888268_0:001ffc 126 164
+contig_22_pilon	miniprot	CDS	956002	956267	162	+	1	Parent=MP005293;Rank=1;Identity=0.4924;Frameshift=1;StopCodon=1;Target=163212at3193_888268_0:001ffc 165 236
+contig_22_pilon	miniprot	stop_codon	956265	956267	0	+	0	Parent=MP005293;Rank=1

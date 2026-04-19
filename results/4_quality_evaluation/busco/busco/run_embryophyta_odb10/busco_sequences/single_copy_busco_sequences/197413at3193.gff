@@ -1,0 +1,7 @@
+contig_1_pilon	miniprot	mRNA	1766580	1768785	871	+	.	ID=MP007428;Rank=1;Identity=0.7511;Positive=0.8326;Target=197413at3193_3218_0:0028da 1 231
+contig_1_pilon	miniprot	CDS	1766580	1766641	42	+	0	Parent=MP007428;Rank=1;Identity=0.4762;Target=197413at3193_3218_0:0028da 1 19
+contig_1_pilon	miniprot	CDS	1766812	1766875	89	+	1	Parent=MP007428;Rank=1;Identity=0.7619;Target=197413at3193_3218_0:0028da 20 41
+contig_1_pilon	miniprot	CDS	1767211	1767348	192	+	0	Parent=MP007428;Rank=1;Identity=0.8043;Target=197413at3193_3218_0:0028da 42 87
+contig_1_pilon	miniprot	CDS	1767514	1767759	312	+	0	Parent=MP007428;Rank=1;Identity=0.7683;Target=197413at3193_3218_0:0028da 88 169
+contig_1_pilon	miniprot	CDS	1767880	1767964	86	+	0	Parent=MP007428;Rank=1;Identity=0.6552;Target=197413at3193_3218_0:0028da 170 196
+contig_1_pilon	miniprot	CDS	1768682	1768785	150	+	2	Parent=MP007428;Rank=1;Identity=0.8824;Target=197413at3193_3218_0:0028da 197 231

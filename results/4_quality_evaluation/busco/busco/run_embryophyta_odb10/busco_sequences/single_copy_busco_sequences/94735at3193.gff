@@ -1,0 +1,21 @@
+contig_1_pilon	miniprot	mRNA	1690634	1698909	2695	-	.	ID=MP014916;Rank=1;Identity=0.5789;Positive=0.7436;Frameshift=1;Target=94735at3193_1480154_0:0030a3 24 978
+contig_1_pilon	miniprot	CDS	1698695	1698909	124	-	0	Parent=MP014916;Rank=1;Identity=0.4583;Target=94735at3193_1480154_0:0030a3 24 78
+contig_1_pilon	miniprot	CDS	1697783	1698064	154	-	1	Parent=MP014916;Rank=1;Identity=0.4406;Frameshift=1;Target=94735at3193_1480154_0:0030a3 79 185
+contig_1_pilon	miniprot	CDS	1697373	1697460	85	-	0	Parent=MP014916;Rank=1;Identity=0.6000;Target=94735at3193_1480154_0:0030a3 186 214
+contig_1_pilon	miniprot	CDS	1696756	1696995	165	-	2	Parent=MP014916;Rank=1;Identity=0.5250;Target=94735at3193_1480154_0:0030a3 215 291
+contig_1_pilon	miniprot	CDS	1696405	1696572	96	-	2	Parent=MP014916;Rank=1;Identity=0.3929;Target=94735at3193_1480154_0:0030a3 292 347
+contig_1_pilon	miniprot	CDS	1695727	1695935	154	-	2	Parent=MP014916;Rank=1;Identity=0.5507;Target=94735at3193_1480154_0:0030a3 348 414
+contig_1_pilon	miniprot	CDS	1695264	1695347	107	-	0	Parent=MP014916;Rank=1;Identity=0.7857;Target=94735at3193_1480154_0:0030a3 415 442
+contig_1_pilon	miniprot	CDS	1694956	1695075	113	-	0	Parent=MP014916;Rank=1;Identity=0.5750;Target=94735at3193_1480154_0:0030a3 443 482
+contig_1_pilon	miniprot	CDS	1694639	1694825	189	-	0	Parent=MP014916;Rank=1;Identity=0.5556;Target=94735at3193_1480154_0:0030a3 483 544
+contig_1_pilon	miniprot	CDS	1694237	1694397	164	-	2	Parent=MP014916;Rank=1;Identity=0.6038;Target=94735at3193_1480154_0:0030a3 545 598
+contig_1_pilon	miniprot	CDS	1693901	1693972	49	-	0	Parent=MP014916;Rank=1;Identity=0.4583;Target=94735at3193_1480154_0:0030a3 599 622
+contig_1_pilon	miniprot	CDS	1693501	1693577	83	-	0	Parent=MP014916;Rank=1;Identity=0.6154;Target=94735at3193_1480154_0:0030a3 623 647
+contig_1_pilon	miniprot	CDS	1693046	1693240	219	-	1	Parent=MP014916;Rank=1;Identity=0.7077;Target=94735at3193_1480154_0:0030a3 648 712
+contig_1_pilon	miniprot	CDS	1692655	1692727	101	-	1	Parent=MP014916;Rank=1;Identity=0.8333;Target=94735at3193_1480154_0:0030a3 713 737
+contig_1_pilon	miniprot	CDS	1692421	1692507	129	-	0	Parent=MP014916;Rank=1;Identity=0.8276;Target=94735at3193_1480154_0:0030a3 738 766
+contig_1_pilon	miniprot	CDS	1691890	1692027	106	-	0	Parent=MP014916;Rank=1;Identity=0.4783;Target=94735at3193_1480154_0:0030a3 767 812
+contig_1_pilon	miniprot	CDS	1691562	1691764	204	-	0	Parent=MP014916;Rank=1;Identity=0.5588;Target=94735at3193_1480154_0:0030a3 813 879
+contig_1_pilon	miniprot	CDS	1690935	1691100	221	-	1	Parent=MP014916;Rank=1;Identity=0.7091;Target=94735at3193_1480154_0:0030a3 880 935
+contig_1_pilon	miniprot	CDS	1690634	1690765	232	-	0	Parent=MP014916;Rank=1;Identity=0.8837;Target=94735at3193_1480154_0:0030a3 936 978
+contig_1_pilon	miniprot	stop_codon	1690634	1690636	0	-	0	Parent=MP014916;Rank=1

@@ -1,0 +1,32 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2926at3193_3218_0:004c87|contig_13_pilon:485877-495771|+   -           1376 2926at3193           -           1051         0 1494.9   3.2   1   6  7.3e-226  7.3e-226  741.0   0.0    11   470    12   492     2   499 0.93 <unknown description>
+2926at3193_3218_0:004c87|contig_13_pilon:485877-495771|+   -           1376 2926at3193           -           1051         0 1494.9   3.2   2   6  1.2e-160  1.2e-160  525.1   0.0   465   803   532   890   521   901 0.93 <unknown description>
+2926at3193_3218_0:004c87|contig_13_pilon:485877-495771|+   -           1376 2926at3193           -           1051         0 1494.9   3.2   3   6     0.098     0.098   -1.0   0.0   791   821   943   975   937   981 0.81 <unknown description>
+2926at3193_3218_0:004c87|contig_13_pilon:485877-495771|+   -           1376 2926at3193           -           1051         0 1494.9   3.2   4   6   3.3e-24   3.3e-24   73.4   0.0   821   913  1050  1158  1046  1165 0.83 <unknown description>
+2926at3193_3218_0:004c87|contig_13_pilon:485877-495771|+   -           1376 2926at3193           -           1051         0 1494.9   3.2   5   6   4.9e-17   4.9e-17   49.7   0.0   922   971  1211  1261  1178  1269 0.86 <unknown description>
+2926at3193_3218_0:004c87|contig_13_pilon:485877-495771|+   -           1376 2926at3193           -           1051         0 1494.9   3.2   6   6     3e-32     3e-32  100.0   0.2   971  1050  1287  1372  1280  1373 0.94 <unknown description>
+2926at3193_78828_0:0008bb|contig_13_pilon:486857-490832|+  -            467 2926at3193           -           1051  4.2e-223  731.9   0.2   1   1  4.7e-223  4.7e-223  731.7   0.2    19   463     2   466     1   467 0.94 <unknown description>
+2926at3193_3750_0:0072ea|contig_13_pilon:489130-493680|+   -            611 2926at3193           -           1051    9e-206  674.5   0.3   1   4   5.3e-81   5.3e-81  261.4   0.1   294   471     1   188     1   194 0.90 <unknown description>
+2926at3193_3750_0:0072ea|contig_13_pilon:489130-493680|+   -            611 2926at3193           -           1051    9e-206  674.5   0.3   2   4  1.2e-107  1.2e-107  349.6   0.0   465   684   227   453   220   454 0.96 <unknown description>
+2926at3193_3750_0:0072ea|contig_13_pilon:489130-493680|+   -            611 2926at3193           -           1051    9e-206  674.5   0.3   3   4   1.7e-20   1.7e-20   61.1   0.0   747   803   451   507   450   517 0.91 <unknown description>
+2926at3193_3750_0:0072ea|contig_13_pilon:489130-493680|+   -            611 2926at3193           -           1051    9e-206  674.5   0.3   4   4     0.038     0.038    0.4   0.0   791   821   560   592   553   598 0.81 <unknown description>
+2926at3193_88036_0:00482b|contig_13_pilon:491735-495765|+  -            561 2926at3193           -           1051  5.7e-197  645.4   0.3   1   2  6.7e-133  6.7e-133  433.3   0.0   505   774     2   286     1   287 0.95 <unknown description>
+2926at3193_88036_0:00482b|contig_13_pilon:491735-495765|+  -            561 2926at3193           -           1051  5.7e-197  645.4   0.3   2   2   1.7e-64   1.7e-64  206.8   0.7   841  1050   283   558   282   559 0.81 <unknown description>
+2926at3193_78828_0:00425d|contig_13_pilon:491732-493626|+  -            402 2926at3193           -           1051  2.6e-149  487.6   0.0   1   2  1.5e-148  1.5e-148  485.0   0.0   504   803     2   316     1   328 0.94 <unknown description>
+2926at3193_78828_0:00425d|contig_13_pilon:491732-493626|+  -            402 2926at3193           -           1051  2.6e-149  487.6   0.0   2   2     0.038     0.038    0.4   0.0   791   821   369   401   362   402 0.81 <unknown description>
+2926at3193_88036_0:0027a3|contig_13_pilon:491735-492933|+  -            261 2926at3193           -           1051  9.2e-124  403.0   0.0   1   1    1e-123    1e-123  402.9   0.0   505   748     2   260     1   261 0.95 <unknown description>
+2926at3193_429701_0:0044de|contig_13_pilon:493215-495765|+ -            462 2926at3193           -           1051   5.1e-90  291.3   3.5   1   3   9.8e-18   9.8e-18   52.0   0.0   752   803     1    52     1    63 0.91 <unknown description>
+2926at3193_429701_0:0044de|contig_13_pilon:493215-495765|+ -            462 2926at3193           -           1051   5.1e-90  291.3   3.5   2   3     5e-25     5e-25   76.1   0.4   817   912   155   266    98   275 0.85 <unknown description>
+2926at3193_429701_0:0044de|contig_13_pilon:493215-495765|+ -            462 2926at3193           -           1051   5.1e-90  291.3   3.5   3   3     2e-50     2e-50  160.2   0.1   921  1050   310   459   276   460 0.86 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/2926at3193.hmm
+# Target file:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/2926at3193.faa
+# Option settings: hmmsearch --domtblout /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/hmmer_output/2926at3193.out --cpu 1 /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/2926at3193.hmm /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/2926at3193.faa 
+# Current dir:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco
+# Date:            Sun Apr 19 09:22:43 2026
+# [ok]

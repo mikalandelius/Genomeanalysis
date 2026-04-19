@@ -1,0 +1,26 @@
+#                                                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+45818at3193_326968_0:000054|contig_22_pilon:2400190-2409026|- -            629 45818at3193          -            501  1.2e-188  616.4   2.7   1   3   1.2e-43   1.2e-43  138.0   0.7    10   176    41   210    37   215 0.97 <unknown description>
+45818at3193_326968_0:000054|contig_22_pilon:2400190-2409026|- -            629 45818at3193          -            501  1.2e-188  616.4   2.7   2   3    1e-145    1e-145  474.7   0.0   192   487   276   583   270   586 0.94 <unknown description>
+45818at3193_326968_0:000054|contig_22_pilon:2400190-2409026|- -            629 45818at3193          -            501  1.2e-188  616.4   2.7   3   3     0.026     0.026    1.7   0.0   484   501   612   629   605   629 0.91 <unknown description>
+45818at3193_3914_0:0041d7|contig_22_pilon:2400190-2406953|-   -            586 45818at3193          -            501  5.1e-188  614.3   0.3   1   2  1.6e-186  1.6e-186  609.4   0.2    10   487    32   540    26   543 0.90 <unknown description>
+45818at3193_3914_0:0041d7|contig_22_pilon:2400190-2406953|-   -            586 45818at3193          -            501  5.1e-188  614.3   0.3   2   2     0.024     0.024    1.8   0.0   484   501   569   586   562   586 0.91 <unknown description>
+45818at3193_218851_0:004940|contig_22_pilon:2400190-2404369|- -            585 45818at3193          -            501  4.6e-182  594.7   1.1   1   3   1.1e-36   1.1e-36  115.0   0.2    10   149     1   143     1   165 0.94 <unknown description>
+45818at3193_218851_0:004940|contig_22_pilon:2400190-2404369|- -            585 45818at3193          -            501  4.6e-182  594.7   1.1   2   3  8.6e-146  8.6e-146  475.0   0.0   192   487   232   539   226   542 0.94 <unknown description>
+45818at3193_218851_0:004940|contig_22_pilon:2400190-2404369|- -            585 45818at3193          -            501  4.6e-182  594.7   1.1   3   3     0.024     0.024    1.8   0.0   484   501   568   585   561   585 0.91 <unknown description>
+45818at3193_33119_0:0042fa|contig_1_pilon:1128406-1132892|+   -            541 45818at3193          -            501  1.2e-175  573.5   0.0   1   1  1.8e-175  1.8e-175  572.9   0.0    22   487    11   494     2   497 0.89 <unknown description>
+45818at3193_4577_0:005d6e|contig_22_pilon:2400190-2402011|-   -            348 45818at3193          -            501  8.8e-147  478.3   0.0   1   2  2.3e-145  2.3e-145  473.6   0.0   198   487     1   302     1   305 0.94 <unknown description>
+45818at3193_4577_0:005d6e|contig_22_pilon:2400190-2402011|-   -            348 45818at3193          -            501  8.8e-147  478.3   0.0   2   2     0.013     0.013    2.7   0.0   484   501   331   348   323   348 0.91 <unknown description>
+45818at3193_3750_0:003a67|contig_22_pilon:2401660-2404369|-   -            359 45818at3193          -            501   1.9e-94  305.6   2.3   1   2   7.2e-44   7.2e-44  138.8   0.7    10   176     1   170     1   175 0.97 <unknown description>
+45818at3193_3750_0:003a67|contig_22_pilon:2401660-2404369|-   -            359 45818at3193          -            501   1.9e-94  305.6   2.3   2   2   2.8e-52   2.8e-52  166.5   0.0   192   306   236   354   230   358 0.91 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/45818at3193.hmm
+# Target file:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/45818at3193.faa
+# Option settings: hmmsearch --domtblout /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/hmmer_output/45818at3193.out --cpu 1 /sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10/hmms/45818at3193.hmm /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco/busco/run_embryophyta_odb10/miniprot_output/translated_proteins/45818at3193.faa 
+# Current dir:     /gorilla/home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco
+# Date:            Sun Apr 19 09:22:48 2026
+# [ok]
