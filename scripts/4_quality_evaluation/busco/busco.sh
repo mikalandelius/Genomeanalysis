@@ -13,7 +13,7 @@ module load BUSCO/5.8.2-gfbf-2024a
 cd /home/mila6004/Genomeanalysis/results/4_quality_evaluation/busco
 
 busco \
--I /home/mila6004/Genomeanalysis/results/3_assembly_polishing/pilon/pilon.fasta \
+-i /home/mila6004/Genomeanalysis/results/3_assembly_polishing/pilon/pilon.fasta \
 -l embryophyta_odb10 \
 -o busco \
 -m genome \

@@ -1,0 +1,30 @@
+2026-04-19 09:13:17 INFO:	***** Start a BUSCO v5.8.2 analysis, current time: 04/19/2026 09:13:17 *****
+2026-04-19 09:13:17 INFO:	Configuring BUSCO with /sw/arch/eb/software/BUSCO/5.8.2-gfbf-2024a/config/config.ini
+2026-04-19 09:13:18 INFO:	Running genome mode
+2026-04-19 09:13:18 INFO:	Downloading information on latest versions of BUSCO data...
+2026-04-19 09:13:18 INFO:	Input file is /home/mila6004/Genomeanalysis/results/3_assembly_polishing/pilon/pilon.fasta
+2026-04-19 09:13:20 INFO:	Running BUSCO using lineage dataset embryophyta_odb10 (eukaryota, 2024-01-08)
+2026-04-19 09:13:20 INFO:	Running 1 job(s) on bbtools, starting at 04/19/2026 09:13:20
+2026-04-19 09:13:21 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-04-19 09:13:21 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-04-19 09:13:21 INFO:	NumExpr defaulting to 8 threads.
+2026-04-19 09:13:21 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-04-19 09:13:21 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-04-19 09:13:21 INFO:	NumExpr defaulting to 8 threads.
+2026-04-19 09:13:22 INFO:	[bbtools]	1 of 1 task(s) completed
+2026-04-19 09:13:22 INFO:	Running 1 job(s) on miniprot_index, starting at 04/19/2026 09:13:22
+2026-04-19 09:13:22 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-04-19 09:13:22 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-04-19 09:13:22 INFO:	NumExpr defaulting to 8 threads.
+2026-04-19 09:13:22 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-04-19 09:13:22 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-04-19 09:13:22 INFO:	NumExpr defaulting to 8 threads.
+2026-04-19 09:13:23 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2026-04-19 09:13:23 WARNING:	Unable to remove compressed refseq file in dataset download
+2026-04-19 09:13:23 INFO:	Running 1 job(s) on miniprot_align, starting at 04/19/2026 09:13:23
+2026-04-19 09:13:23 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-04-19 09:13:23 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-04-19 09:13:23 INFO:	NumExpr defaulting to 8 threads.
+2026-04-19 09:13:23 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-04-19 09:13:23 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-04-19 09:13:23 INFO:	NumExpr defaulting to 8 threads.
