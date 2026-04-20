@@ -1,0 +1,19 @@
+	STAR --runThreadN 8 --runMode genomeGenerate --genomeDir star_index --genomeFastaFiles /home/mila6004/Genomeanalysis/results/3_assembly_polishing/pilon/pilon.fasta
+	STAR version: 2.7.11b   compiled: 2026-03-31T19:00:46+02:00 pelle3-ae.uppmax.uu.se:/sw/arch/eb/build/STAR/2.7.11b/GCC-13.3.0/STAR-2.7.11b/source
+Apr 20 19:38:21 ..... started STAR run
+Apr 20 19:38:21 ... starting to generate Genome files
+Apr 20 19:38:21 ... starting to sort Suffix Array. This may take a long time...
+Apr 20 19:38:21 ... sorting Suffix Array chunks and saving them to disk...
+Apr 20 19:38:22 ... loading chunks from disk, packing SA...
+Apr 20 19:38:22 ... finished generating suffix array
+Apr 20 19:38:22 ... generating Suffix Array index
+Apr 20 19:38:26 ... completed Suffix Array index
+Apr 20 19:38:26 ... writing Genome to disk ...
+Apr 20 19:38:26 ... writing Suffix Array to disk ...
+Apr 20 19:38:26 ... writing SAindex to disk
+Apr 20 19:38:27 ..... finished successfully
+	STAR --runThreadN 8 --genomeDir star_index --readFilesIn /home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_1_f1.fq.gz /home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_1_r2.fq.gz --readFilesCommand zcat --outFileNamePrefix Control_1 --outSAMtype BAM SortedByCoordinate --twopassMode Basic
+	STAR version: 2.7.11b   compiled: 2026-03-31T19:00:46+02:00 pelle3-ae.uppmax.uu.se:/sw/arch/eb/build/STAR/2.7.11b/GCC-13.3.0/STAR-2.7.11b/source
+Apr 20 19:38:27 ..... started STAR run
+Apr 20 19:38:27 ..... loading genome
+Apr 20 19:38:27 ..... started 1st pass mapping
