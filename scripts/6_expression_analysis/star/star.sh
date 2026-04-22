@@ -31,6 +31,7 @@ STAR \
 --readFilesIn /home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_1_f1.fq.gz \
 /home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_1_r2.fq.gz \
 --readFilesCommand zcat \
+--outSAMstrandField intronMotif \
 --outFileNamePrefix Control_1 \
 --outSAMtype BAM SortedByCoordinate \
 
@@ -41,5 +42,6 @@ STAR \
 --readFilesIn /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_f1.fq.gz \
 /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_r2.fq.gz \
 --readFilesCommand zcat \
+--outSAMstrandField intronMotif \
 --outFileNamePrefix Heat_1 \
 --outSAMtype BAM SortedByCoordinate

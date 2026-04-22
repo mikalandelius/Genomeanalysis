@@ -17,3 +17,14 @@ Apr 21 12:00:16 ..... finished successfully
 Apr 21 12:00:16 ..... started STAR run
 Apr 21 12:00:17 ..... loading genome
 Apr 21 12:00:17 ..... started mapping
+Apr 21 12:45:38 ..... finished mapping
+Apr 21 12:45:38 ..... started sorting BAM
+Apr 21 12:45:38 ..... finished successfully
+	STAR --runThreadN 8 --genomeDir index_star --readFilesIn /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_f1.fq.gz /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_r2.fq.gz --readFilesCommand zcat --outFileNamePrefix Heat_1 --outSAMtype BAM SortedByCoordinate
+	STAR version: 2.7.11b   compiled: 2026-03-31T19:00:46+02:00 pelle3-ae.uppmax.uu.se:/sw/arch/eb/build/STAR/2.7.11b/GCC-13.3.0/STAR-2.7.11b/source
+Apr 21 12:45:38 ..... started STAR run
+Apr 21 12:45:38 ..... loading genome
+Apr 21 12:45:38 ..... started mapping
+Apr 21 13:32:30 ..... finished mapping
+Apr 21 13:32:30 ..... started sorting BAM
+Apr 21 13:32:30 ..... finished successfully
