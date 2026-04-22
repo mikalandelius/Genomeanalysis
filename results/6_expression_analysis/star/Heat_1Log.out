@@ -1,0 +1,277 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir=2026-03-31T19:00:46+02:00 pelle3-ae.uppmax.uu.se:/sw/arch/eb/build/STAR/2.7.11b/GCC-13.3.0/STAR-2.7.11b/source
+STAR git: 
+##### Command Line:
+STAR --runThreadN 8 --genomeDir index_star --readFilesIn /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_f1.fq.gz /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_r2.fq.gz --readFilesCommand zcat --outSAMstrandField intronMotif --outFileNamePrefix Heat_1 --outSAMtype BAM SortedByCoordinate
+##### Initial USER parameters from Command Line:
+outFileNamePrefix                 Heat_1
+###### All USER parameters from Command Line:
+runThreadN                    8     ~RE-DEFINED
+genomeDir                     index_star     ~RE-DEFINED
+readFilesIn                   /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_f1.fq.gz   /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_r2.fq.gz        ~RE-DEFINED
+readFilesCommand              zcat        ~RE-DEFINED
+outSAMstrandField             intronMotif     ~RE-DEFINED
+outFileNamePrefix             Heat_1     ~RE-DEFINED
+outSAMtype                    BAM   SortedByCoordinate        ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runThreadN                        8
+genomeDir                         index_star
+readFilesIn                       /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_f1.fq.gz   /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_r2.fq.gz   
+readFilesCommand                  zcat   
+outFileNamePrefix                 Heat_1
+outSAMtype                        BAM   SortedByCoordinate   
+outSAMstrandField                 intronMotif
+
+-------------------------------
+##### Final effective command line:
+STAR   --runThreadN 8   --genomeDir index_star   --readFilesIn /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_f1.fq.gz   /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_r2.fq.gz      --readFilesCommand zcat      --outFileNamePrefix Heat_1   --outSAMtype BAM   SortedByCoordinate      --outSAMstrandField intronMotif
+----------------------------------------
+
+Number of fastq files for each mate = 1
+
+   Input read files for mate 1 :
+-rw-r--r-- 1 liek2222 uppmax2026-1-61 1687956488 Feb 13 10:41 /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_f1.fq.gz
+
+   readsCommandsFile:
+exec > "Heat_1_STARtmp/tmp.fifo.read1"
+echo FILE 0
+zcat      "/home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_f1.fq.gz"
+
+
+   Input read files for mate 2 :
+-rw-r--r-- 1 liek2222 uppmax2026-1-61 1763523613 Feb 13 10:41 /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_r2.fq.gz
+
+   readsCommandsFile:
+exec > "Heat_1_STARtmp/tmp.fifo.read2"
+echo FILE 0
+zcat      "/home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_r2.fq.gz"
+
+WARNING --outSAMstrandField=intronMotif, therefore STAR will output XS attribute
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+WARNING: --limitBAMsortRAM=0, will use genome size as RAM limit for BAM sorting
+Finished loading and checking parameters
+Reading genome generation parameters:
+### STAR   --runMode genomeGenerate      --runThreadN 8   --genomeDir index_star   --genomeFastaFiles /home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa      --genomeSAindexNbases 10
+### GstrandBit=32
+versionGenome                 2.7.4a     ~RE-DEFINED
+genomeType                    Full     ~RE-DEFINED
+genomeFastaFiles              /home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa        ~RE-DEFINED
+genomeSAindexNbases           10     ~RE-DEFINED
+genomeChrBinNbits             18     ~RE-DEFINED
+genomeSAsparseD               1     ~RE-DEFINED
+genomeTransformType           None     ~RE-DEFINED
+genomeTransformVCF            -     ~RE-DEFINED
+sjdbOverhang                  0     ~RE-DEFINED
+sjdbFileChrStartEnd           -        ~RE-DEFINED
+sjdbGTFfile                   -     ~RE-DEFINED
+sjdbGTFchrPrefix              -     ~RE-DEFINED
+sjdbGTFfeatureExon            exon     ~RE-DEFINED
+sjdbGTFtagExonParentTranscripttranscript_id     ~RE-DEFINED
+sjdbGTFtagExonParentGene      gene_id     ~RE-DEFINED
+sjdbInsertSave                Basic     ~RE-DEFINED
+genomeFileSizes               26214400   1037210        ~RE-DEFINED
+Genome version is compatible with current STAR
+Number of real (reference) chromosomes= 100
+1	ltr-1_family-1	203	0
+2	ltr-1_family-2	4499	262144
+3	ltr-1_family-11	506	524288
+4	ltr-1_family-12	1137	786432
+5	ltr-1_family-13	693	1048576
+6	ltr-1_family-14	9675	1310720
+7	ltr-1_family-15	1973	1572864
+8	ltr-1_family-16	3275	1835008
+9	ltr-1_family-17	211	2097152
+10	ltr-1_family-18	4239	2359296
+11	ltr-1_family-19	271	2621440
+12	ltr-1_family-3	234	2883584
+13	ltr-1_family-4	5273	3145728
+14	ltr-1_family-5	290	3407872
+15	ltr-1_family-6	8917	3670016
+16	ltr-1_family-7	493	3932160
+17	ltr-1_family-8	5553	4194304
+18	ltr-1_family-9	4493	4456448
+19	ltr-1_family-10	280	4718592
+20	rnd-1_family-12	3232	4980736
+21	rnd-1_family-1	225	5242880
+22	rnd-1_family-23	226	5505024
+23	rnd-1_family-5	281	5767168
+24	rnd-1_family-3	394	6029312
+25	rnd-1_family-7	160	6291456
+26	rnd-1_family-4	2438	6553600
+27	rnd-1_family-6	505	6815744
+28	rnd-1_family-45	406	7077888
+29	rnd-1_family-2	833	7340032
+30	rnd-1_family-13	682	7602176
+31	rnd-1_family-25	228	7864320
+32	rnd-1_family-16	243	8126464
+33	rnd-1_family-30	217	8388608
+34	rnd-1_family-40	138	8650752
+35	rnd-1_family-50	430	8912896
+36	rnd-1_family-17	1152	9175040
+37	rnd-1_family-19	255	9437184
+38	rnd-1_family-10	7058	9699328
+39	rnd-1_family-14	2958	9961472
+40	rnd-1_family-15	2611	10223616
+41	rnd-1_family-26	160	10485760
+42	rnd-1_family-18	813	10747904
+43	rnd-1_family-24	821	11010048
+44	rnd-1_family-27	130	11272192
+45	rnd-1_family-29	1010	11534336
+46	rnd-1_family-35	1877	11796480
+47	rnd-1_family-38	656	12058624
+48	rnd-1_family-46	1379	12320768
+49	rnd-1_family-51	472	12582912
+50	rnd-1_family-56	277	12845056
+51	rnd-1_family-11	8372	13107200
+52	rnd-1_family-22	205	13369344
+53	rnd-1_family-28	1590	13631488
+54	rnd-1_family-31	186	13893632
+55	rnd-1_family-32	250	14155776
+56	rnd-1_family-39	277	14417920
+57	rnd-1_family-41	246	14680064
+58	rnd-1_family-48	3673	14942208
+59	rnd-1_family-52	1867	15204352
+60	rnd-1_family-53	247	15466496
+61	rnd-1_family-54	129	15728640
+62	rnd-1_family-33	1547	15990784
+63	rnd-1_family-36	156	16252928
+64	rnd-1_family-42	348	16515072
+65	rnd-1_family-49	469	16777216
+66	rnd-2_family-43	971	17039360
+67	rnd-2_family-496	250	17301504
+68	rnd-2_family-47	214	17563648
+69	rnd-2_family-559	204	17825792
+70	rnd-2_family-282	194	18087936
+71	rnd-2_family-26	555	18350080
+72	rnd-2_family-55	885	18612224
+73	rnd-2_family-174	1229	18874368
+74	rnd-2_family-219	310	19136512
+75	rnd-2_family-626	242	19398656
+76	rnd-2_family-102	1262	19660800
+77	rnd-2_family-193	143	19922944
+78	rnd-2_family-194	1578	20185088
+79	rnd-2_family-757	151	20447232
+80	rnd-2_family-784	159	20709376
+81	rnd-2_family-68	288	20971520
+82	rnd-2_family-334	602	21233664
+83	rnd-2_family-11	136	21495808
+84	rnd-2_family-173	260	21757952
+85	rnd-2_family-1349	137	22020096
+86	rnd-2_family-226	388	22282240
+87	rnd-2_family-8	544	22544384
+88	rnd-2_family-156	799	22806528
+89	rnd-2_family-326	1065	23068672
+90	rnd-2_family-51	690	23330816
+91	rnd-2_family-116	480	23592960
+92	rnd-2_family-12	62	23855104
+93	rnd-2_family-391	6798	24117248
+94	rnd-2_family-435	446	24379392
+95	rnd-2_family-518	225	24641536
+96	rnd-2_family-61	220	24903680
+97	rnd-2_family-63	170	25165824
+98	rnd-2_family-66	302	25427968
+99	rnd-2_family-170	186	25690112
+100	rnd-2_family-349	219	25952256
+Started loading the genome: Wed Apr 22 09:32:50 2026
+
+Genome: size given as a parameter = 26214400
+SA: size given as a parameter = 1037210
+SAindex: size given as a parameter = 1
+Read from SAindex: pGe.gSAindexNbases=10  nSAi=1398100
+nGenome=26214400;  nSAbyte=1037210
+GstrandBit=32   SA number of indices=251444
+Shared memory is not used for genomes. Allocated a private copy of the genome.
+Genome file size: 26214400 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading Genome ... done! state: good=1 eof=0 fail=0 bad=0; loaded 26214400 bytes
+SA file size: 1037210 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading SA ... done! state: good=1 eof=0 fail=0 bad=0; loaded 1037210 bytes
+Loading SAindex ... done: 6116787 bytes
+Finished loading the genome: Wed Apr 22 09:32:50 2026
+
+alignIntronMax=alignMatesGapMax=0, the max intron size will be approximately determined by (2^winBinNbits)*winAnchorDistNbins=589824
+Created thread # 1
+Created thread # 2
+Starting to map file # 0
+mate 1:   /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_f1.fq.gz
+mate 2:   /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_r2.fq.gz
+Created thread # 3
+Created thread # 4
+Created thread # 5
+Created thread # 6
+Created thread # 7
+Thread #6 end of input stream, nextChar=-1
+BAM sorting: 3772 mapped reads
+BAM sorting bins genomic start loci:
+1	16	0
+2	16	63
+3	16	167
+4	16	298
+5	16	905
+6	25	1545
+7	46	1
+8	46	11
+9	46	70
+10	46	111
+11	46	156
+12	46	237
+13	46	257
+14	46	313
+15	46	346
+16	46	428
+17	46	507
+18	46	574
+19	92	355
+20	92	2372
+21	92	2430
+22	92	2528
+23	92	2605
+24	92	2898
+25	92	3283
+26	92	3552
+27	92	3598
+28	92	3662
+29	92	3719
+30	92	3777
+31	92	3806
+32	92	4059
+33	92	4302
+34	92	4365
+35	92	4588
+36	92	4753
+37	92	4795
+38	92	4968
+39	92	5025
+40	92	5191
+41	92	5233
+42	92	5350
+43	92	5420
+44	92	5475
+45	92	5518
+46	92	5550
+47	92	5582
+48	92	5657
+Completed: thread #3
+Completed: thread #0
+Completed: thread #6
+Completed: thread #7
+Completed: thread #1
+Joined thread # 1
+Completed: thread #4
+Completed: thread #2
+Joined thread # 2
+Joined thread # 3
+Joined thread # 4
+Completed: thread #5
+Joined thread # 5
+Joined thread # 6
+Joined thread # 7
+Apr 22 10:19:21 ..... finished mapping
+RAM after mapping:
+VmPeak:	 1796164 kB; VmSize:	 1730716 kB; VmHWM:	 1248236 kB; VmRSS:	 1247532 kB; 
+RAM after freeing genome index memory:
+VmPeak:	 1796164 kB; VmSize:	 1698120 kB; VmHWM:	 1248236 kB; VmRSS:	 1214936 kB; 
+Apr 22 10:19:21 ..... started sorting BAM
+Max memory needed for sorting = 418321
+ALL DONE!

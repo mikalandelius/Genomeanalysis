@@ -1,0 +1,264 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir=2026-03-31T19:00:46+02:00 pelle3-ae.uppmax.uu.se:/sw/arch/eb/build/STAR/2.7.11b/GCC-13.3.0/STAR-2.7.11b/source
+STAR git: 
+##### Command Line:
+STAR --runThreadN 8 --runMode genomeGenerate --genomeDir index_star --genomeFastaFiles /home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa --genomeSAindexNbases 10
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runThreadN                    8     ~RE-DEFINED
+runMode                       genomeGenerate        ~RE-DEFINED
+genomeDir                     index_star     ~RE-DEFINED
+genomeFastaFiles              /home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa        ~RE-DEFINED
+genomeSAindexNbases           10     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+runThreadN                        8
+genomeDir                         index_star
+genomeFastaFiles                  /home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa   
+genomeSAindexNbases               10
+
+-------------------------------
+##### Final effective command line:
+STAR   --runMode genomeGenerate      --runThreadN 8   --genomeDir index_star   --genomeFastaFiles /home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa      --genomeSAindexNbases 10
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory exists and will be overwritten: index_star/
+Apr 22 08:48:08 ... starting to generate Genome files
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 0  "ltr-1_family-1" chrStart: 0
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 1  "ltr-1_family-2" chrStart: 262144
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 2  "ltr-1_family-11" chrStart: 524288
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 3  "ltr-1_family-12" chrStart: 786432
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 4  "ltr-1_family-13" chrStart: 1048576
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 5  "ltr-1_family-14" chrStart: 1310720
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 6  "ltr-1_family-15" chrStart: 1572864
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 7  "ltr-1_family-16" chrStart: 1835008
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 8  "ltr-1_family-17" chrStart: 2097152
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 9  "ltr-1_family-18" chrStart: 2359296
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 10  "ltr-1_family-19" chrStart: 2621440
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 11  "ltr-1_family-3" chrStart: 2883584
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 12  "ltr-1_family-4" chrStart: 3145728
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 13  "ltr-1_family-5" chrStart: 3407872
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 14  "ltr-1_family-6" chrStart: 3670016
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 15  "ltr-1_family-7" chrStart: 3932160
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 16  "ltr-1_family-8" chrStart: 4194304
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 17  "ltr-1_family-9" chrStart: 4456448
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 18  "ltr-1_family-10" chrStart: 4718592
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 19  "rnd-1_family-12" chrStart: 4980736
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 20  "rnd-1_family-1" chrStart: 5242880
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 21  "rnd-1_family-23" chrStart: 5505024
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 22  "rnd-1_family-5" chrStart: 5767168
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 23  "rnd-1_family-3" chrStart: 6029312
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 24  "rnd-1_family-7" chrStart: 6291456
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 25  "rnd-1_family-4" chrStart: 6553600
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 26  "rnd-1_family-6" chrStart: 6815744
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 27  "rnd-1_family-45" chrStart: 7077888
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 28  "rnd-1_family-2" chrStart: 7340032
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 29  "rnd-1_family-13" chrStart: 7602176
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 30  "rnd-1_family-25" chrStart: 7864320
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 31  "rnd-1_family-16" chrStart: 8126464
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 32  "rnd-1_family-30" chrStart: 8388608
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 33  "rnd-1_family-40" chrStart: 8650752
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 34  "rnd-1_family-50" chrStart: 8912896
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 35  "rnd-1_family-17" chrStart: 9175040
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 36  "rnd-1_family-19" chrStart: 9437184
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 37  "rnd-1_family-10" chrStart: 9699328
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 38  "rnd-1_family-14" chrStart: 9961472
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 39  "rnd-1_family-15" chrStart: 10223616
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 40  "rnd-1_family-26" chrStart: 10485760
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 41  "rnd-1_family-18" chrStart: 10747904
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 42  "rnd-1_family-24" chrStart: 11010048
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 43  "rnd-1_family-27" chrStart: 11272192
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 44  "rnd-1_family-29" chrStart: 11534336
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 45  "rnd-1_family-35" chrStart: 11796480
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 46  "rnd-1_family-38" chrStart: 12058624
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 47  "rnd-1_family-46" chrStart: 12320768
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 48  "rnd-1_family-51" chrStart: 12582912
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 49  "rnd-1_family-56" chrStart: 12845056
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 50  "rnd-1_family-11" chrStart: 13107200
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 51  "rnd-1_family-22" chrStart: 13369344
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 52  "rnd-1_family-28" chrStart: 13631488
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 53  "rnd-1_family-31" chrStart: 13893632
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 54  "rnd-1_family-32" chrStart: 14155776
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 55  "rnd-1_family-39" chrStart: 14417920
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 56  "rnd-1_family-41" chrStart: 14680064
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 57  "rnd-1_family-48" chrStart: 14942208
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 58  "rnd-1_family-52" chrStart: 15204352
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 59  "rnd-1_family-53" chrStart: 15466496
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 60  "rnd-1_family-54" chrStart: 15728640
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 61  "rnd-1_family-33" chrStart: 15990784
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 62  "rnd-1_family-36" chrStart: 16252928
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 63  "rnd-1_family-42" chrStart: 16515072
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 64  "rnd-1_family-49" chrStart: 16777216
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 65  "rnd-2_family-43" chrStart: 17039360
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 66  "rnd-2_family-496" chrStart: 17301504
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 67  "rnd-2_family-47" chrStart: 17563648
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 68  "rnd-2_family-559" chrStart: 17825792
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 69  "rnd-2_family-282" chrStart: 18087936
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 70  "rnd-2_family-26" chrStart: 18350080
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 71  "rnd-2_family-55" chrStart: 18612224
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 72  "rnd-2_family-174" chrStart: 18874368
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 73  "rnd-2_family-219" chrStart: 19136512
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 74  "rnd-2_family-626" chrStart: 19398656
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 75  "rnd-2_family-102" chrStart: 19660800
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 76  "rnd-2_family-193" chrStart: 19922944
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 77  "rnd-2_family-194" chrStart: 20185088
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 78  "rnd-2_family-757" chrStart: 20447232
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 79  "rnd-2_family-784" chrStart: 20709376
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 80  "rnd-2_family-68" chrStart: 20971520
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 81  "rnd-2_family-334" chrStart: 21233664
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 82  "rnd-2_family-11" chrStart: 21495808
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 83  "rnd-2_family-173" chrStart: 21757952
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 84  "rnd-2_family-1349" chrStart: 22020096
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 85  "rnd-2_family-226" chrStart: 22282240
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 86  "rnd-2_family-8" chrStart: 22544384
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 87  "rnd-2_family-156" chrStart: 22806528
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 88  "rnd-2_family-326" chrStart: 23068672
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 89  "rnd-2_family-51" chrStart: 23330816
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 90  "rnd-2_family-116" chrStart: 23592960
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 91  "rnd-2_family-12" chrStart: 23855104
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 92  "rnd-2_family-391" chrStart: 24117248
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 93  "rnd-2_family-435" chrStart: 24379392
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 94  "rnd-2_family-518" chrStart: 24641536
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 95  "rnd-2_family-61" chrStart: 24903680
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 96  "rnd-2_family-63" chrStart: 25165824
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 97  "rnd-2_family-66" chrStart: 25427968
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 98  "rnd-2_family-170" chrStart: 25690112
+/home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa : chr # 99  "rnd-2_family-349" chrStart: 25952256
+Chromosome sequence lengths: 
+ltr-1_family-1	203
+ltr-1_family-2	4499
+ltr-1_family-11	506
+ltr-1_family-12	1137
+ltr-1_family-13	693
+ltr-1_family-14	9675
+ltr-1_family-15	1973
+ltr-1_family-16	3275
+ltr-1_family-17	211
+ltr-1_family-18	4239
+ltr-1_family-19	271
+ltr-1_family-3	234
+ltr-1_family-4	5273
+ltr-1_family-5	290
+ltr-1_family-6	8917
+ltr-1_family-7	493
+ltr-1_family-8	5553
+ltr-1_family-9	4493
+ltr-1_family-10	280
+rnd-1_family-12	3232
+rnd-1_family-1	225
+rnd-1_family-23	226
+rnd-1_family-5	281
+rnd-1_family-3	394
+rnd-1_family-7	160
+rnd-1_family-4	2438
+rnd-1_family-6	505
+rnd-1_family-45	406
+rnd-1_family-2	833
+rnd-1_family-13	682
+rnd-1_family-25	228
+rnd-1_family-16	243
+rnd-1_family-30	217
+rnd-1_family-40	138
+rnd-1_family-50	430
+rnd-1_family-17	1152
+rnd-1_family-19	255
+rnd-1_family-10	7058
+rnd-1_family-14	2958
+rnd-1_family-15	2611
+rnd-1_family-26	160
+rnd-1_family-18	813
+rnd-1_family-24	821
+rnd-1_family-27	130
+rnd-1_family-29	1010
+rnd-1_family-35	1877
+rnd-1_family-38	656
+rnd-1_family-46	1379
+rnd-1_family-51	472
+rnd-1_family-56	277
+rnd-1_family-11	8372
+rnd-1_family-22	205
+rnd-1_family-28	1590
+rnd-1_family-31	186
+rnd-1_family-32	250
+rnd-1_family-39	277
+rnd-1_family-41	246
+rnd-1_family-48	3673
+rnd-1_family-52	1867
+rnd-1_family-53	247
+rnd-1_family-54	129
+rnd-1_family-33	1547
+rnd-1_family-36	156
+rnd-1_family-42	348
+rnd-1_family-49	469
+rnd-2_family-43	971
+rnd-2_family-496	250
+rnd-2_family-47	214
+rnd-2_family-559	204
+rnd-2_family-282	194
+rnd-2_family-26	555
+rnd-2_family-55	885
+rnd-2_family-174	1229
+rnd-2_family-219	310
+rnd-2_family-626	242
+rnd-2_family-102	1262
+rnd-2_family-193	143
+rnd-2_family-194	1578
+rnd-2_family-757	151
+rnd-2_family-784	159
+rnd-2_family-68	288
+rnd-2_family-334	602
+rnd-2_family-11	136
+rnd-2_family-173	260
+rnd-2_family-1349	137
+rnd-2_family-226	388
+rnd-2_family-8	544
+rnd-2_family-156	799
+rnd-2_family-326	1065
+rnd-2_family-51	690
+rnd-2_family-116	480
+rnd-2_family-12	62
+rnd-2_family-391	6798
+rnd-2_family-435	446
+rnd-2_family-518	225
+rnd-2_family-61	220
+rnd-2_family-63	170
+rnd-2_family-66	302
+rnd-2_family-170	186
+rnd-2_family-349	219
+Genome sequence total length = 126408
+Genome size with padding = 26214400
+!!!!! WARNING: --genomeSAindexNbases 10 is too large for the genome size=126408, which may cause seg-fault at the mapping step. Re-run genome generation with recommended --genomeSAindexNbases 7
+Estimated genome size with padding and SJs: total=genome+SJ=227214400 = 26214400 + 201000000
+GstrandBit=32
+Number of SA indices: 251444
+Apr 22 08:48:08 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 8;   chunks size limit: 287360 bytes
+Apr 22 08:48:08 ... sorting Suffix Array chunks and saving them to disk...
+Writing 38808 bytes into index_star//SA_7 ; empty space on disk = 34312556642304 bytes ... done
+Writing 280016 bytes into index_star//SA_3 ; empty space on disk = 34312556642304 bytes ... done
+Writing 275816 bytes into index_star//SA_6 ; empty space on disk = 34312556642304 bytes ... done
+Writing 286184 bytes into index_star//SA_0 ; empty space on disk = 34312556642304 bytes ... done
+Writing 276368 bytes into index_star//SA_5 ; empty space on disk = 34312556642304 bytes ... done
+Writing 283696 bytes into index_star//SA_1 ; empty space on disk = 34312556642304 bytes ... done
+Writing 283336 bytes into index_star//SA_2 ; empty space on disk = 34312556642304 bytes ... done
+Writing 287328 bytes into index_star//SA_4 ; empty space on disk = 34312556642304 bytes ... done
+Apr 22 08:48:08 ... loading chunks from disk, packing SA...
+Apr 22 08:48:08 ... finished generating suffix array
+Apr 22 08:48:08 ... generating Suffix Array index
+Apr 22 08:48:08 ... completed Suffix Array index
+Apr 22 08:48:08 ... writing Genome to disk ...
+Writing 26214400 bytes into index_star//Genome ; empty space on disk = 34312556642304 bytes ... done
+SA size in bytes: 1037210
+Apr 22 08:48:08 ... writing Suffix Array to disk ...
+Writing 1037210 bytes into index_star//SA ; empty space on disk = 34312556642304 bytes ... done
+Apr 22 08:48:08 ... writing SAindex to disk
+Writing 8 bytes into index_star//SAindex ; empty space on disk = 34312556642304 bytes ... done
+Writing 88 bytes into index_star//SAindex ; empty space on disk = 34312556642304 bytes ... done
+Writing 6116691 bytes into index_star//SAindex ; empty space on disk = 34312556642304 bytes ... done
+Apr 22 08:48:08 ..... finished successfully
+DONE: Genome generation, EXITING
