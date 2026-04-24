@@ -1,0 +1,2 @@
+# Fri Apr 24 11:26:40 2026: ERROR: in file /opt/BRAKER/scripts/braker.pl at line 4675
+The hints file is empty. Maybe the genome and the RNA-seq file do not belong together.
