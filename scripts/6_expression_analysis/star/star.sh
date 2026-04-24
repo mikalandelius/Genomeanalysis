@@ -20,7 +20,7 @@ STAR \
 --runThreadN 8 \
 --runMode genomeGenerate \
 --genomeDir $GENDIR \
---genomeFastaFiles /home/mila6004/Genomeanalysis/results/3_assembly_polishing/repeatmasker/RM_2989260.TueApr211031102026/consensi.fa \
+--genomeFastaFiles /home/mila6004/Genomeanalysis/results/3_assembly_polishing/pilon/pilon.fasta.masked \
 --genomeSAindexNbases 10 \
 
 # run mapping job
