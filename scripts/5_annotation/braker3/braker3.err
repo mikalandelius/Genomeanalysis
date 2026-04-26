@@ -1,2 +1,60 @@
-# Fri Apr 24 11:26:40 2026: ERROR: in file /opt/BRAKER/scripts/braker.pl at line 4675
-The hints file is empty. Maybe the genome and the RNA-seq file do not belong together.
+#**********************************************************************************
+#                               BRAKER CONFIGURATION                               
+#**********************************************************************************
+# BRAKER CALL: /opt/BRAKER/scripts/braker.pl --species=n_japonicum --genome=/home/mila6004/Genomeanalysis/results/3_assembly_polishing/pilon/pilon.fasta.masked --softmasking --bam=/home/mila6004/Genomeanalysis/results/6_expression_analysis/star/Control_1Aligned.sortedByCoord.out.bam,/home/mila6004/Genomeanalysis/results/6_expression_analysis/star/Heat_1Aligned.sortedByCoord.out.bam --threads=2 --workingdir=/home/mila6004/Genomeanalysis/results/5_annotation/braker3
+# Sun Apr 26 12:06:13 2026: braker.pl version 3.0.8
+# Sun Apr 26 12:06:13 2026: Only RNA-Seq input detected, BRAKER will be executed in ET mode (BRAKER1).
+# Sun Apr 26 12:06:13 2026: Configuring of BRAKER for using external tools...
+# Sun Apr 26 12:06:13 2026: Trying to set $AUGUSTUS_CONFIG_PATH...
+# Sun Apr 26 12:06:13 2026: Found environment variable $AUGUSTUS_CONFIG_PATH.
+# Sun Apr 26 12:06:13 2026: Checking /opt/Augustus/config/ as potential path for $AUGUSTUS_CONFIG_PATH.
+# Sun Apr 26 12:06:13 2026: Success! Setting $AUGUSTUS_CONFIG_PATH to /opt/Augustus/config/!
+# Sun Apr 26 12:06:13 2026: Trying to set $AUGUSTUS_BIN_PATH...
+# Sun Apr 26 12:06:13 2026: Found environment variable $AUGUSTUS_BIN_PATH.
+# Sun Apr 26 12:06:13 2026: Checking /opt/Augustus/bin/ as potential path for $AUGUSTUS_BIN_PATH.
+# Sun Apr 26 12:06:13 2026: Success! Setting $AUGUSTUS_BIN_PATH to /opt/Augustus/bin/!
+# Sun Apr 26 12:06:13 2026: Trying to set $AUGUSTUS_SCRIPTS_PATH...
+# Sun Apr 26 12:06:13 2026: Found environment variable $AUGUSTUS_SCRIPTS_PATH.
+# Sun Apr 26 12:06:13 2026: Checking /opt/Augustus/scripts/ as potential path for $AUGUSTUS_SCRIPTS_PATH.
+# Sun Apr 26 12:06:13 2026: Success! Setting $AUGUSTUS_SCRIPTS_PATH to /opt/Augustus/scripts/!
+# Sun Apr 26 12:06:13 2026: Trying to set $PYTHON3_PATH...
+# Sun Apr 26 12:06:13 2026: Did not find environment variable $PYTHON3_PATH.
+# Sun Apr 26 12:06:13 2026: Trying to guess PYTHON3_PATH from location of python3 executable that is available in your $PATH
+# Sun Apr 26 12:06:13 2026: Checking /opt/conda/bin as potential path for $PYTHON3_PATH.
+# Sun Apr 26 12:06:13 2026: Success! Setting $PYTHON3_PATH to /opt/conda/bin!
+# Sun Apr 26 12:06:13 2026: Trying to set $GENEMARK_PATH...
+# Sun Apr 26 12:06:13 2026: Found environment variable $GENEMARK_PATH.
+# Sun Apr 26 12:06:13 2026: Checking /opt/ETP/bin as potential path for $GENEMARK_PATH.
+#*********
+# WARNING: Couldn't find gmes_petap.pl in /opt/ETP/bin. Will not set $GENEMARK_PATH to /opt/ETP/bin!
+#*********
+# Sun Apr 26 12:06:13 2026: Trying to guess GENEMARK_PATH from location of gmes_petap.pl executable that is available in your $PATH
+# Sun Apr 26 12:06:13 2026: Checking /opt/ETP/bin/gmes as potential path for $GENEMARK_PATH.
+# Sun Apr 26 12:06:13 2026: Success! Setting $GENEMARK_PATH to /opt/ETP/bin/gmes!
+# Sun Apr 26 12:06:13 2026: Trying to set $BAMTOOLS_PATH...
+# Sun Apr 26 12:06:13 2026: Did not find environment variable $BAMTOOLS_PATH.
+# Sun Apr 26 12:06:13 2026: Trying to guess BAMTOOLS_PATH from location of bamtools executable that is available in your $PATH
+# Sun Apr 26 12:06:13 2026: Checking /usr/bin as potential path for $BAMTOOLS_PATH.
+# Sun Apr 26 12:06:13 2026: Success! Setting $BAMTOOLS_PATH to /usr/bin!
+# Sun Apr 26 12:06:13 2026: Trying to set $SAMTOOLS_PATH...
+# Sun Apr 26 12:06:13 2026: Did not find environment variable $SAMTOOLS_PATH.
+# Sun Apr 26 12:06:13 2026: Trying to guess SAMTOOLS_PATH from location of samtools executable that is available in your $PATH
+# Sun Apr 26 12:06:13 2026: Checking /usr/bin as potential path for $SAMTOOLS_PATH.
+# Sun Apr 26 12:06:13 2026: Success! Setting $SAMTOOLS_PATH to /usr/bin!
+# Sun Apr 26 12:06:13 2026: Trying to set $DIAMOND_PATH...
+# Sun Apr 26 12:06:13 2026: Did not find environment variable $DIAMOND_PATH.
+# Sun Apr 26 12:06:13 2026: Trying to guess DIAMOND_PATH from location of diamond executable that is available in your $PATH
+# Sun Apr 26 12:06:13 2026: Checking /opt/ETP/tools as potential path for $DIAMOND_PATH.
+# Sun Apr 26 12:06:13 2026: Success! Setting $DIAMOND_PATH to /opt/ETP/tools!
+# Sun Apr 26 12:06:13 2026: Trying to set $TSEBRA_PATH...
+# Sun Apr 26 12:06:13 2026: Did not find environment variable $TSEBRA_PATH.
+# Sun Apr 26 12:06:13 2026: Trying to guess TSEBRA_PATH from location of tsebra.py executable that is available in your $PATH
+# Sun Apr 26 12:06:13 2026: Checking /opt/TSEBRA/bin as potential path for $TSEBRA_PATH.
+# Sun Apr 26 12:06:13 2026: Success! Setting $TSEBRA_PATH to /opt/TSEBRA/bin!
+# Sun Apr 26 12:06:13 2026: Trying to set $CDBTOOLS_PATH...
+# Sun Apr 26 12:06:13 2026: Did not find environment variable $CDBTOOLS_PATH.
+# Sun Apr 26 12:06:13 2026: Trying to guess CDBTOOLS_PATH from location of cdbfasta executable that is available in your $PATH
+# Sun Apr 26 12:06:13 2026: Checking /opt/cdbfasta as potential path for $CDBTOOLS_PATH.
+# Sun Apr 26 12:06:13 2026: Success! Setting $CDBTOOLS_PATH to /opt/cdbfasta!
+# Sun Apr 26 12:06:13 2026: ERROR: in file /opt/BRAKER/scripts/braker.pl at line 3490
+/opt/Augustus/config//species/n_japonicum already exists. Choose another species name, delete this directory or use the existing species with the option --useexisting. Be aware that existing parameters will then be overwritten during training.

@@ -1,9 +1,8 @@
 #!/bin/bash
 #SBATCH -A uppmax2026-1-61
 #SBATCH -p pelle
-#SBATCH -c 1
-#SBATCH -t 00:10:00
-#SBATCH --reservation=uppmax2026-1-61_5
+#SBATCH -c 2
+#SBATCH -t 20:00:00
 #SBATCH --mem=32G
 #SBATCH -J braker3
 #SBATCH -o braker3.out
