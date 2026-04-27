@@ -12,8 +12,8 @@ module load merqury/20240628-1ad7c32-gfbf-2024a
 
 # bygg meryl databas
 meryl count k=21 output reads.meryl \
-READ1=/home/mila6004/Genomeanalysis/data/Illumina_short_reads/chr3_illumina_R1.fastq.gz \
-READ2=/home/mila6004/Genomeanalysis/data/Illumina_short_reads/chr3_illumina_R2.fastq.gz
+/home/mila6004/Genomeanalysis/data/Illumina_short_reads/chr3_illumina_R1.fastq.gz \
+/home/mila6004/Genomeanalysis/data/Illumina_short_reads/chr3_illumina_R2.fastq.gz
 
 #kör merqury
 merqury.sh reads.meryl \
