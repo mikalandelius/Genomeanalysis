@@ -1,0 +1,9 @@
+read: reads.meryl
+
+No haplotype dbs provided.
+Running Merqury in non-trio mode...
+
+asm1: pilon.fasta
+out : /home/mila6004/Genomeanalysis/results/4_quality_evaluation/merqury
+
+/home/mila6004/Genomeanalysis/results/4_quality_evaluation/merqury already exists. Provide a different name. (Are we missing the <out>?)
