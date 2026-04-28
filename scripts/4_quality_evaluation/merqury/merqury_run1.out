@@ -1,0 +1,10 @@
+read: reads.meryl
+
+No haplotype dbs provided.
+Running Merqury in non-trio mode...
+
+asm1: pilon.fasta
+out : run1
+
+
+Get spectra-cn plots and QV stats
