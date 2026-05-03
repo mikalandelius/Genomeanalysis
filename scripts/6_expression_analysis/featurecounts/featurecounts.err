@@ -1,0 +1,40 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 2 BAM files                                      ||
+||                                                                            ||
+||                           Control_1Aligned.sortedByCoord.out.bam           ||
+||                           Heat_1Aligned.sortedByCoord.out.bam              ||
+||                                                                            ||
+||             Output file : featurecounts.txt                                ||
+||                 Summary : featurecounts.txt.summary                        ||
+||              Paired-end : no                                               ||
+||        Count read pairs : no                                               ||
+||              Annotation : braker.gtf (GTF)                                 ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 2                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file braker.gtf ...                                        ||
+||    Features : 14019                                                        ||
+||    Meta-features : 1775                                                    ||
+||    Chromosomes/contigs : 9                                                 ||
+||                                                                            ||
+|| Process BAM file Control_1Aligned.sortedByCoord.out.bam...                 ||
+ERROR: Paired-end reads were detected in single-end read library : /home/mila6004/Genomeanalysis/results/6_expression_analysis/star/Control_1Aligned.sortedByCoord.out.bam
