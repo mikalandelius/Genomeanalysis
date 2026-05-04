@@ -14,8 +14,8 @@
 ||                           Control_1Aligned.sortedByCoord.out.bam           ||
 ||                           Heat_1Aligned.sortedByCoord.out.bam              ||
 ||                                                                            ||
-||             Output file : featurecounts.txt                                ||
-||                 Summary : featurecounts.txt.summary                        ||
+||             Output file : featurecounts1.txt                               ||
+||                 Summary : featurecounts1.txt.summary                       ||
 ||              Paired-end : yes                                              ||
 ||        Count read pairs : yes                                              ||
 ||              Annotation : braker.gtf (GTF)                                 ||
@@ -37,22 +37,24 @@
 ||    Chromosomes/contigs : 9                                                 ||
 ||                                                                            ||
 || Process BAM file Control_1Aligned.sortedByCoord.out.bam...                 ||
+||    Strand specific : stranded                                              ||
 ||    Paired-end reads are included.                                          ||
 ||    Total alignments : 1715769                                              ||
-||    Successfully assigned alignments : 1242973 (72.4%)                      ||
+||    Successfully assigned alignments : 640428 (37.3%)                       ||
 ||    Running time : 0.05 minutes                                             ||
 ||                                                                            ||
 || Process BAM file Heat_1Aligned.sortedByCoord.out.bam...                    ||
+||    Strand specific : stranded                                              ||
 ||    Paired-end reads are included.                                          ||
 ||    Total alignments : 1580120                                              ||
-||    Successfully assigned alignments : 1126491 (71.3%)                      ||
+||    Successfully assigned alignments : 579324 (36.7%)                       ||
 ||    Running time : 0.04 minutes                                             ||
 ||                                                                            ||
 || Write the final count table.                                               ||
 || Write the read assignment summary.                                         ||
 ||                                                                            ||
-|| Summary of counting results can be found in file "featurecounts.txt.summa  ||
-|| ry"                                                                        ||
+|| Summary of counting results can be found in file "featurecounts1.txt.summ  ||
+|| ary"                                                                       ||
 ||                                                                            ||
 \\============================================================================//
 
