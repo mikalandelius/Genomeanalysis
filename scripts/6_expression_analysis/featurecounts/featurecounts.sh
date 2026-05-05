@@ -4,9 +4,9 @@
 #SBATCH -c 2
 #SBATCH -t 08:00:00
 #SBATCH --mem=32G
-#SBATCH -J featurecounts2
-#SBATCH -o featurecounts2.out
-#SBATCH -e featurecounts2.err
+#SBATCH -J featurecounts
+#SBATCH -o featurecounts.out
+#SBATCH -e featurecounts.err
 
 module load Subread/2.1.1-GCC-13.3.0
 
@@ -15,7 +15,10 @@ featureCounts \
 -p \
 --countReadPairs \
 -a /home/mila6004/Genomeanalysis/results/5_annotation/braker3/braker.gtf \
--s 2 \
--o featurecounts2.txt \
+-o featurecounts.txt \
 /home/mila6004/Genomeanalysis/results/6_expression_analysis/star/Control_1Aligned.sortedByCoord.out.bam \
-/home/mila6004/Genomeanalysis/results/6_expression_analysis/star/Heat_1Aligned.sortedByCoord.out.bam
+/home/mila6004/Genomeanalysis/results/6_expression_analysis/star/Control_2Aligned.sortedByCoord.out.bam \
+/home/mila6004/Genomeanalysis/results/6_expression_analysis/star/Control_3Aligned.sortedByCoord.out.bam \
+/home/mila6004/Genomeanalysis/results/6_expression_analysis/star/Heat_treated_42_12h_1Aligned.sortedByCoord.out.bam \
+/home/mila6004/Genomeanalysis/results/6_expression_analysis/star/Heat_treated_42_12h_2Aligned.sortedByCoord.out.bam \
+/home/mila6004/Genomeanalysis/results/6_expression_analysis/star/Heat_treated_42_12h_3Aligned.sortedByCoord.out.bam
