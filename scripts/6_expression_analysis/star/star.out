@@ -1,19 +1,30 @@
 	STAR --runThreadN 8 --runMode genomeGenerate --genomeDir index_star --genomeFastaFiles /home/mila6004/Genomeanalysis/results/3_assembly_polishing/pilon/pilon.fasta.masked --genomeSAindexNbases 10
 	STAR version: 2.7.11b   compiled: 2026-03-31T19:00:46+02:00 pelle3-ae.uppmax.uu.se:/sw/arch/eb/build/STAR/2.7.11b/GCC-13.3.0/STAR-2.7.11b/source
-Apr 24 11:55:58 ..... started STAR run
-Apr 24 11:55:58 ... starting to generate Genome files
-Apr 24 11:55:58 ... starting to sort Suffix Array. This may take a long time...
-Apr 24 11:55:58 ... sorting Suffix Array chunks and saving them to disk...
-Apr 24 11:56:00 ... loading chunks from disk, packing SA...
-Apr 24 11:56:00 ... finished generating suffix array
-Apr 24 11:56:00 ... generating Suffix Array index
-Apr 24 11:56:01 ... completed Suffix Array index
-Apr 24 11:56:01 ... writing Genome to disk ...
-Apr 24 11:56:01 ... writing Suffix Array to disk ...
-Apr 24 11:56:01 ... writing SAindex to disk
-Apr 24 11:56:01 ..... finished successfully
+Apr 24 18:57:10 ..... started STAR run
+Apr 24 18:57:10 ... starting to generate Genome files
+Apr 24 18:57:10 ... starting to sort Suffix Array. This may take a long time...
+Apr 24 18:57:10 ... sorting Suffix Array chunks and saving them to disk...
+Apr 24 18:57:11 ... loading chunks from disk, packing SA...
+Apr 24 18:57:11 ... finished generating suffix array
+Apr 24 18:57:11 ... generating Suffix Array index
+Apr 24 18:57:12 ... completed Suffix Array index
+Apr 24 18:57:12 ... writing Genome to disk ...
+Apr 24 18:57:12 ... writing Suffix Array to disk ...
+Apr 24 18:57:12 ... writing SAindex to disk
+Apr 24 18:57:12 ..... finished successfully
 	STAR --runThreadN 8 --genomeDir index_star --readFilesIn /home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_1_f1.fq.gz /home/mila6004/Genomeanalysis/data/RNAseq_reads/Control_1_r2.fq.gz --readFilesCommand zcat --outSAMstrandField intronMotif --outFileNamePrefix Control_1 --outSAMtype BAM SortedByCoordinate
 	STAR version: 2.7.11b   compiled: 2026-03-31T19:00:46+02:00 pelle3-ae.uppmax.uu.se:/sw/arch/eb/build/STAR/2.7.11b/GCC-13.3.0/STAR-2.7.11b/source
-Apr 24 11:56:01 ..... started STAR run
-Apr 24 11:56:01 ..... loading genome
-Apr 24 11:56:01 ..... started mapping
+Apr 24 18:57:12 ..... started STAR run
+Apr 24 18:57:12 ..... loading genome
+Apr 24 18:57:12 ..... started mapping
+Apr 24 23:21:29 ..... finished mapping
+Apr 24 23:21:29 ..... started sorting BAM
+Apr 24 23:21:31 ..... finished successfully
+	STAR --runThreadN 8 --genomeDir index_star --readFilesIn /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_f1.fq.gz /home/mila6004/Genomeanalysis/data/RNAseq_reads/Heat_treated_42_12h_1_r2.fq.gz --readFilesCommand zcat --outSAMstrandField intronMotif --outFileNamePrefix Heat_1 --outSAMtype BAM SortedByCoordinate
+	STAR version: 2.7.11b   compiled: 2026-03-31T19:00:46+02:00 pelle3-ae.uppmax.uu.se:/sw/arch/eb/build/STAR/2.7.11b/GCC-13.3.0/STAR-2.7.11b/source
+Apr 24 23:21:31 ..... started STAR run
+Apr 24 23:21:31 ..... loading genome
+Apr 24 23:21:31 ..... started mapping
+Apr 25 04:00:16 ..... finished mapping
+Apr 25 04:00:16 ..... started sorting BAM
+Apr 25 04:00:18 ..... finished successfully
