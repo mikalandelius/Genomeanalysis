@@ -2,7 +2,7 @@
 #SBATCH -A uppmax2026-1-61
 #SBATCH -p pelle
 #SBATCH -c 8
-#SBATCH -t 12:00:00
+#SBATCH -t 30:00:00
 #SBATCH --mem=32G
 #SBATCH -J star2
 #SBATCH -o star2.out
