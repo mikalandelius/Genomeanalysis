@@ -1,0 +1,20 @@
+[1] "Control_1"             "Control_2"             "Control_3"            
+[4] "Heat_treated_42_12h_1" "Heat_treated_42_12h_2" "Heat_treated_42_12h_3"
+                      condition
+Control_1               control
+Control_2               control
+Control_3               control
+Heat_treated_42_12h_1      heat
+Heat_treated_42_12h_2      heat
+Heat_treated_42_12h_3      heat
+log2 fold change (MLE): condition heat vs control 
+Wald test p-value: condition heat vs control 
+DataFrame with 6 rows and 6 columns
+       baseMean log2FoldChange     lfcSE      stat      pvalue        padj
+      <numeric>      <numeric> <numeric> <numeric>   <numeric>   <numeric>
+g1104  1066.141        3.49991  0.372394   9.39842 5.53900e-21 3.66682e-18
+g1157   470.364       -3.78364  0.399566  -9.46938 2.81498e-21 3.66682e-18
+g1700   100.152        5.97711  0.641210   9.32161 1.14588e-20 3.79285e-18
+g1701   271.129        5.07239  0.542890   9.34332 9.33601e-21 3.79285e-18
+g1648   522.526       -2.39899  0.280530  -8.55161 1.21382e-17 3.21420e-15
+g1105   601.010        3.48520  0.415528   8.38741 4.96986e-17 1.09668e-14
