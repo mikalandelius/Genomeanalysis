@@ -91,3 +91,4 @@ gene-wise dispersion estimates
 mean-dispersion relationship
 final dispersion estimates
 fitting model and testing
+using ntop=500 top features by variance

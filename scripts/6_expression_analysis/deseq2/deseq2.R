@@ -64,6 +64,61 @@ write.csv(
   file = "/home/mila6004/Genomeanalysis/results/6_expression_analysis/deseq2/results.csv"
 )
 
+# PCA
+vsd <- vst(dataset, blind = FALSE)
+
+pcaData <- plotPCA(
+  vsd,
+  intgroup = "condition",
+  returnData = TRUE
+)
+
+percentVar <- round(
+  100 * attr(pcaData, "percentVar")
+)
+
+pcaData$name <- rownames(pcaData)
+
+library(ggplot2)
+
+p <- ggplot(
+  pcaData,
+  aes(
+    PC1,
+    PC2,
+    color = condition,
+    label = name
+  )
+) +
+  geom_point(size = 5) +
+  geom_text(vjust = -1) +
+  xlab(
+    paste0(
+      "PC1: ",
+      percentVar[1],
+      "% variance"
+    )
+  ) +
+  ylab(
+    paste0(
+      "PC2: ",
+      percentVar[2],
+      "% variance"
+    )
+  ) +
+  ggtitle("PCA of RNA-seq samples mapped to chr3") +
+  theme_bw()
+
+print(p)
+
+ggsave(
+  "/home/mila6004/Genomeanalysis/results/6_expression_analysis/deseq2/PCA_plot.png",
+  plot = p,
+  width = 8,
+  height = 6,
+  dpi = 300
+)
+
 # Spara normaliserade counts
 normalized_counts <- counts(dataset, normalized=TRUE)
 
