@@ -2,8 +2,8 @@
 #SBATCH -A uppmax2026-1-61
 #SBATCH -p pelle
 #SBATCH -c 2
-#SBATCH -t 08:00:00
-#SBATCH --mem=32G
+#SBATCH -t 01:00:00
+#SBATCH --mem=8G
 #SBATCH -J featurecounts
 #SBATCH -o featurecounts.out
 #SBATCH -e featurecounts.err
